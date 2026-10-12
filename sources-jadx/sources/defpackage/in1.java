@@ -1,0 +1,21 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class in1 extends pw6 {
+    public /* synthetic */ Object j;
+    public final /* synthetic */ jn1 k;
+    public int l;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public in1(jn1 jn1Var, pw6 pw6Var) {
+        super(pw6Var);
+        this.k = jn1Var;
+    }
+
+    @Override // defpackage.r13
+    public final Object invokeSuspend(Object obj) {
+        this.j = obj;
+        this.l |= Integer.MIN_VALUE;
+        return this.k.a(null, false, this);
+    }
+}

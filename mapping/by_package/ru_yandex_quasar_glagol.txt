@@ -1,0 +1,2 @@
+ru.yandex.quasar.glagol.DeviceConnectionListener$State	ru.yandex.quasar.glagol.DeviceConnectionListener$State	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\quasar\glagol\DeviceConnectionListener$State.java
+ru.yandex.quasar.glagol.StereoPairRole	ru.yandex.quasar.glagol.StereoPairRole	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\quasar\glagol\StereoPairRole.java

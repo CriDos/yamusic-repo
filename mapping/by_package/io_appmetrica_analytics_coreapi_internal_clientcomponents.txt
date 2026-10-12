@@ -1,0 +1,1 @@
+io.appmetrica.analytics.coreapi.internal.clientcomponents.ClientComponentsInitializer	io.appmetrica.analytics.coreapi.internal.clientcomponents.ClientComponentsInitializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\clientcomponents\ClientComponentsInitializer.java

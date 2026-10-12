@@ -1,0 +1,1 @@
+ru.yandex.music.kids.KidsCatalogHttpApi	ru.yandex.music.kids.KidsCatalogHttpApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\kids\KidsCatalogHttpApi.java

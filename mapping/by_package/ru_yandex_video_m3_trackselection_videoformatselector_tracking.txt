@@ -1,0 +1,1 @@
+ru.yandex.video.m3.trackselection.videoformatselector.tracking.OptimalVideoFormatSelectorEvent	ru.yandex.video.m3.trackselection.videoformatselector.tracking.OptimalVideoFormatSelectorEvent	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\trackselection\videoformatselector\tracking\OptimalVideoFormatSelectorEvent.java

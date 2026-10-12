@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:font="@font/kinopoisk_bold"
+        android:fontWeight="700"
+        android:fontStyle="normal"/>
+    <font
+        android:font="@font/kinopoisk_semibold"
+        android:fontWeight="600"
+        android:fontStyle="normal"/>
+    <font
+        android:font="@font/kinopoisk_medium"
+        android:fontWeight="500"
+        android:fontStyle="normal"/>
+    <font
+        android:font="@font/kinopoisk_regular"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+</font-family>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="context_search_hint_q2v_suggestions">
+        <item>Something cheerful, but not too much</item>
+        <item>Your favorite artist</item>
+        <item>That very track in my Collection</item>
+        <item>Something catchy and upbeat</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="onboarding_title_text">
+        <item>"My Vibe
+with personal
+recommendations"</item>
+        <item>"Thousands of selections 
+by genre, activity,
+and mood"</item>
+        <item>"Excellent
+music quality
+even offline"</item>
+        <item>"Podcasts 
+and audiobooks 
+about everything there is"</item>
+    </string-array>
+    <string-array name="passport_facebook_scopes">
+        <item>user_birthday</item>
+        <item>user_likes</item>
+        <item>email</item>
+        <item>user_gender</item>
+        <item>user_link</item>
+    </string-array>
+    <string-array name="passport_trusted_application_fingerprints">
+        <item>com.edadeal.android:Ucyt+WfG7scFrG9ix/DZjXnG3IJ9xqlHqcHBWZfJRC0=</item>
+        <item>ru.auto.ara:JixOZnbLEArntZeEyjeuy0WMm+mdwqN5IeXYw78PTjk=</item>
+        <item>ru.kinopoisk:bmQ8wpHeuihpnDrkPvnJoa7NZi0UUtd473a2MH7txIU=</item>
+    </string-array>
+    <array name="pay_sdk_confetti_colors">
+        <item>#4b4f90</item>
+        <item>#e9c046</item>
+        <item>#db3c5d</item>
+        <item>#81a4b1</item>
+        <item>#dcd044</item>
+        <item>#66498c</item>
+    </array>
+    <string-array name="rup_onboarding_toast_dislike">
+        <item>Removed from recommendations</item>
+        <item>"Ok! We'll play something else"</item>
+        <item>"Got it. We won't recommend this again"</item>
+        <item>Alright. One track less</item>
+        <item>Forever removed from your recommendations</item>
+        <item>"Hidden. You'll see less of this"</item>
+        <item>"Got it. We'll play something more to your liking"</item>
+        <item>"Ok. We won't play this anymore"</item>
+        <item>Track hidden</item>
+    </string-array>
+    <string-array name="soon_film_month_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+    <string-array name="tariff_paywall_benefits">
+        <item>Spot-on recommendations</item>
+        <item>"Music, audiobooks,
+and podcasts"</item>
+        <item>Download and listen even offline</item>
+        <item>All in one convenient app</item>
+    </string-array>
+    <string-array name="track_generative_disliked">
+        <item>"We'll keep this in mind"</item>
+        <item>We switched it up</item>
+        <item>This should be better</item>
+        <item>You should like this</item>
+        <item>We changed the mood</item>
+    </string-array>
+    <string-array name="track_generative_liked">
+        <item>"We'll remember you like this"</item>
+        <item>"We'll keep this in mind"</item>
+        <item>Great! Keep listening</item>
+        <item>We updated your recommendations</item>
+        <item>"You're right, this is good"</item>
+    </string-array>
+    <array name="ui_kit_accent_brand_gradient_colors">
+        <item>@color/ui_kit_accent_brand_1</item>
+        <item>@color/ui_kit_accent_brand_2</item>
+    </array>
+    <string-array name="ui_kit_accent_brand_gradient_points">
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ui_kit_accent_brand_gradient_positions">
+        <item>0.7</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ui_kit_extra_disco_radial_dark_gradient_center">
+        <item>0.5</item>
+        <item>0.69</item>
+    </string-array>
+    <array name="ui_kit_extra_disco_radial_dark_gradient_colors">
+        <item>@color/ui_kit_extra_disco_radial_dark_1</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_2</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_3</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_4</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_5</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_6</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_7</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_8</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_9</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_10</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_11</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_12</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_13</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_14</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_15</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_16</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_17</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_18</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_19</item>
+        <item>@color/ui_kit_extra_disco_radial_dark_20</item>
+    </array>
+    <string-array name="ui_kit_extra_disco_radial_dark_gradient_positions">
+        <item>0.01</item>
+        <item>0.04</item>
+        <item>0.07</item>
+        <item>0.11</item>
+        <item>0.15</item>
+        <item>0.19</item>
+        <item>0.25</item>
+        <item>0.33</item>
+        <item>0.45</item>
+        <item>0.51</item>
+        <item>0.56</item>
+        <item>0.62</item>
+        <item>0.69</item>
+        <item>0.74</item>
+        <item>0.78</item>
+        <item>0.80</item>
+        <item>0.85</item>
+        <item>0.87</item>
+        <item>0.93</item>
+        <item>0.97</item>
+    </string-array>
+    <string-array name="ui_kit_extra_disco_radial_light_gradient_center">
+        <item>0.5</item>
+        <item>0.69</item>
+    </string-array>
+    <array name="ui_kit_extra_disco_radial_light_gradient_colors">
+        <item>@color/ui_kit_extra_disco_radial_light_1</item>
+        <item>@color/ui_kit_extra_disco_radial_light_2</item>
+        <item>@color/ui_kit_extra_disco_radial_light_3</item>
+        <item>@color/ui_kit_extra_disco_radial_light_4</item>
+        <item>@color/ui_kit_extra_disco_radial_light_5</item>
+        <item>@color/ui_kit_extra_disco_radial_light_6</item>
+        <item>@color/ui_kit_extra_disco_radial_light_7</item>
+        <item>@color/ui_kit_extra_disco_radial_light_8</item>
+        <item>@color/ui_kit_extra_disco_radial_light_9</item>
+        <item>@color/ui_kit_extra_disco_radial_light_10</item>
+        <item>@color/ui_kit_extra_disco_radial_light_11</item>
+        <item>@color/ui_kit_extra_disco_radial_light_12</item>
+        <item>@color/ui_kit_extra_disco_radial_light_13</item>
+        <item>@color/ui_kit_extra_disco_radial_light_14</item>
+        <item>@color/ui_kit_extra_disco_radial_light_15</item>
+        <item>@color/ui_kit_extra_disco_radial_light_16</item>
+        <item>@color/ui_kit_extra_disco_radial_light_17</item>
+        <item>@color/ui_kit_extra_disco_radial_light_18</item>
+        <item>@color/ui_kit_extra_disco_radial_light_19</item>
+        <item>@color/ui_kit_extra_disco_radial_light_20</item>
+        <item>@color/ui_kit_extra_disco_radial_light_21</item>
+    </array>
+    <string-array name="ui_kit_extra_disco_radial_light_gradient_positions">
+        <item>0.01</item>
+        <item>0.04</item>
+        <item>0.08</item>
+        <item>0.15</item>
+        <item>0.17</item>
+        <item>0.19</item>
+        <item>0.22</item>
+        <item>0.25</item>
+        <item>0.27</item>
+        <item>0.33</item>
+        <item>0.43</item>
+        <item>0.51</item>
+        <item>0.62</item>
+        <item>0.69</item>
+        <item>0.74</item>
+        <item>0.78</item>
+        <item>0.80</item>
+        <item>0.85</item>
+        <item>0.88</item>
+        <item>0.91</item>
+        <item>0.97</item>
+    </string-array>
+    <array name="ui_kit_extra_gold_dark_gradient_colors">
+        <item>@color/ui_kit_extra_gold_dark_1</item>
+        <item>@color/ui_kit_extra_gold_dark_2</item>
+    </array>
+    <string-array name="ui_kit_extra_gold_dark_gradient_points">
+        <item>0.36</item>
+        <item>0</item>
+        <item>0.5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ui_kit_extra_gold_dark_gradient_positions">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="ui_kit_extra_gold_light_gradient_colors">
+        <item>@color/ui_kit_extra_gold_light_1</item>
+        <item>@color/ui_kit_extra_gold_light_2</item>
+    </array>
+    <string-array name="ui_kit_extra_gold_light_gradient_points">
+        <item>0.37</item>
+        <item>0.11</item>
+        <item>0.4</item>
+        <item>0.69</item>
+    </string-array>
+    <string-array name="ui_kit_extra_gold_light_gradient_positions">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="ui_kit_plus_main_gradient_colors">
+        <item>@color/ui_kit_plus_main_1</item>
+        <item>@color/ui_kit_plus_main_2</item>
+        <item>@color/ui_kit_plus_main_3</item>
+        <item>@color/ui_kit_plus_main_4</item>
+    </array>
+    <string-array name="ui_kit_plus_main_gradient_points">
+        <item>0</item>
+        <item>0.5</item>
+        <item>1</item>
+        <item>0.5</item>
+    </string-array>
+    <string-array name="ui_kit_plus_main_gradient_positions">
+        <item>0</item>
+        <item>0.27</item>
+        <item>0.75</item>
+        <item>1</item>
+    </string-array>
+    <array name="ui_kit_plus_separated_gradient_colors">
+        <item>@color/ui_kit_plus_main_1</item>
+        <item>@color/ui_kit_plus_main_2</item>
+        <item>@color/ui_kit_plus_main_3</item>
+    </array>
+    <string-array name="ui_kit_plus_separated_gradient_points">
+        <item>0</item>
+        <item>0.43</item>
+        <item>1</item>
+        <item>0.43</item>
+    </string-array>
+    <string-array name="ui_kit_plus_separated_gradient_positions">
+        <item>0</item>
+        <item>0.4</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="wizard_outboarding_text">
+        <item>Selecting music for you</item>
+        <item>"While you're reading, we're looking
+for the music you'll definitely like"</item>
+        <item>"Just a moment,
+and then you can play music"</item>
+    </string-array>
+</resources>

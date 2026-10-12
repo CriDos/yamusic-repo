@@ -1,0 +1,2 @@
+ru.yandex.video.m3.data.loadcontrol.LoadControlParameters	ru.yandex.video.m3.data.loadcontrol.LoadControlParameters	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\loadcontrol\LoadControlParameters.java
+ru.yandex.video.m3.data.loadcontrol.LoadControlState	ru.yandex.video.m3.data.loadcontrol.LoadControlState	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\loadcontrol\LoadControlState.java

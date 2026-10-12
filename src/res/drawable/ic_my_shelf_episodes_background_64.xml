@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dp" android:width="64.0dp" android:viewportWidth="1000.0" android:viewportHeight="1000.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0h1000v1000h-1000z" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__0" android:pathData="M0,711.6L498.4,423.2L1000,711.6L501.6,1000L0,711.6Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__1" android:pathData="M0,711.6L498.4,423.2L1000,711.6L501.6,1000L0,711.6Z" android:strokeAlpha="0.5" android:fillAlpha="0.1" />
+        <path android:fillColor="#00000000" android:pathData="M501.6,999.4L1,711.6L498.4,423.8L999,711.6L501.6,999.4Z" android:strokeColor="@drawable/$ic_my_shelf_episodes_background_64__2" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__3" android:pathData="M0,653.5L498.4,365.1L1000,653.5L501.6,941.9L0,653.5Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__4" android:pathData="M0,653.5L498.4,365.1L1000,653.5L501.6,941.9L0,653.5Z" android:strokeAlpha="0.5" android:fillAlpha="0.1" />
+        <path android:fillColor="#00000000" android:pathData="M501.6,941.3L1,653.5L498.4,365.7L999,653.5L501.6,941.3Z" android:strokeColor="@drawable/$ic_my_shelf_episodes_background_64__5" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__6" android:pathData="M0,577.7L498.4,289.4L1000,577.7L501.6,866.2L0,577.7Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__7" android:pathData="M0,577.7L498.4,289.4L1000,577.7L501.6,866.2L0,577.7Z" android:strokeAlpha="0.5" android:fillAlpha="0.1" />
+        <path android:fillColor="#00000000" android:pathData="M501.6,865.6L1,577.7L498.4,290L999,577.7L501.6,865.6Z" android:strokeColor="@drawable/$ic_my_shelf_episodes_background_64__8" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__9" android:pathData="M0,471.6L498.4,183.2L1000,471.6L501.6,760L0,471.6Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__10" android:pathData="M0,471.6L498.4,183.2L1000,471.6L501.6,760L0,471.6Z" android:strokeAlpha="0.5" android:fillAlpha="0.1" />
+        <path android:fillColor="#00000000" android:pathData="M501.6,759.4L1,471.6L498.4,183.8L999,471.6L501.6,759.4Z" android:strokeColor="@drawable/$ic_my_shelf_episodes_background_64__11" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__12" android:pathData="M0,288.4L498.4,0L1000,288.4L501.6,576.8L0,288.4Z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_my_shelf_episodes_background_64__13" android:pathData="M0,288.4L498.4,0L1000,288.4L501.6,576.8L0,288.4Z" android:strokeAlpha="0.5" android:fillAlpha="0.1" />
+        <path android:fillColor="#00000000" android:pathData="M501.6,576.2L1,288.4L498.4,0.6L999,288.4L501.6,576.2Z" android:strokeColor="@drawable/$ic_my_shelf_episodes_background_64__14" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+    </group>
+</vector>

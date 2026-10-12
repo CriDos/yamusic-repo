@@ -1,0 +1,2 @@
+ru.kinopoisk.presentation.widget.grid.BaseGridLayoutManager	ru.kinopoisk.presentation.widget.grid.BaseGridLayoutManager	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\presentation\widget\grid\BaseGridLayoutManager.java
+ru.kinopoisk.presentation.widget.grid.WrappableGridLayoutManager	ru.kinopoisk.presentation.widget.grid.WrappableGridLayoutManager	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\presentation\widget\grid\WrappableGridLayoutManager.java

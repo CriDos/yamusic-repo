@@ -1,0 +1,1 @@
+com.yandex.music.skeleton.blocks.search_history.data.SearchHistoryBlockApi	com.yandex.music.skeleton.blocks.search_history.data.SearchHistoryBlockApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\search_history\data\SearchHistoryBlockApi.java

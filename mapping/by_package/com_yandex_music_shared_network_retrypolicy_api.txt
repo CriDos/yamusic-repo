@@ -1,0 +1,2 @@
+com.yandex.music.shared.network.retrypolicy.api.RetryPolicyApi	com.yandex.music.shared.network.retrypolicy.api.RetryPolicyApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\retrypolicy\api\RetryPolicyApi.java
+com.yandex.music.shared.network.retrypolicy.api.RetryPolicyDto	com.yandex.music.shared.network.retrypolicy.api.RetryPolicyDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\retrypolicy\api\RetryPolicyDto.java

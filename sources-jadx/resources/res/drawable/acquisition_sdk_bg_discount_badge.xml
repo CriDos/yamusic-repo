@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/acquisition_sdk_semantic_control_btn_primary_bg"/>
+    <padding
+        android:left="@dimen/acquisition_sdk_dimension_size_75"
+        android:top="@dimen/acquisition_sdk_dimension_size_25"
+        android:right="@dimen/acquisition_sdk_dimension_size_75"
+        android:bottom="@dimen/acquisition_sdk_dimension_size_25"/>
+    <corners android:radius="@dimen/acquisition_sdk_badge_corner_radius"/>
+</shape>

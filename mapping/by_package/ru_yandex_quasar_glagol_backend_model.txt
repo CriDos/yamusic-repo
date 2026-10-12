@@ -1,0 +1,3 @@
+ru.yandex.quasar.glagol.backend.model.DeviceScope	ru.yandex.quasar.glagol.backend.model.DeviceScope	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\quasar\glagol\backend\model\DeviceScope.java
+ru.yandex.quasar.glagol.backend.model.DevicesMap	ru.yandex.quasar.glagol.backend.model.DevicesMap	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\quasar\glagol\backend\model\DevicesMap.java
+ru.yandex.quasar.glagol.backend.model.QuasarNetworkInfo	ru.yandex.quasar.glagol.backend.model.QuasarNetworkInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\quasar\glagol\backend\model\QuasarNetworkInfo.java

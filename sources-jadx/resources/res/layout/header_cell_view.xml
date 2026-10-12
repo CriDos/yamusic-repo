@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium_2"
+        android:layout_marginEnd="@dimen/space_medium_2"
+        app:layout_constraintBottom_toTopOf="@+id/subtitleTextView"
+        app:layout_constraintEnd_toStartOf="@+id/actionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_goneMarginBottom="@dimen/space_medium_2"
+        style="@style/Widget.UIKit.TextView.TextL.Semibold"/>
+    <TextView
+        android:textColor="?android:attr/textColorSecondary"
+        android:ellipsize="end"
+        android:id="@+id/subtitleTextView"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small_2"
+        android:layout_marginBottom="@dimen/space_medium_2"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/actionTextView"
+        app:layout_constraintStart_toStartOf="@+id/titleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        style="@style/Widget.UIKit.TextView.TextM.Medium"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/actionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/titleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/titleTextView"
+        app:layout_constraintTop_toTopOf="@+id/titleTextView"
+        style="@style/Widget.UIKit.TextView.TextM.Semibold.Loose"/>
+</merge>

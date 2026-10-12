@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/button_green_pressed"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/corner_radius_round" />
+            <solid android:color="@color/button_green_default" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,2 @@
+ru.yandex.music.share.ShareException	ru.yandex.music.share.ShareException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\share\ShareException.java
+ru.yandex.music.share.ShareNetworkException	ru.yandex.music.share.ShareNetworkException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\share\ShareNetworkException.java

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator
+        android:duration="1000"
+        android:valueFrom="M9.6749,12.2868C9.2839,12.68 8.6476,12.68 8.2567,12.2868L4.6953,8.7051C4.0681,8.0743 4.5149,7 5.4044,7L12.5271,7C13.4167,7 13.8635,8.0743 13.2363,8.7051L9.6749,12.2868Z"
+        android:valueTo="M9.6749,11.2868C9.2839,11.68 8.6476,11.68 8.2567,11.2868L4.6953,7.7051C4.0681,7.0743 4.5149,6 5.4044,6L12.5271,6C13.4167,6 13.8635,7.0743 13.2363,7.7051L9.6749,11.2868Z"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+    <objectAnimator
+        android:duration="1000"
+        android:valueFrom="M9.6749,11.2868C9.2839,11.68 8.6476,11.68 8.2567,11.2868L4.6953,7.7051C4.0681,7.0743 4.5149,6 5.4044,6L12.5271,6C13.4167,6 13.8635,7.0743 13.2363,7.7051L9.6749,11.2868Z"
+        android:valueTo="M9.6749,12.2868C9.2839,12.68 8.6476,12.68 8.2567,12.2868L4.6953,8.7051C4.0681,8.0743 4.5149,7 5.4044,7L12.5271,7C13.4167,7 13.8635,8.0743 13.2363,8.7051L9.6749,12.2868Z"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+</set>

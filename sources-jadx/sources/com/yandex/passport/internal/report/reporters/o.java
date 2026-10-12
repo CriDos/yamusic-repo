@@ -1,0 +1,5 @@
+package com.yandex.passport.internal.report.reporters;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class o extends com.yandex.passport.common.domain.f {
+}

@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="24026501"
+    android:versionName="2026.09.5 #167gpr"
+    android:installLocation="internalOnly"
+    android:compileSdkVersion="37"
+    android:compileSdkVersionCodename="17"
+    android:requiredSplitTypes="base__abi,base__density"
+    android:splitTypes=""
+    package="ru.yandex.music"
+    platformBuildVersionCode="37"
+    platformBuildVersionName="17">
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="36"/>
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="true"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.DETECT_SCREEN_CAPTURE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30"/>
+    <queries>
+        <package android:name="com.miui.powerkeeper"/>
+        <package android:name="com.android.vending"/>
+        <package android:name="com.sec.android.app.samsungapps"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="org.telegram.messenger"/>
+        <intent>
+            <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+        </intent>
+        <package android:name="ru.plus.bookmate"/>
+        <intent>
+            <action android:name="com.yandex.intent.ADD_ACCOUNT"/>
+        </intent>
+        <intent>
+            <action android:name="com.yandex.passport.ACTION_SSO_ANNOUNCEMENT"/>
+        </intent>
+        <intent>
+            <action android:name="com.vkontakte.android.action.SDK_AUTH"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <package android:name="ru.rostel"/>
+        <package android:name="com.whatsapp.w4b"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data
+                android:scheme="https"
+                android:host="qr.nspk.ru"/>
+        </intent>
+        <package android:name="com.google.android.gms.policy_cast_dynamite"/>
+        <intent>
+            <action android:name="android.settings.APPLICATION_DETAILS_SETTINGS"/>
+        </intent>
+        <provider
+            android:name="com.yandex.preinstallsatellite.appmetrica.AppMetricaContentProvider"
+            android:authorities="com.yandex.preinstallsatellite.appmetrica.provider"/>
+        <package android:name="com.huawei.appmarket"/>
+        <intent>
+            <action android:name="com.yandex.android.advid.IDENTIFIER_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="com.uodis.opendevice.OPENIDS_SERVICE"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="*/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MEDIA_SCANNER_SCAN_FILE"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+    </queries>
+    <permission
+        android:name="com.yandex.music.RELAY_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.yandex.music.RELAY_PERMISSION"/>
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:maxSdkVersion="22"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.yandex.permission.READ_CREDENTIALS"/>
+    <uses-permission android:name="com.yandex.permission.AM_COMMUNICATION"/>
+    <permission
+        android:label="@string/passport_permission_read_credentials"
+        android:icon="@drawable/passport_icon_yandex_big"
+        android:name="com.yandex.permission.READ_CREDENTIALS"
+        android:protectionLevel="signature"/>
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-feature
+        android:glEsVersion="0x20000"
+        android:required="true"/>
+    <meta-data
+        android:name="android.webkit.WebView.MetricsOptOut"
+        android:value="true"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name_full"
+        android:icon="@mipmap/ic_launcher"
+        android:name="ru.yandex.music.YMApplication"
+        android:allowBackup="false"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/appsflyer_backup_rules"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="ru.yandex.music.startup.CompatibilityAppComponentFactory"
+        android:requestLegacyExternalStorage="true"
+        android:dataExtractionRules="@xml/appsflyer_data_extraction_rules"
+        android:localeConfig="@xml/locales_config">
+        <activity
+            android:name="ru.yandex.music.startup.UnsupportedDeviceActivity"
+            android:exported="false"/>
+        <profileable android:shell="false"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="firebase_analytics_collection_deactivated"
+            android:value="true"/>
+        <meta-data
+            android:name="android.webkit.WebView.MetricsOptOut"
+            android:value="true"/>
+        <meta-data
+            android:name="android.security.net.config"
+            android:resource="@xml/network_security_config"/>
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="ru.yandex.music.chromecast.CastOptionsProvider"/>
+        <meta-data
+            android:name="passportPermissionSuffix"
+            android:value=""/>
+        <meta-data
+            android:name="com.yandex.metrica.push.default_notification_icon"
+            android:resource="0x7f080574"/>
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc"/>
+        <meta-data
+            android:name="com.google.android.gms.car.application.theme"
+            android:resource="@style/CarTheme"/>
+        <receiver
+            android:name="ru.yandex.music.utils.LoginAccountsChangedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.yandex.passport.client.ACCOUNT_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/AppTheme.Dark"
+            android:name="ru.yandex.music.wizard3.WizardActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/Theme.App.Starting"
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.main.MainScreenActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity-alias
+            android:icon="@mipmap/ic_launcher"
+            android:name="ru.yandex.music.main.MainScreenActivity"
+            android:exported="true"
+            android:targetActivity="ru.yandex.music.main.MainScreenActivity"
+            android:roundIcon="@mipmap/ic_launcher_round">
+            <intent-filter>
+                <action android:name="com.yandex.messenger.WEB_SDK_NOTIFICATION_CLICK"/>
+                <action android:name="com.yandex.passport.ACTION_LOGIN_RESULT"/>
+                <action android:name="android.intent.action.MUSIC_PLAYER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_MUSIC"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.settings.SettingsActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.settings.screen.QualitySettingsActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.support.AppFeedbackActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.profile.ProfileActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.phonoteka.mymusic.CollectionMainActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/search"
+            android:name="ru.yandex.music.search.SearchActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/AppTheme.Window.Transparent"
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.entry.EntryScreenActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.url.ui.UrlActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="yandexmusic"/>
+                <data android:scheme="yandexradio"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.onelink.me"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.yandex.ru"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.yandex.by"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.yandex.kz"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.yandex.com"/>
+                <data
+                    android:scheme="https"
+                    android:host="radio.yandex.by"/>
+                <data
+                    android:scheme="https"
+                    android:host="radio.yandex.ru"/>
+                <data
+                    android:scheme="https"
+                    android:host="radio.yandex.kz"/>
+                <data
+                    android:scheme="https"
+                    android:host="radio.yandex.com"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.ya.ru"/>
+                <data
+                    android:scheme="https"
+                    android:host="music.yandex.uz"/>
+                <data android:pathPrefix="/artist"/>
+                <data android:path="/genres"/>
+                <data android:pathPattern="/genre/.*"/>
+                <data android:pathPrefix="/user"/>
+                <data android:pathPrefix="/album"/>
+                <data android:pathPrefix="/promolanding/album"/>
+                <data android:pathPrefix="/track"/>
+                <data android:pathPattern="/users/.*/playlists/.*"/>
+                <data android:pathPrefix="/cards"/>
+                <data android:pathPrefix="/slides"/>
+                <data android:pathPrefix="/new-releases"/>
+                <data android:pathPrefix="/new-playlists"/>
+                <data android:pathPrefix="/non-music"/>
+                <data android:pathPrefix="/playlist"/>
+                <data android:pathPrefix="/tag"/>
+                <data android:path="/settings"/>
+                <data android:path="/settings/"/>
+                <data android:pathPrefix="/disk"/>
+                <data android:pathPrefix="/concert"/>
+                <data android:pathPrefix="/chart"/>
+                <data android:pathPrefix="/chart/.*"/>
+                <data android:pathPrefix="/dashboard"/>
+                <data android:pathPrefix="/radio"/>
+                <data android:pathPrefix="/post"/>
+                <data android:pathPrefix="/crowdtest"/>
+                <data android:pathPrefix="/landing"/>
+                <data android:pathPrefix="/kids"/>
+                <data android:pathPrefix="/search"/>
+                <data android:pathPrefix="/home"/>
+                <data android:pathPrefix="/video"/>
+                <data android:pathPrefix="/play-vibe"/>
+                <data android:pathPrefix="/multivibe"/>
+                <data android:pathPattern="/mixes"/>
+                <data android:pathPrefix="/wizard"/>
+                <data android:pathPrefix="/payment"/>
+                <data android:pathPattern="/music/genre"/>
+                <data android:pathPattern="/music/mood"/>
+                <data android:pathPattern="/music/activity"/>
+                <data android:pathPattern="/music/epoch"/>
+                <data android:pathPattern="/music-history"/>
+                <data android:pathPrefix="/entities"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.chat.SupportChatActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/AppTheme.Dark"
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.payment.tariffpaywall.TariffPaywallActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/AppTheme.Transparent"
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.communication.trigger.CommunicationTriggerActivity"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.catalog.album.screen.AlbumScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.catalog.artist.screen.ArtistScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.nonmusic.shelf.screen.MyShelfScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.nonmusic.shelf.screen.MyShelfEntitiesScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.in_app_restore.RestorePurchasesActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.url.ui.StubActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.settings.AboutActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.landing.skeleton.SkeletonScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.mixes.TagActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.mixes.MixesScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.catalog.artist.ArtistItemsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.catalog.playlist.editor.PlaylistEditorActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.catalog.playlist.screen.PlaylistScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.paywalloptions.PaywallOptionsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.payment.deeplinkpaymentscreen.DeeplinkPaymentScreenActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="ru.yandex.music.catalog.info.FullInfoActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.post.ui.grid.PostGridUniversalActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/app_name_short"
+            android:name="ru.yandex.music.landing.autoplaylists.gag.AutoPlaylistGagActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/AppTheme.Window.Transparent"
+            android:name="ru.yandex.music.bullfinch.BullfinchActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.concert.ConcertActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.concert.catalog.ConcertCatalogActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.concert.ticket.PurchaseTicketActivity"
+            android:launchMode="singleTop"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.concert.location_selector.ConcertLocationSelectorActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.debug.DebugSettingsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.debug.logs.InspectLogsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.debug.config.DebugConfigActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.gallery.GalleryWidgetActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.catalog.artist.familiar.ArtistFamiliarActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.catalog.artist.concerts.ArtistConcertsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.catalog.universalentity.UniversalEntityActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/podcasts_and_audiobooks_title"
+            android:name="ru.yandex.music.novelties.podcasts.PodcastsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/podcasts_and_audiobooks_title"
+            android:name="ru.yandex.music.novelties.podcasts.catalog.PodcastsCatalogActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/kids_catalog_title"
+            android:name="ru.yandex.music.kids.KidsCatalogActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:label="@string/charts_catalog_title"
+            android:name="ru.yandex.music.chart.catalog.ChartActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.metatag.playlist.MetaTagPlaylistsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.metatag.album.MetaTagAlbumsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.metatag.artist.MetaTagArtistsActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.congratulations.CongratulationsScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity
+            android:name="ru.yandex.music.gdpr.GdprScreenActivity"
+            android:configChanges="keyboardHidden|keyboard"/>
+        <activity android:name="ru.yandex.music.support.NonInteractiveFeedbackActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Transparent"
+            android:name="ru.yandex.music.yandexplus.home.PlusHomeActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Dark"
+            android:name="ru.yandex.music.cards.CardsActivity"/>
+        <activity
+            android:theme="@style/AppTheme.Dark"
+            android:name="ru.yandex.music.slides.SlidesScreenActivity"/>
+        <activity android:name="ru.yandex.music.webview.WebViewScreenActivity"/>
+        <activity android:name="ru.yandex.music.url.schemes.playVibe.EmptyScreenInDeeplinkActivity"/>
+        <activity
+            android:name="ru.yandex.music.support.complaint.ComplaintActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/AppTheme.Translucent"
+            android:name="ru.yandex.music.payment.pay.PromoCodeWebViewActivity"
+            android:exported="false"/>
+        <activity
+            android:name="ru.yandex.music.videoclip.VideoClipActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name="ru.yandex.music.widget.WidgetSettingsScreenActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.yandex.music.history.MusicHistoryScreenActivity"
+            android:exported="false"/>
+        <receiver
+            android:label="@string/widget_rectangle_with_recently_name"
+            android:name="ru.yandex.music.ui.widget.WidgetRecentlyRectangleReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_recently_rectangle_info"/>
+        </receiver>
+        <receiver
+            android:label="@string/widget_rectangle_name"
+            android:name="ru.yandex.music.ui.widget.WidgetRectangleReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_rectangle_info"/>
+        </receiver>
+        <receiver
+            android:label="@string/widget_square_name"
+            android:name="ru.yandex.music.ui.widget.WidgetSquareReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_square_info"/>
+        </receiver>
+        <receiver
+            android:label="@string/widget_rectangle_name"
+            android:name="ru.yandex.music.ui.widget.WidgetFlexWindowReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_flex_window_info"/>
+            <meta-data
+                android:name="com.samsung.android.appwidget.provider"
+                android:resource="@xml/samsung_widget_flex_window_info"/>
+        </receiver>
+        <service
+            android:name="ru.yandex.music.common.media.mediabrowser.MusicBrowserService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:label="YandexMusic"
+            android:name="com.yandex.music.shared.media.session.session.Media3SessionService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback">
+            <intent-filter>
+                <action android:name="androidx.media3.session.MediaSessionService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:label="YandexMusic"
+            android:name="com.yandex.music.shared.media.session.session.Media3LibraryService"
+            android:enabled="false"
+            android:exported="true"
+            android:foregroundServiceType="mediaPlayback">
+            <intent-filter>
+                <action android:name="androidx.media3.session.MediaLibraryService"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="ru.yandex.music.services.RoutineService"
+            android:exported="false"/>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="ru.yandex.music.androidx-startup"
+            android:fitsSystemWindows="false">
+            <meta-data
+                android:name="ru.yandex.music.data.sql.YMContentProvider"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="com.yandex.plus.core.activity.result.internal.ActivityWithResultLauncherInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="net.danlew.android.joda.JodaTimeInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <receiver
+            android:name="com.yandex.music.shared.media.session.session.MusicMediaButtonReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ru.yandex.music.push.BootCompletedReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="ru.yandex.music.shortcuts.ShortcutsHelperOld"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service
+            android:name="ru.yandex.music.cover.upload.UploadCoverService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="ru.yandex.music.emergency.EmergencyService"
+            android:exported="false"
+            android:process=":emergency"
+            android:foregroundServiceType="dataSync"/>
+        <receiver android:name="ru.yandex.music.push.PushReportingDelegateReceiver"/>
+        <receiver android:name="ru.yandex.music.push.LocalPushReceiver"/>
+        <receiver
+            android:name="ru.yandex.music.push.SilentPushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="ru.yandex.music.action.ymp.SILENT_PUSH_RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="ru.yandex.music.push.update.YaMetricaMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="ru.yandex.music.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="false"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="false">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="ru.yandex.music.relay.service.RelayService"
+            android:exported="true"/>
+        <service
+            android:label="DownloadService"
+            android:name="com.yandex.music.shared.downloading.api.service.DownloadService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <service
+            android:name="com.yandex.music.core.job.JobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <provider
+            android:name="com.yandex.music.shared.utils.file.SharedFileProvider"
+            android:exported="false"
+            android:authorities="ru.yandex.music.musicfileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/music_file_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.yandex.auth.VERSION"
+            android:value="501"/>
+        <meta-data
+            android:name="com.yandex.auth.INTERNAL_VERSION"
+            android:value="@integer/passport_internal_version"/>
+        <meta-data
+            android:name="com.yandex.auth.INTERNAL_BUILD_NUMBER"
+            android:value="@integer/passport_build_number"/>
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/passport_asset_statements"/>
+        <meta-data
+            android:name="com.yandex.auth.LOGIN_SDK_VERSION"
+            android:value="2"/>
+        <meta-data
+            android:name="com.yandex.passport.SSO.CERT"
+            android:value="@string/passport_sso_certificate"/>
+        <activity
+            android:name="com.yandex.passport.internal.warm.WarmUpWebViewActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <service
+            android:name="com.yandex.passport.internal.ui.sloth.menu.host.UserIdCommunicationService"
+            android:exported="false"/>
+        <service
+            android:name="com.yandex.passport.internal.provider.communication.HostCommunicationService"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent.Paranja"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.router.LoginRouterActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="fontScale|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard|locale">
+            <intent-filter>
+                <action android:name="com.yandex.intent.ADD_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.yandex.passport.ACTION_SYSTEM_ADD_ACCOUNT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent.GlobalRouter"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.router.GlobalRouterActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="fontScale|screenSize|screenLayout|orientation|keyboardHidden|keyboard|locale"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.sloth.menu.UserMenuActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="fontScale|layoutDirection|density|smallestScreenSize|screenSize|uiMode|screenLayout|orientation|navigation|keyboardHidden|keyboard|touchscreen|locale|mnc|mcc"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.domik.DomikActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label="@string/passport_login_social_title"
+            android:name="com.yandex.passport.internal.ui.webview.WebViewActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Dark.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.browser.SocialBrowserActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:launchMode="singleTop"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.BottomSheet"
+            android:label="@string/passport_auth_enter_text"
+            android:name="com.yandex.passport.internal.links.LinksHandlingActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"/>
+        <activity-alias
+            android:label="@string/passport_app_link_landing_page_text"
+            android:name="com.yandex.passport.YandexQr"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.links.LinksHandlingActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.ru"/>
+                <data android:host="passport-rc.yandex.ru"/>
+                <data android:host="passport.yandex-team.ru"/>
+                <data android:pathPrefix="/am/push/qrsecure"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/passport_app_link_landing_page_text"
+            android:name="com.yandex.passport.YangoQr"
+            android:enabled="false"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.links.LinksHandlingActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yango.com"/>
+                <data android:pathPrefix="/am/push/qrsecure"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/passport_auth_enter_text"
+            android:name="com.yandex.passport.QrWithoutQr"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.links.LinksHandlingActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="@string/passport_qr_withour_qr_host"/>
+                <data android:host="@string/passport_qr_withour_qr_host_rc"/>
+                <data android:host="@string/passport_qr_withour_qr_host_team"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="am.applink.sandbox.pay.yandex.ru"/>
+                <data android:host="am.applink.pay.yandex.ru"/>
+                <data android:pathPrefix="/open-payment"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/passport_auth_enter_text"
+            android:name="com.yandex.passport.QrWithoutQrWorld"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.links.LinksHandlingActivity">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.uz"/>
+                <data android:host="passport-rc.yandex.uz"/>
+                <data android:host="passport.yandex-team.uz"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.kz"/>
+                <data android:host="passport-rc.yandex.kz"/>
+                <data android:host="passport.yandex-team.kz"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.com.am"/>
+                <data android:host="passport-rc.yandex.com.am"/>
+                <data android:host="passport.yandex-team.com.am"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.by"/>
+                <data android:host="passport-rc.yandex.by"/>
+                <data android:host="passport.yandex-team.by"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="passport.yandex.com.tr"/>
+                <data android:host="passport-rc.yandex.com.tr"/>
+                <data android:host="passport.yandex-team.com.tr"/>
+                <data android:pathPrefix="/am/pssp/browser/account"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.yandex.passport.PayCheck"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.links.LinksHandlingActivity">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.YA_PAY"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/PassportNext.Theme.Dark.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.browser.SocialBrowserDataActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="ru.yandex.music.passport"
+                    android:host="social"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="ru.yandex.music.passport"
+                    android:host="n2b_auth"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent.Paranja"
+            android:label="@string/passport_sdk_ask_access_title"
+            android:name="com.yandex.passport.internal.ui.authsdk.AuthSdkActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity-alias
+            android:label="@string/passport_sdk_ask_access_title"
+            android:name="com.yandex.passport.AuthSdk"
+            android:enabled="false"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:targetActivity="com.yandex.passport.internal.ui.authsdk.AuthSdkActivity">
+            <intent-filter>
+                <action android:name="com.yandex.auth.action.YA_SDK_LOGIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/Passport.Theme.AutoLoginDialog"
+            android:name="com.yandex.passport.internal.ui.AutoLoginActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/Passport.Theme.AutoLoginDialog.Light.Retry"
+            android:name="com.yandex.passport.internal.ui.autologin.AutoLoginRetryActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label="@string/passport_login"
+            android:name="com.yandex.passport.internal.ui.social.mail.MailPasswordLoginActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label="@string/passport_mail_other_text"
+            android:name="com.yandex.passport.internal.ui.social.gimap.MailGIMAPActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.SocialApplicationBindActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.SocialBindActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:name="com.yandex.passport.internal.social.esia.EsiaBindActivity"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="ru.yandex.music.passport"
+                    android:host="esia"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Dark.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.social.VkNativeSocialAuthActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.NATIVE_SOCIAL_VKONTAKTE_AUTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Dark.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.social.GoogleNativeSocialAuthActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.NATIVE_SOCIAL_GOOGLE_AUTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.NATIVE_MAILISH_GOOGLE_AUTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Passport.Theme.AutoLoginDialog.Dark"
+            android:name="com.yandex.passport.internal.ui.AccountNotAuthorizedActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Dark.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.authwithtrack.SendAuthToTrackActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.SEND_AUTH_TO_TRACK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.authbytrack.AuthByTrackActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.tv.AuthInWebViewActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.account_upgrade.AccountUpgraderActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:name="com.yandex.passport.internal.sloth.credentialmanager.RequestCredentialManagerActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:name="com.yandex.passport.internal.sloth.credentialmanager.SaveCredentialManagerActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <provider
+            android:label="Accounts: ru.yandex.music"
+            android:name="com.yandex.passport.internal.provider.InternalProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:authorities="com.yandex.passport.internal.provider.ru.yandex.music"
+            android:initOrder="2147483647"/>
+        <provider
+            android:label="LoginSDK: ru.yandex.music"
+            android:name="com.yandex.passport.internal.authsdk.AuthSdkProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:authorities="com.yandex.passport.authsdk.provider.ru.yandex.music"/>
+        <service
+            android:label="@string/passport_authentication_service_name"
+            android:name="com.yandex.passport.internal.core.auth.AuthenticationService"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+                <action android:name="com.yandex.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator"/>
+            <meta-data
+                android:name="android.provider.CONTACTS_STRUCTURE"
+                android:resource="@xml/contacts"/>
+        </service>
+        <service
+            android:label="@string/passport_authentication_service_name"
+            android:name="com.yandex.passport.internal.core.sync.SyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/passport_sync_adapter"/>
+            <meta-data
+                android:name="android.provider.CONTACTS_STRUCTURE"
+                android:resource="@xml/contacts"/>
+        </service>
+        <provider
+            android:name="com.yandex.passport.internal.core.sync.SyncProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:authorities="@string/passport_sync_adapter_content_authority"/>
+        <receiver
+            android:name="com.yandex.passport.internal.core.announcing.AccountsChangedReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+                <action android:name="com.yandex.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yandex.passport.internal.core.announcing.PackageRemovedReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <data
+                    android:scheme="package"
+                    android:sspPrefix="com.yandex."/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <data
+                    android:scheme="package"
+                    android:sspPrefix="ru.yandex."/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yandex.passport.internal.smsretriever.SmsRetrieverReceiver"
+            android:permission="com.google.android.gms.auth.api.phone.permission.SEND"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.yandex.passport.internal.push.PassportPushRegistrationService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <service
+            android:name="com.yandex.passport.internal.flags.experiments.FetchExperimentsService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <provider
+            android:label="SSO: ru.yandex.music"
+            android:name="com.yandex.passport.internal.sso.SsoContentProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:authorities="com.yandex.passport.internal.sso.ru.yandex.music"
+            android:initOrder="2147483646"/>
+        <receiver
+            android:name="com.yandex.passport.internal.sso.announcing.SsoAnnouncingReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.ACTION_SSO_ANNOUNCEMENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yandex.passport.internal.push.NotificationDismissedReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.NOTIFICATION_DISMISS"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yandex.passport.internal.push.NotificationCodeCopyReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.NOTIFICATION_CODE_COPY"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent.Paranja"
+            android:label="@string/passport_login"
+            android:name="com.yandex.passport.internal.ui.YxAuthActivity"
+            android:exported="true"
+            android:process="@string/passport_process_name"
+            android:excludeFromRecents="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="yx23cabbbdc6cd418abb4b39c32c41195d.oauth.yandex.ru"
+                    android:path="/magic-link/ru.yandex.music/finish"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label="Yandex Passport"
+            android:name="com.yandex.passport.internal.ui.bouncer.BouncerActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.challenge.logout.LogoutActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Compose.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.challenge.logout.LogoutComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:enableOnBackInvokedCallback="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.challenge.delete.DeleteForeverActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/PassportNext.Compose"
+            android:name="com.yandex.passport.internal.ui.challenge.delete.DeleteAccountActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.challenge.changecurrent.SetCurrentAccountActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:name="com.yandex.passport.internal.ui.challenge.changecurrent.SetCurrentComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:enableOnBackInvokedCallback="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.sloth.StandaloneSlothActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Compose"
+            android:name="com.yandex.passport.internal.ui.sloth.StandaloneSlothComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.sloth.authsdk.AuthSdkSlothActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Compose"
+            android:name="com.yandex.passport.internal.ui.sloth.authsdk.AuthSdkSlothComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.sloth.plusdevices.ManagingPlusDevicesHelperActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light"
+            android:label=""
+            android:name="com.yandex.passport.internal.ui.sloth.plusdevices.ManagingPlusDevicesSlothActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Compose.Transparent"
+            android:name="com.yandex.passport.internal.ui.sloth.plusdevices.ManagingPlusDevicesActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.BottomSheet"
+            android:name="com.yandex.passport.internal.ui.sloth.webcard.WebCardSlothActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.DISPLAY_CODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Compose"
+            android:name="com.yandex.passport.internal.ui.sloth.webcard.WebCardComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.DISPLAY_CODE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent.Paranja"
+            android:name="com.yandex.passport.internal.ui.challenge.logout.bottomsheet.LogoutBottomSheetActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:name="com.yandex.passport.internal.ui.challenge.logout.bottomsheet.LogoutBottomSheetComposeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:fitsSystemWindows="false"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Custom.Transparent"
+            android:name="com.yandex.passport.internal.util.StarterActivity"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Custom.Transparent"
+            android:name="com.yandex.passport.internal.ui.whatsapp.WhatsAppCodeReceiverActivity"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.whatsapp.otp.OTP_RETRIEVED"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PassportNext.Theme.Custom.Transparent"
+            android:name="com.yandex.passport.internal.ui.sloth.ebs.BiometricVerificationActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:alwaysRetainTaskState="true"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Custom.Transparent"
+            android:name="com.yandex.passport.internal.ui.sloth.ebs.StubBiometricActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Light.Transparent"
+            android:name="com.yandex.passport.internal.ui.challenge.vpn.VpnChallengeActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"
+            android:launchMode="singleTop"/>
+        <activity
+            android:theme="@style/PassportNext.Theme.Custom.Transparent"
+            android:name="com.yandex.passport.internal.ui.sloth.webauthn.RegisterWebAuthNActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name"/>
+        <activity
+            android:theme="@style/PaySDK.Theme.Plus.DayNight"
+            android:name="com.yandex.plus.pay.ui.feature.tarifficator.mobile.internal.ui.TarifficatorScenarioActivity"
+            android:exported="false"
+            android:process="@string/pay_sdk_process_name"/>
+        <activity
+            android:theme="@style/PaySDK.Theme.Plus.DayNight"
+            android:name="com.yandex.plus.pay.ui.feature.tarifficator.mobile.bdui.internal.ui.TarifficatorBduiScenarioActivity"
+            android:exported="false"
+            android:process="@string/pay_sdk_process_name"/>
+        <activity
+            android:name="com.yandex.plus.paymentsdk.common.PlusSbpRedirectActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="plus"
+                    android:host="ru.yandex.music"
+                    android:path="/sbp/redirect"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.payment.PaymentActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.challenger.SbpChallengerActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.bind.BindCardActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.bind.BindGooglePayActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.payment.sbp.BindSbpActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.preselect.PreselectActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.Payments.Light"
+            android:name="com.yandex.payment.sdk.ui.SplashActivity"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:theme="@style/PaymentsdkYaTheme.TransportCards.Light"
+            android:name="com.yandex.payment.sdk.transportcards.ui.TransportCardsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="screenSize|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"/>
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+                android:value="true"/>
+        </receiver>
+        <activity
+            android:theme="@style/EasyLoginSdkTheme"
+            android:name="ru.kinopoisk.sdk.easylogin.internal.EasyLoginActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan"/>
+        <provider
+            android:name="ru.kinopoisk.appinitializer.AppInitializeProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:authorities="ru.yandex.music.AppInitializer"
+            android:initOrder="2147483647"/>
+        <service
+            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+            android:enabled="true"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity
+            android:theme="@style/Theme.Hidden"
+            android:name="androidx.credentials.playservices.HiddenActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:fitsSystemWindows="true"/>
+        <activity
+            android:theme="@style/Theme.Hidden"
+            android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:fitsSystemWindows="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <receiver
+            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.cast.framework.ReconnectionService"
+            android:exported="false"/>
+        <service
+            android:name="io.appmetrica.analytics.internal.AppMetricaService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":AppMetrica">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="io.appmetrica.analytics.IAppMetricaService"/>
+                <data android:scheme="appmetrica"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="io.appmetrica.analytics.internal.AppMetricaMainProcessService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="io.appmetrica.analytics.IAppMetricaService"/>
+                <data android:scheme="appmetrica"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="io.appmetrica.analytics.internal.PreloadInfoContentProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":AppMetrica"
+            android:authorities="ru.yandex.music.appmetrica.preloadinfo.retail"/>
+        <provider
+            android:name="com.yandex.plus.core.debug.panel.internal.data.PlusSdkFileProvider"
+            android:exported="false"
+            android:authorities="ru.yandex.music.PlusSdkFileProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/plus_provider_paths"/>
+        </provider>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="8.2.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Transparent"
+            android:label=""
+            android:name="com.yandex.passport.internal.social.FbNativeSocialAuthActivity"
+            android:exported="false"
+            android:process="@string/passport_process_name">
+            <intent-filter>
+                <action android:name="com.yandex.passport.action.NATIVE_SOCIAL_FACEBOOK_AUTH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/com_facebook_activity_theme"
+            android:name="com.facebook.FacebookActivity"
+            android:process="@string/passport_process_name"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="fbconnect"
+                    android:host="cct.ru.yandex.music"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:label="@string/Home.NativeWidget.Daily.Preview.Title"
+            android:name="com.yandex.plus2.sdk.widget.daily.internal.entry.DailyAppWidgetProvider"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/plus_sdk_daily_widget_metadata"/>
+        </receiver>
+        <service
+            android:name="com.google.firebase.sessions.SessionLifecycleService"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <activity
+            android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline"
+            android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+            android:launchMode="singleInstance"
+            android:noHistory="true"/>
+        <receiver
+            android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.glance.appwidget.UnmanagedSessionReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <receiver
+            android:name="androidx.glance.appwidget.MyPackageReplacedReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.glance.appwidget.GlanceRemoteViewsService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="true"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/PlusSdk.Theme.TransparentActivity"
+            android:name="com.yandex.plus.core.activity.result.internal.PlusProxyActivity"
+            android:exported="true"/>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="androidx.core.widget.RemoteViewsCompatService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.yandex.metrica.push.core.notification.MetricaPushDummyActivity"
+            android:exported="false"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.yandex.metrica.push.action.NOTIFICATION_ACTION"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.yandex.metrica.push.core.notification.MetricaPushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.yandex.metrica.push.action.NOTIFICATION_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.yandex.metrica.push.service.PushJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <service
+            android:name="com.yandex.metrica.push.service.PushService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.yandex.metrica.push.core.notification.MetricaPushNotificationStatusChangeHandler"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.app.action.APP_BLOCK_STATE_CHANGED"/>
+                <action android:name="android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"/>
+                <action android:name="android.app.action.NOTIFICATION_CHANNEL_GROUP_BLOCK_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.yandex.metrica.push.core.notification.TtlBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.yandex.metrica.push.action.EXPIRED_BY_TTL_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.yandex.metrica.push.firebase.MetricaMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="3"/>
+    </application>
+</manifest>

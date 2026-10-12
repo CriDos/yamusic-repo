@@ -1,0 +1,3 @@
+com.yandex.music.core.ui.compose.TestIndexTagElement	com.yandex.music.core.ui.compose.TestIndexTagElement	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\core\ui\compose\TestIndexTagElement.java
+com.yandex.music.core.ui.compose.TestStateTagElement	com.yandex.music.core.ui.compose.TestStateTagElement	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\core\ui\compose\TestStateTagElement.java
+com.yandex.music.core.ui.compose.VisibilityChangedElement	com.yandex.music.core.ui.compose.VisibilityChangedElement	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\core\ui\compose\VisibilityChangedElement.java

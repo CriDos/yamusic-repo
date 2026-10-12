@@ -1,0 +1,138 @@
+.class public final Lcto;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lb6d;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:Ldto;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ldto;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lcto;->a:I
+
+    iput-object p1, p0, Lcto;->b:Ldto;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final emit(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    iget p2, p0, Lcto;->a:I
+
+    .line 2
+    .line 3
+    iget-object p0, p0, Lcto;->b:Ldto;
+
+    .line 4
+    .line 5
+    packed-switch p2, :pswitch_data_0
+
+    .line 6
+    .line 7
+    .line 8
+    check-cast p1, Lwva;
+
+    .line 9
+    .line 10
+    sget-object p1, Lddd;->a:Ledd;
+
+    .line 11
+    .line 12
+    iget-object p1, p1, Ledd;->c:Ljava/util/ArrayList;
+
+    .line 13
+    .line 14
+    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->Y(Ljava/util/List;)Ljava/lang/Object;
+
+    .line 15
+    .line 16
+    .line 17
+    move-result-object p1
+
+    .line 18
+    check-cast p1, Landroid/app/Activity;
+
+    .line 19
+    .line 20
+    if-eqz p1, :cond_0
+
+    .line 21
+    .line 22
+    invoke-static {p0, p1}, Ldto;->c(Ldto;Landroid/app/Activity;)V
+
+    .line 23
+    .line 24
+    .line 25
+    :cond_0
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 26
+    .line 27
+    return-object p0
+
+    .line 28
+    :pswitch_0
+    check-cast p1, Lkotlin/Pair;
+
+    .line 29
+    .line 30
+    sget-object p1, Lddd;->a:Ledd;
+
+    .line 31
+    .line 32
+    iget-object p1, p1, Ledd;->c:Ljava/util/ArrayList;
+
+    .line 33
+    .line 34
+    invoke-static {p1}, Lkotlin/collections/CollectionsKt;->Y(Ljava/util/List;)Ljava/lang/Object;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object p1
+
+    .line 38
+    check-cast p1, Landroid/app/Activity;
+
+    .line 39
+    .line 40
+    if-eqz p1, :cond_1
+
+    .line 41
+    .line 42
+    invoke-static {p0, p1}, Ldto;->c(Ldto;Landroid/app/Activity;)V
+
+    .line 43
+    .line 44
+    .line 45
+    :cond_1
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 46
+    .line 47
+    return-object p0
+
+    .line 48
+    nop
+
+    .line 49
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

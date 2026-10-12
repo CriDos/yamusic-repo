@@ -1,0 +1,28 @@
+package com.yandex.passport.internal.ui.challenge.delete;
+
+import kotlin.jvm.internal.Intrinsics;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class h0 implements j0 {
+    public final com.yandex.passport.sloth.b1 a;
+
+    public h0(com.yandex.passport.sloth.b1 b1Var) {
+        b1Var.getClass();
+        this.a = b1Var;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return (obj instanceof h0) && Intrinsics.e(this.a, ((h0) obj).a);
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+
+    public final String toString() {
+        return "SlothResultWish(result=" + this.a + ')';
+    }
+}

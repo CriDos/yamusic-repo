@@ -1,0 +1,1 @@
+com.yandex.passport.user_id.webview.UserIdJsInterface	com.yandex.passport.user_id.webview.UserIdJsInterface	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\passport\user_id\webview\UserIdJsInterface.java

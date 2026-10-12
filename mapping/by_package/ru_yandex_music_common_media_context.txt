@@ -1,0 +1,2 @@
+ru.yandex.music.common.media.context.CardPlaybackScope	ru.yandex.music.common.media.context.CardPlaybackScope	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\common\media\context\CardPlaybackScope.java
+ru.yandex.music.common.media.context.LaunchActionInfo	ru.yandex.music.common.media.context.LaunchActionInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\common\media\context\LaunchActionInfo.java

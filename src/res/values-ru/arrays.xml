@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="context_search_hint_q2v_suggestions">
+        <item>Хочу что-нибудь бодрое, но не слишком</item>
+        <item>Ваш любимый артист</item>
+        <item>Тот самый трек в коллекции</item>
+        <item>Что-нибудь мелодичное и танцевальное</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25</item>
+        <item>0,5</item>
+        <item>0,75</item>
+        <item>Обычная</item>
+        <item>1,25</item>
+        <item>1,5</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="onboarding_title_text">
+        <item>"Моя волна
+с персональными
+рекомендациями"</item>
+        <item>"Тысячи подборок
+по жанрам, занятиям
+и настроениям"</item>
+        <item>"Превосходное
+качество музыки
+даже без сети"</item>
+        <item>"Подкасты
+и аудиокниги
+обо всём на свете"</item>
+    </string-array>
+    <string-array name="rup_onboarding_toast_dislike">
+        <item>Исключили из рекомендаций</item>
+        <item>Хорошо, поставим что-нибудь другое</item>
+        <item>Отметили, такого больше не посоветуем</item>
+        <item>Хорошо, минус один трек</item>
+        <item>Убрали из рекомендаций насовсем</item>
+        <item>Скрыли, будете встречать меньше такого</item>
+        <item>Учли, включим что-то более подходящее</item>
+        <item>Договорились, больше не включим</item>
+        <item>Спрятали трек от вас</item>
+    </string-array>
+    <string-array name="tariff_paywall_benefits">
+        <item>Самые точные рекомендации</item>
+        <item>"Музыка, аудиокниги
+и подкасты"</item>
+        <item>Скачивайте и слушайте даже без интернета</item>
+        <item>Всё это — в одном удобном приложении</item>
+    </string-array>
+    <string-array name="track_generative_disliked">
+        <item>Учли и перестроились</item>
+        <item>Переключились на другое</item>
+        <item>Включили более подходящее</item>
+        <item>Подстроились под вас</item>
+        <item>Поменяли настроение</item>
+    </string-array>
+    <string-array name="track_generative_liked">
+        <item>Запомнили, что вам нравится</item>
+        <item>Учли в рекомендациях</item>
+        <item>Класс, слушайте дальше</item>
+        <item>Дополнили рекомендации</item>
+        <item>Звучит отлично, согласны</item>
+    </string-array>
+    <string-array name="wizard_outboarding_text">
+        <item>Подбираем музыку для вас</item>
+        <item>"Пока вы читаете текст, мы ищем
+то, что вам точно понравится"</item>
+        <item>"Ещё чуть-чуть
+и можно включать музыку"</item>
+    </string-array>
+</resources>

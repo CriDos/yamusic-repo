@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/fab_text_corners_radius"/>
+            <solid android:color="?attr/buttonPrimaryDisabled"/>
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="?attr/buttonPrimaryPressed">
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/fab_text_corners_radius"/>
+                    <solid android:color="?attr/buttonPrimary"/>
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</selector>

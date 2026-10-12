@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/passport_yandex_logo_image"/>
+    <TextView
+        android:textSize="@dimen/passport_yandex_logo_font"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/passport_yandex_logo_padding"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/passport_open_domik_in_taxi_button"
+        android:textAlignment="center"
+        style="@style/Passport.Widget.TextView.Message"/>
+</LinearLayout>

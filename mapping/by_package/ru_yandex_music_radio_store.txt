@@ -1,0 +1,4 @@
+ru.yandex.music.radio.store.RadioMenuDataJsonAdapter	ru.yandex.music.radio.store.RadioMenuDataJsonAdapter	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\radio\store\RadioMenuDataJsonAdapter.java
+ru.yandex.music.radio.store.RadioMenuDefaultDto	ru.yandex.music.radio.store.RadioMenuDefaultDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\radio\store\RadioMenuDefaultDto.java
+ru.yandex.music.radio.store.RadioMenuDescriptorDto	ru.yandex.music.radio.store.RadioMenuDescriptorDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\radio\store\RadioMenuDescriptorDto.java
+ru.yandex.music.radio.store.RadioMenuStationDto	ru.yandex.music.radio.store.RadioMenuStationDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\radio\store\RadioMenuStationDto.java

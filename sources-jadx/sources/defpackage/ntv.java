@@ -1,0 +1,10 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class ntv implements rxv {
+    public final /* synthetic */ je3 a;
+
+    public ntv(je3 je3Var) {
+        this.a = je3Var;
+    }
+}

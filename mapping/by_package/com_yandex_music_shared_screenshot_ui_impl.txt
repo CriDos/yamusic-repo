@@ -1,0 +1,1 @@
+com.yandex.music.shared.screenshot.ui.impl.ScreenshotSaveException	com.yandex.music.shared.screenshot.ui.impl.ScreenshotSaveException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\screenshot\ui\impl\ScreenshotSaveException.java

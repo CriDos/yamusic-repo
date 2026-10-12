@@ -1,0 +1,2 @@
+com.yandex.music.shared.concert.info.screen.network.ConcertHeaderApi	com.yandex.music.shared.concert.info.screen.network.ConcertHeaderApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\concert\info\screen\network\ConcertHeaderApi.java
+com.yandex.music.shared.concert.info.screen.network.ConcertSkeletonApi	com.yandex.music.shared.concert.info.screen.network.ConcertSkeletonApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\concert\info\screen\network\ConcertSkeletonApi.java

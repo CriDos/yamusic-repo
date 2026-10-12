@@ -1,0 +1,6 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class x7r {
+    public static final wus a = new wus(q96.Z);
+}

@@ -1,0 +1,1 @@
+com.yandex.music.shared.skeleton.data.network.LandingSkeletonApi	com.yandex.music.shared.skeleton.data.network.LandingSkeletonApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\skeleton\data\network\LandingSkeletonApi.java

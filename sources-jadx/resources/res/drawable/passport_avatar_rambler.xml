@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="84dp"
+    android:width="84dp"
+    android:viewportWidth="84"
+    android:viewportHeight="84">
+    <path
+        android:fillColor="@color/passport_rambler_accent"
+        android:pathData="M47.13,20l-16.13,44l6.6,0l16.13,-44l-6.6,0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"/>
+</vector>

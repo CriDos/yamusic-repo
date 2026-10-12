@@ -1,0 +1,2 @@
+com.yandex.music.plus.features.quests.network.QuestsBlockDataDto	com.yandex.music.plus.features.quests.network.QuestsBlockDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\plus\features\quests\network\QuestsBlockDataDto.java
+com.yandex.music.plus.features.quests.network.QuestsBlockDto	com.yandex.music.plus.features.quests.network.QuestsBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\plus\features\quests\network\QuestsBlockDto.java

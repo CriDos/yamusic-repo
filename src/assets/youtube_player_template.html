@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="player"></div>
+    <div id="explain"></div>
+    <script src="https://www.youtube.com/iframe_api">
+    </script>
+    <script>
+        YT.ready(() => {
+            new YT.Player('player', {
+                "height": "100%",
+                "playerVars": {
+                    "showinfo": 0,
+                    "rel": 0,
+                    "playsinline": 1,
+                    "modestbranding": 1
+                },
+                "events": {
+                    "onReady": event => event.target.playVideo()
+                },
+                "videoId": "%%",
+                "width": "100%"
+            });
+        });
+    </script>
+</body>
+
+</html>

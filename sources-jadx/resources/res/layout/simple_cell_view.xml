@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/cell_primary_text_view"
+        android:duplicateParentState="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium_1"
+        android:layout_marginBottom="@dimen/space_medium_1"
+        android:maxLines="2"
+        android:drawablePadding="@dimen/space_medium_1"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"
+        android:breakStrategy="balanced"
+        android:layout_marginVertical="@dimen/space_medium_1"
+        app:drawableTint="?android:attr/textColorPrimary"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/cell_primary_value_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium_1"
+        android:layout_marginBottom="@dimen/space_medium_1"
+        android:maxLines="1"
+        android:layout_marginEnd="@dimen/space_small_2"
+        android:layout_marginVertical="@dimen/space_medium_1"/>
+    <ImageView
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/cell_primary_chevron_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_forward"
+        app:tint="@color/simple_cell_view_icon_color_default"/>
+</merge>

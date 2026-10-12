@@ -1,0 +1,12 @@
+.class public interface abstract Lio/appmetrica/analytics/rtmwrapper/internal/RtmServiceReporter;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract reportData(ILandroid/os/Bundle;)V
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+.end method

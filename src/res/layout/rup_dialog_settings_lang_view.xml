@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/rup_settings_lang_name_text_view" android:paddingLeft="28.0dp" android:paddingRight="28.0dp" android:layout_width="wrap_content" android:layout_height="@dimen/rup_settings_lang_height" android:maxLines="1" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" android:paddingHorizontal="28.0dp" style="@style/Medium_14_16" />
+</merge>

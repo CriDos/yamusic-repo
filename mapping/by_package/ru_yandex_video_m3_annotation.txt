@@ -1,0 +1,2 @@
+ru.yandex.video.m3.annotation.CloudDocCategory	ru.yandex.video.m3.annotation.CloudDocCategory	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\annotation\CloudDocCategory.java
+ru.yandex.video.m3.annotation.InternalDocCategory	ru.yandex.video.m3.annotation.InternalDocCategory	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\annotation\InternalDocCategory.java

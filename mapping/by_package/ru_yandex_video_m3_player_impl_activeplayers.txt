@@ -1,0 +1,2 @@
+ru.yandex.video.m3.player.impl.activeplayers.ActivePlayerDecoderInfo	ru.yandex.video.m3.player.impl.activeplayers.ActivePlayerDecoderInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\impl\activeplayers\ActivePlayerDecoderInfo.java
+ru.yandex.video.m3.player.impl.activeplayers.ActivePlayerSnapshot	ru.yandex.video.m3.player.impl.activeplayers.ActivePlayerSnapshot	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\impl\activeplayers\ActivePlayerSnapshot.java

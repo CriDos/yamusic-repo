@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/payment_promo_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    app:rippleColor="@color/pay_sdk_transparent"
+    style="@style/PaySDK.Theme.Card.Rounded">
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/pay_sdk_margin_large"
+        android:paddingTop="@dimen/pay_sdk_margin_middle"
+        android:paddingRight="@dimen/pay_sdk_margin_large"
+        android:paddingBottom="@dimen/pay_sdk_margin_middle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/pay_sdk_margin_large"
+        android:paddingVertical="@dimen/pay_sdk_margin_middle">
+        <TextView
+            android:textColor="?attr/pay_sdk_buttonPrimaryTextColor"
+            android:id="@+id/payment_promo_primary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pay_sdk_promo_card_overlapping"
+            android:textIsSelectable="true"
+            android:textAlignment="viewStart"
+            style="@style/PaySDK.TextAppearance.Body2"/>
+        <TextView
+            android:textColor="?attr/pay_sdk_buttonPrimaryTextColor"
+            android:id="@+id/payment_promo_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textAlignment="viewStart"
+            style="@style/PaySDK.TextAppearance.Body2"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

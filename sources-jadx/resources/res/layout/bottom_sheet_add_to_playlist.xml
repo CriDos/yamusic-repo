@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/bgSecondary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="?attr/textPrimary"
+            android:gravity="center"
+            android:id="@+id/bottom_sheet_add_to_playlist_title"
+            android:paddingTop="32dp"
+            android:paddingBottom="@dimen/unit_and_half_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_tracks_to_playlist"
+            android:paddingStart="@dimen/juicy_bottom_sheet_list_side_padding"
+            android:paddingEnd="@dimen/juicy_bottom_sheet_list_side_padding"
+            style="@style/Bold_HL_22_24"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="vertical"
+            android:id="@+id/bottom_sheet_add_to_playlist_list"
+            android:paddingTop="@dimen/unit_and_half_margin"
+            android:paddingBottom="32dp"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/juicy_bottom_sheet_list_side_padding"
+            android:paddingEnd="@dimen/juicy_bottom_sheet_list_side_padding"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/bottom_sheet_add_to_playlist_placeholder"
+        android:background="?attr/bgPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/juicy_bottom_sheet_peekheight">
+        <ru.yandex.music.ui.view.YaRotatingProgress
+            android:layout_gravity="center"
+            android:layout_width="@dimen/yprogress_middle"
+            android:layout_height="@dimen/yprogress_middle"/>
+    </FrameLayout>
+</FrameLayout>

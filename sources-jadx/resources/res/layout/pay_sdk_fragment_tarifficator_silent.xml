@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/silent_payment_root"
+    android:background="?attr/pay_sdk_primaryPageColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yandex.plus.webview.api.WebViewContainer
+        android:id="@+id/silent_payment_webview_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.yandex.plus.pay.ui.core.internal.tarifficator.ui.loading.PlusPayPaymentLoadingView
+        android:id="@+id/silent_payment_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="64dp"
+    android:width="64dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1000">
+    <path
+        android:fillColor="@drawable/_ic_my_shelf_background_64__0_res_0x7f080023"
+        android:pathData="M1000,500H500V0H1000V500Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_my_shelf_background_64__1_res_0x7f080024"
+        android:pathData="M1000,1000H500V500H1000V1000Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_my_shelf_background_64__2_res_0x7f080025"
+        android:pathData="M500,1000H0V500H500V1000Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_my_shelf_background_64__3_res_0x7f080026"
+        android:pathData="M500,500H0V0H500V500Z"
+        android:fillType="evenOdd"/>
+</vector>

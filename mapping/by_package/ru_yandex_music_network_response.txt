@@ -1,0 +1,3 @@
+ru.yandex.music.network.response.AlbumEntitiesIdsDto	ru.yandex.music.network.response.AlbumEntitiesIdsDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\network\response\AlbumEntitiesIdsDto.java
+ru.yandex.music.network.response.AlbumIdsDto	ru.yandex.music.network.response.AlbumIdsDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\network\response\AlbumIdsDto.java
+ru.yandex.music.network.response.PlaylistEntitiesIdsDto	ru.yandex.music.network.response.PlaylistEntitiesIdsDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\network\response\PlaylistEntitiesIdsDto.java

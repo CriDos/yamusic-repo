@@ -1,0 +1,1 @@
+com.yandex.music.shared.player.storage.StorageUnavailableException	com.yandex.music.shared.player.storage.StorageUnavailableException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\player\storage\StorageUnavailableException.java

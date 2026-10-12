@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "com.yandex.music.shared.auth.proto";
+option java_multiple_files = true;
+
+message StoredUser {
+  string uid = 1;
+  int32 passport_env = 2;
+  string login = 3;
+  bool service_available = 7;
+  bool is_kid = 9;
+  bool has_plus = 11;
+  string email = 13;
+  repeated string options = 17;
+  string region_code = 19;
+  bool has_music_subscription = 21;
+  string full_name = 23;
+}
+
+
+
+

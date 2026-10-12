@@ -1,0 +1,1 @@
+com.yandex.plus.webview.internal.contract.impl.messaging.ReadyForMessagingMessageDeserializer	com.yandex.plus.webview.internal.contract.impl.messaging.ReadyForMessagingMessageDeserializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\plus\webview\internal\contract\impl\messaging\ReadyForMessagingMessageDeserializer.java

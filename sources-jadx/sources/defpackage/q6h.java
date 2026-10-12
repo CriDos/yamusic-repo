@@ -1,0 +1,5 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface q6h extends b0s {
+}

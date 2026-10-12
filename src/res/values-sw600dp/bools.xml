@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">true</bool>
+    <bool name="is_tablet">true</bool>
+    <bool name="pay_sdk_isTabletMode">true</bool>
+    <bool name="plus_sdk_is_tablet">true</bool>
+    <bool name="videoPlayer_isTablet">true</bool>
+</resources>

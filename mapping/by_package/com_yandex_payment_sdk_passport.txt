@@ -1,0 +1,1 @@
+com.yandex.payment.sdk.passport.PassportAdapterFactory	com.yandex.payment.sdk.passport.PassportAdapterFactory	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\payment\sdk\passport\PassportAdapterFactory.java

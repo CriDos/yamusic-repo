@@ -1,0 +1,3 @@
+ru.yandex.music.chart.catalog.data.dto.AlbumsChartDto	defpackage.pu4	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\defpackage\pu4.java
+ru.yandex.music.chart.catalog.data.dto.AlbumsChartDto	ru.yandex.music.chart.catalog.data.dto.AlbumsChartDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\chart\catalog\data\dto\AlbumsChartDto.java
+ru.yandex.music.chart.catalog.data.dto.ChartAlbumDto	ru.yandex.music.chart.catalog.data.dto.ChartAlbumDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\chart\catalog\data\dto\ChartAlbumDto.java

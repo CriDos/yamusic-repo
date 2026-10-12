@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/rup_item_oval_border_accent">
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:innerRadius="26dp"
+            android:thickness="2dp">
+            <solid android:color="?attr/iconAccent"/>
+        </shape>
+    </item>
+    <item android:id="@+id/rup_item_oval_border_black">
+        <shape
+            android:shape="ring"
+            android:useLevel="false"
+            android:innerRadius="22dp"
+            android:thickness="4dp">
+            <solid android:color="?attr/bgPrimary"/>
+        </shape>
+    </item>
+</layer-list>

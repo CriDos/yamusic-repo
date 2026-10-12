@@ -1,0 +1,2 @@
+com.yandex.music.skeleton.blocks.overview.data.OverviewBlockDto	com.yandex.music.skeleton.blocks.overview.data.OverviewBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\overview\data\OverviewBlockDto.java
+com.yandex.music.skeleton.blocks.overview.data.OverviewDataDto	com.yandex.music.skeleton.blocks.overview.data.OverviewDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\overview\data\OverviewDataDto.java

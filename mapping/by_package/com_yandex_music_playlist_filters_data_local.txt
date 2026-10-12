@@ -1,0 +1,2 @@
+com.yandex.music.playlist_filters.data.local.FilterLocalDto	com.yandex.music.playlist_filters.data.local.FilterLocalDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\playlist_filters\data\local\FilterLocalDto.java
+com.yandex.music.playlist_filters.data.local.FiltersLocalInfoDto	com.yandex.music.playlist_filters.data.local.FiltersLocalInfoDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\playlist_filters\data\local\FiltersLocalInfoDto.java

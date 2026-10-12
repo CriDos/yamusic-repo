@@ -1,0 +1,2 @@
+com.yandex.music.skeleton.blocks.wizard.data.WizardBlockDataDto	com.yandex.music.skeleton.blocks.wizard.data.WizardBlockDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\wizard\data\WizardBlockDataDto.java
+com.yandex.music.skeleton.blocks.wizard.data.WizardBlockDto	com.yandex.music.skeleton.blocks.wizard.data.WizardBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\wizard\data\WizardBlockDto.java

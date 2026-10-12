@@ -1,0 +1,1 @@
+ru.yandex.video.sessionlogger.table.LogDatabase	ru.yandex.video.sessionlogger.table.LogDatabase	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\sessionlogger\table\LogDatabase.java

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="audio_track_template">Title: %1$s\nBitrate: %2$s\nLanguage: %3$s</string>
+    <string name="extra_info_template">Network: %1$s %2$s</string>
+    <string name="video_decoder_template">Name: %1$s\nInits: %2$s Reuses: %3$s Releases: %4$s\nHardware: %5$s\nDropped frames: %6$d</string>
+    <string name="video_track_template">Title: %1$s\nBitrate: %2$s\nResolution: %3$s</string>
+</resources>

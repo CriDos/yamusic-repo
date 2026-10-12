@@ -1,0 +1,2 @@
+com.yandex.music.shared.dto.metatag.MetaTagArtistsDto	com.yandex.music.shared.dto.metatag.MetaTagArtistsDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\metatag\MetaTagArtistsDto.java
+com.yandex.music.shared.dto.metatag.MetaTagDto	com.yandex.music.shared.dto.metatag.MetaTagDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\metatag\MetaTagDto.java

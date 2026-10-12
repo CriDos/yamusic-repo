@@ -1,0 +1,16 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes6.dex */
+public final class vag {
+    public final vdt a;
+    public final vdt b;
+    public final vdt c;
+
+    public vag() {
+        eyu eyuVarV = p85.V(pj4.class);
+        nk8 nk8Var = nk8.b;
+        this.a = nk8Var.b(eyuVarV, true);
+        this.b = nk8Var.b(p85.V(bl8.class), true);
+        this.c = okg.b(new c7g(11));
+    }
+}

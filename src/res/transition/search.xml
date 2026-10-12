@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:duration="300" android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide android:interpolator="@android:interpolator/decelerate_cubic" android:slideEdge="top">
+        <targets>
+            <target android:targetId="@id/search_view" />
+        </targets>
+    </slide>
+    <fade android:interpolator="@android:interpolator/accelerate_quint" android:duration="300" />
+    <targets>
+        <target android:excludeId="@android:id/statusBarBackground" />
+        <target android:excludeId="@android:id/navigationBarBackground" />
+    </targets>
+</transitionSet>

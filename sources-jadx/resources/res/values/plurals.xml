@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="artist_familiar_albums">
+        <item quantity="one">%s album</item>
+        <item quantity="two">%s albums</item>
+        <item quantity="few">%s albums</item>
+        <item quantity="many">%s albums</item>
+        <item quantity="other">%s albums</item>
+    </plurals>
+    <plurals name="artist_familiar_tracks">
+        <item quantity="one">%s track</item>
+        <item quantity="two">%s tracks</item>
+        <item quantity="few">%s tracks</item>
+        <item quantity="many">%s tracks</item>
+        <item quantity="other">%s tracks</item>
+    </plurals>
+    <plurals name="collection_artist_liked_tracks">
+        <item quantity="one">%s track liked</item>
+        <item quantity="other">%s track liked</item>
+    </plurals>
+    <plurals name="contest_playlist_min_tracks_quantity">
+        <item quantity="one">%s track</item>
+        <item quantity="two">%s tracks</item>
+        <item quantity="few">%s tracks</item>
+        <item quantity="many">%s tracks</item>
+        <item quantity="other">%s tracks</item>
+    </plurals>
+    <plurals name="core_days">
+        <item quantity="zero" />
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дней</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
+    </plurals>
+    <plurals name="core_hours">
+        <item quantity="zero" />
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часов</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%1$s дней</item>
+        <item quantity="one">%1$s день</item>
+        <item quantity="two">%1$s дня</item>
+        <item quantity="few">%1$s дня</item>
+        <item quantity="many">%1$s дней</item>
+        <item quantity="other">%1$s дней</item>
+    </plurals>
+    <plurals name="days_available">
+        <item quantity="zero">@string/days_available_zero</item>
+        <item quantity="one">Доступно %1$s день</item>
+        <item quantity="two">Доступно %1$s дня</item>
+        <item quantity="few">Доступно %1$s дня</item>
+        <item quantity="many">Доступно %1$s дней</item>
+        <item quantity="other">Доступно %1$s дней</item>
+    </plurals>
+    <plurals name="delete_tracks_cache_num">
+        <item quantity="one">Delete %d track?</item>
+        <item quantity="two">Delete %d tracks?</item>
+        <item quantity="few">Delete %d tracks?</item>
+        <item quantity="other">Delete %d tracks?</item>
+    </plurals>
+    <plurals name="download_complete_content">
+        <item quantity="one">%d track downloaded</item>
+        <item quantity="two">%d tracks downloaded</item>
+        <item quantity="few">%d tracks downloaded</item>
+        <item quantity="other">%d tracks downloaded</item>
+    </plurals>
+    <plurals name="download_progress_content">
+        <item quantity="one">Downloaded %d of</item>
+        <item quantity="two">Downloaded %d of</item>
+        <item quantity="few">Downloaded %d of</item>
+        <item quantity="many">Downloaded %d of</item>
+        <item quantity="other">Downloaded %d of</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast forward %d second</item>
+        <item quantity="other">Fast forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">%1$s часов</item>
+        <item quantity="one">%1$s час</item>
+        <item quantity="two">%1$s часа</item>
+        <item quantity="few">%1$s часа</item>
+        <item quantity="many">%1$s часов</item>
+        <item quantity="other">%1$s часов</item>
+    </plurals>
+    <plurals name="hours_available">
+        <item quantity="zero">@string/hours_available_zero</item>
+        <item quantity="one">Доступно %1$s час</item>
+        <item quantity="two">Доступно %1$s часа</item>
+        <item quantity="few">Доступно %1$s часа</item>
+        <item quantity="many">Доступно %1$s часов</item>
+        <item quantity="other">Доступно %1$s часов</item>
+    </plurals>
+    <plurals name="likes_content_description">
+        <item quantity="zero">%d likes</item>
+        <item quantity="one">%d like</item>
+        <item quantity="two">%d likes</item>
+        <item quantity="few">%d likes</item>
+        <item quantity="many">%d likes</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="zero">%1$s минут</item>
+        <item quantity="one">%1$s минута</item>
+        <item quantity="two">%1$s минуты</item>
+        <item quantity="few">%1$s минуты</item>
+        <item quantity="many">%1$s минут</item>
+        <item quantity="other">%1$s минут</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="non_music_screen_author">
+        <item quantity="zero">Publishers:</item>
+        <item quantity="one">Publisher:</item>
+        <item quantity="two">Publishers:</item>
+        <item quantity="few">Publishers:</item>
+        <item quantity="many">Publishers:</item>
+        <item quantity="other">Publishers:</item>
+    </plurals>
+    <plurals name="non_music_screen_speaker">
+        <item quantity="one">Narrator:</item>
+        <item quantity="two">Narrators:</item>
+        <item quantity="few">Narrators:</item>
+        <item quantity="many">Narrators:</item>
+        <item quantity="other">Narrators:</item>
+    </plurals>
+    <plurals name="number_of_hours">
+        <item quantity="one">hour</item>
+        <item quantity="two">hours</item>
+        <item quantity="few">hours</item>
+        <item quantity="other">hours</item>
+    </plurals>
+    <plurals name="number_of_hours_rtl_support">
+        <item quantity="one">%s hour</item>
+        <item quantity="two">%s hours</item>
+        <item quantity="few">%s hours</item>
+        <item quantity="other">%s hours</item>
+    </plurals>
+    <plurals name="number_of_listeners_per_month">
+        <item quantity="zero">%s listeners a month</item>
+        <item quantity="one">%s listener a month</item>
+        <item quantity="two">%s listeners a month</item>
+        <item quantity="few">%s listeners a month</item>
+        <item quantity="many">%s listeners a month</item>
+        <item quantity="other">%s listeners a month</item>
+    </plurals>
+    <plurals name="number_of_minutes">
+        <item quantity="one">minute</item>
+        <item quantity="two">minutes</item>
+        <item quantity="few">minutes</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="number_of_minutes_rtl_support">
+        <item quantity="one">%s minute</item>
+        <item quantity="two">%s minutes</item>
+        <item quantity="few">%s minutes</item>
+        <item quantity="other">%s minutes</item>
+    </plurals>
+    <plurals name="number_of_seconds">
+        <item quantity="zero">seconds</item>
+        <item quantity="one">second</item>
+        <item quantity="two">seconds</item>
+        <item quantity="few">seconds</item>
+        <item quantity="many">seconds</item>
+        <item quantity="other">seconds</item>
+    </plurals>
+    <plurals name="number_of_seconds_rtl_support">
+        <item quantity="zero">%s seconds</item>
+        <item quantity="one">%s second</item>
+        <item quantity="two">%s seconds</item>
+        <item quantity="few">%s seconds</item>
+        <item quantity="many">%s seconds</item>
+        <item quantity="other">%s seconds</item>
+    </plurals>
+    <plurals name="passport_call_code_placeholder">
+        <item quantity="zero">Last %1$d digits</item>
+        <item quantity="one">Last %1$d digit</item>
+        <item quantity="few">Last %1$d digits</item>
+        <item quantity="many">Last %1$d digits</item>
+        <item quantity="other">Last %1$d digits</item>
+    </plurals>
+    <plurals name="passport_reg_call_message">
+        <item quantity="zero">You will now receive a call from\n%1$s. Enter the last %2$d digits of this number.</item>
+        <item quantity="one">You will now receive a call from\n%1$s. Enter the last %2$d digit of this number.</item>
+        <item quantity="few">You will now receive a call from\n%1$s. Enter the last %2$d digits of this number.</item>
+        <item quantity="many">You will now receive a call from\n%1$s. Enter the last %2$d digits of this number.</item>
+        <item quantity="other">You will now receive a call from\n%1$s. Enter the last %2$d digits of this number.</item>
+    </plurals>
+    <plurals name="playlist_upload_cover_notification_title">
+        <item quantity="one">Uploading %d file</item>
+        <item quantity="two">Uploading %d files</item>
+        <item quantity="few">Uploading %d files</item>
+        <item quantity="many">Uploading %d files</item>
+        <item quantity="other">Uploading %d files</item>
+    </plurals>
+    <plurals name="plural_n_books">
+        <item quantity="one">%d book</item>
+        <item quantity="two">%d books</item>
+        <item quantity="few">%d books</item>
+        <item quantity="many">%d books</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+    <plurals name="plural_n_podcast_tracks">
+        <item quantity="one">%d episode</item>
+        <item quantity="two">%d episodes</item>
+        <item quantity="few">%d episodes</item>
+        <item quantity="many">%d episodes</item>
+        <item quantity="other">%d episodes</item>
+    </plurals>
+    <plurals name="plural_n_podcasts">
+        <item quantity="one">%d podcast</item>
+        <item quantity="two">%d podcasts</item>
+        <item quantity="few">%d podcasts</item>
+        <item quantity="many">%d podcasts</item>
+        <item quantity="other">%d podcasts</item>
+    </plurals>
+    <plurals name="plural_n_tracks_rtl_support">
+        <item quantity="one">%d track</item>
+        <item quantity="two">%d tracks</item>
+        <item quantity="few">%d tracks</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="plus_sdk_daily_quests_days_until_chain_deadline">
+        <item quantity="zero">%1$d дней на все задания</item>
+        <item quantity="one">%1$d день на все задания</item>
+        <item quantity="few">%1$d дня на все задания</item>
+        <item quantity="many">%1$d дней на все задания</item>
+        <item quantity="other">%1$d дней на все задания</item>
+    </plurals>
+    <plurals name="plus_sdk_daily_quests_days_until_mission_deadline">
+        <item quantity="zero">%1$d дней на выполнение</item>
+        <item quantity="one">%1$d день на выполнение</item>
+        <item quantity="few">%1$d дня на выполнение</item>
+        <item quantity="many">%1$d дней на выполнение</item>
+        <item quantity="other">%1$d дней на выполнение</item>
+    </plurals>
+    <plurals name="plus_sdk_family_subtitle_plurals">
+        <item quantity="zero">@string/plus_sdk_plural_key_zero</item>
+        <item quantity="one">@string/plus_sdk_plural_key_one</item>
+        <item quantity="two">@string/plus_sdk_plural_key_two</item>
+        <item quantity="few">@string/plus_sdk_plural_key_few</item>
+        <item quantity="many">@string/plus_sdk_plural_key_many</item>
+        <item quantity="other">@string/plus_sdk_plural_key_other</item>
+    </plurals>
+    <plurals name="podcast_episode_time_left">
+        <item quantity="one">Left %s</item>
+        <item quantity="two">Left %s</item>
+        <item quantity="few">Left %s</item>
+        <item quantity="many">Left %s</item>
+        <item quantity="other">Left %s</item>
+    </plurals>
+    <plurals name="rent_shield_days">
+        <item quantity="zero">%1$s дней</item>
+        <item quantity="one">%1$s день</item>
+        <item quantity="two">%1$s дня</item>
+        <item quantity="few">%1$s дня</item>
+        <item quantity="many">%1$s дней</item>
+        <item quantity="other">%1$s дней</item>
+    </plurals>
+    <plurals name="rent_shield_hours">
+        <item quantity="zero">%1$s часов</item>
+        <item quantity="one">%1$s час</item>
+        <item quantity="two">%1$s часа</item>
+        <item quantity="few">%1$s часа</item>
+        <item quantity="many">%1$s часов</item>
+        <item quantity="other">%1$s часов</item>
+    </plurals>
+    <plurals name="series_films_count">
+        <item quantity="zero">%1$s серий</item>
+        <item quantity="one">%1$s серия</item>
+        <item quantity="two">%1$s серии</item>
+        <item quantity="few">%1$s серии</item>
+        <item quantity="many">%1$s серий</item>
+        <item quantity="other">%1$s серий</item>
+    </plurals>
+    <plurals name="share_playlist_more">
+        <item quantity="zero">And %s more tracks</item>
+        <item quantity="one">And %s more track</item>
+        <item quantity="two">And %s more tracks</item>
+        <item quantity="few">And %s more tracks</item>
+        <item quantity="many">And %s more tracks</item>
+        <item quantity="other">And %s more tracks</item>
+    </plurals>
+    <plurals name="tickets_card_show_tickets_text">
+        <item quantity="zero">Показать билеты</item>
+        <item quantity="one">Показать билет</item>
+        <item quantity="two">Показать билеты</item>
+        <item quantity="few">Показать билеты</item>
+        <item quantity="many">Показать билеты</item>
+        <item quantity="other">Показать билеты</item>
+    </plurals>
+    <plurals name="tickets_card_ticket_text">
+        <item quantity="zero">билетов</item>
+        <item quantity="one">билет</item>
+        <item quantity="two">билета</item>
+        <item quantity="few">билета</item>
+        <item quantity="many">билетов</item>
+        <item quantity="other">билетов</item>
+    </plurals>
+    <plurals name="total_downloaded_tracks">
+        <item quantity="zero">%s tracks</item>
+        <item quantity="one">%s track</item>
+        <item quantity="two">%s tracks</item>
+        <item quantity="few">%s tracks</item>
+        <item quantity="many">%s tracks</item>
+        <item quantity="other">%s tracks</item>
+    </plurals>
+</resources>

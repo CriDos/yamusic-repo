@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.yandex.music.shared.offline.recommender.proto";
+option java_multiple_files = true;
+
+message TinyMlState {
+  string uid = 1;
+  int32 downloaded_track_count = 2;
+  repeated int32 program = 3;
+  int64 program_timestamp_ms = 4;
+}

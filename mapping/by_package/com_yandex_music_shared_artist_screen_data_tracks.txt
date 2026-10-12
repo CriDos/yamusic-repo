@@ -1,0 +1,2 @@
+com.yandex.music.shared.artist.screen.data.tracks.ArtistTracksBlockDto	com.yandex.music.shared.artist.screen.data.tracks.ArtistTracksBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\artist\screen\data\tracks\ArtistTracksBlockDto.java
+com.yandex.music.shared.artist.screen.data.tracks.ArtistTracksDataDto	com.yandex.music.shared.artist.screen.data.tracks.ArtistTracksDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\artist\screen\data\tracks\ArtistTracksDataDto.java

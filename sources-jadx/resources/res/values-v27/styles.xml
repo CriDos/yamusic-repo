@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/AppTheme.Light.Base">
+        <item name="android:navigationBarColor">@color/white_yandex</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="AppTheme.Dark" parent="@style/AppTheme.Dark.Base">
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="AppTheme.EdgeToEdge" parent="@style/AppTheme">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.BottomSheetDialog.EdgeToEdge</item>
+        <item name="fullScreenDialogTheme">@style/AppTheme.FullScreenDialog.EdgeToEdge</item>
+    </style>
+    <style name="Base.Theme.SplashScreen" parent="@style/Base.v27.Theme.SplashScreen">
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.v27.Theme.SplashScreen.Light">
+    </style>
+    <style name="Base.v27.Theme.SplashScreen" parent="@style/Base.v21.Theme.SplashScreen">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+    <style name="Base.v27.Theme.SplashScreen.Light" parent="@style/Base.v21.Theme.SplashScreen.Light">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+    <style name="UiKitTheme.Mobile.Platform" parent="@style/UiKitTheme.Mobile.V27">
+    </style>
+    <style name="UiKitTheme.Mobile.V27" parent="@style/UiKitTheme.Mobile.V23">
+        <item name="android:navigationBarColor">?android:attr/windowBackground</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+    </style>
+</resources>

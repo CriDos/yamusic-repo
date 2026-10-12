@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="?attr/pay_sdk_primaryBlockColor"/>
+    <corners
+        android:topLeftRadius="@dimen/pay_sdk_bottom_sheet_corner_radius"
+        android:topRightRadius="@dimen/pay_sdk_bottom_sheet_corner_radius"/>
+</shape>

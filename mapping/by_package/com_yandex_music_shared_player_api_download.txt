@@ -1,0 +1,2 @@
+com.yandex.music.shared.player.api.download.CastDownloadException	com.yandex.music.shared.player.api.download.CastDownloadException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\player\api\download\CastDownloadException.java
+com.yandex.music.shared.player.api.download.PlayerPlaybackException	com.yandex.music.shared.player.api.download.PlayerPlaybackException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\player\api\download\PlayerPlaybackException.java

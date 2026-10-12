@@ -1,0 +1,1 @@
+io.appmetrica.analytics.coreapi.internal.servicecomponents.batteryinfo.ChargeTypeProvider	io.appmetrica.analytics.coreapi.internal.servicecomponents.batteryinfo.ChargeTypeProvider	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\servicecomponents\batteryinfo\ChargeTypeProvider.java

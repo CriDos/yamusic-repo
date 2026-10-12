@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="left"
+    android:paddingLeft="@dimen/edge_margin"
+    android:paddingTop="@dimen/edge_and_a_half_margin"
+    android:paddingRight="@dimen/edge_margin"
+    android:paddingBottom="@dimen/unit_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/feedback_choose_topic"
+    android:maxLines="1"
+    style="@style/PhonotekaSubtitleAlpha"/>

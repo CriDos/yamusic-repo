@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="30px"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:id="@+id/text"
+    android:background="@color/bg_special_sticker"
+    android:layout_width="match_parent"
+    android:layout_height="110px"
+    android:textAllCaps="true"
+    android:fontFamily="@font/ya_medium"/>

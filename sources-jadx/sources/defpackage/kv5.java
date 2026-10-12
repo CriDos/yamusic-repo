@@ -1,0 +1,82 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class kv5 {
+    public final String A;
+    public final String B;
+    public final String C;
+    public final String D;
+    public final String E;
+    public final String F;
+    public final String G;
+    public final String H;
+    public final int I;
+    public final int J;
+    public final String a;
+    public final String b;
+    public final String c;
+    public final String d;
+    public final long e;
+    public final String f;
+    public final boolean g;
+    public final String h;
+    public final boolean i;
+    public final String j;
+    public final boolean k;
+    public final boolean l;
+    public final boolean m;
+    public final String n;
+    public final String o;
+    public final String p;
+    public final boolean q;
+    public final String r;
+    public final String s;
+    public final String t;
+    public final String u;
+    public final String v;
+    public final String w;
+    public final Float x;
+    public final Float y;
+    public final boolean z;
+
+    public kv5(String str, String str2, String str3, String str4, long j, String str5, boolean z, String str6, boolean z2, String str7, boolean z3, boolean z4, boolean z5, String str8, String str9, String str10, boolean z6, String str11, String str12, String str13, String str14, String str15, String str16, Float f, Float f2, boolean z7, String str17, String str18, String str19, String str20, String str21, String str22, String str23, String str24, int i, int i2) {
+        h18.s(str, str3, str5, str6, str8);
+        aui.B(str21, str22, str23);
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+        this.d = str4;
+        this.e = j;
+        this.f = str5;
+        this.g = z;
+        this.h = str6;
+        this.i = z2;
+        this.j = str7;
+        this.k = z3;
+        this.l = z4;
+        this.m = z5;
+        this.n = str8;
+        this.o = str9;
+        this.p = str10;
+        this.q = z6;
+        this.r = str11;
+        this.s = str12;
+        this.t = str13;
+        this.u = str14;
+        this.v = str15;
+        this.w = str16;
+        this.x = f;
+        this.y = f2;
+        this.z = z7;
+        this.A = str17;
+        this.B = str18;
+        this.C = str19;
+        this.D = str20;
+        this.E = str21;
+        this.F = str22;
+        this.G = str23;
+        this.H = str24;
+        this.I = i;
+        this.J = i2;
+    }
+}

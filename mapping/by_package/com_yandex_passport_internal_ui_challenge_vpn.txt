@@ -1,0 +1,2 @@
+com.yandex.passport.internal.ui.challenge.vpn.VpnChallengeActivity	com.yandex.passport.internal.ui.challenge.vpn.VpnChallengeActivity	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\passport\internal\ui\challenge\vpn\VpnChallengeActivity.java
+com.yandex.passport.internal.ui.challenge.vpn.VpnJsBridge	com.yandex.passport.internal.ui.challenge.vpn.VpnJsBridge	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\passport\internal\ui\challenge\vpn\VpnJsBridge.java

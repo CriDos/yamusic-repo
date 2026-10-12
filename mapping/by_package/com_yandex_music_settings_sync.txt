@@ -1,0 +1,1 @@
+com.yandex.music.settings.sync.UserSettingsHttpApi	com.yandex.music.settings.sync.UserSettingsHttpApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\settings\sync\UserSettingsHttpApi.java

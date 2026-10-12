@@ -1,0 +1,3 @@
+.class public interface abstract Loao;
+.super Ljava/lang/Object;
+.source "SourceFile"

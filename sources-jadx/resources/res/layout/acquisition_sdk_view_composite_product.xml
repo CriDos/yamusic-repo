@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.yandex.plus.acquisition.sdk.button.section.ui.impl.views.product.texts.ProductTextsView
+        android:id="@+id/product_texts_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/acquisition_sdk_dimension_size_125"
+        app:layout_constraintEnd_toStartOf="@+id/product_icon_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.yandex.plus.acquisition.sdk.button.section.ui.impl.views.product.icons.ProductIconView
+        android:id="@+id/product_icon_view"
+        android:layout_width="@dimen/acquisition_sdk_product_icon_size"
+        android:layout_height="@dimen/acquisition_sdk_product_icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</merge>

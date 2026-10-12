@@ -1,0 +1,46 @@
+syntax = "proto3";
+
+import "relay/relay_queue.proto";
+
+option java_package = "com.yandex.music.remote.proto";
+option java_multiple_files = true;
+
+message RemotePlaybackRequestProto {
+  optional bool play = 1;
+  optional string from = 2;
+  optional int32 position = 3;
+  optional bool shuffle = 4;
+  optional relay.RepeatModeProto repeat_mode = 7;
+  optional RemotePlaybackContentProto content = 5;
+  optional string playback_action_id = 6;
+}
+
+message RemotePlaybackContentProto {
+  oneof content_type {
+    Wave wave = 1;
+    Tracks tracks = 2;
+    Album album = 3;
+    Artist artist = 4;
+    Playlist playlist = 5;
+  }
+
+  message Wave {
+    repeated string seeds = 1;
+  }
+
+  message Tracks {
+    repeated string track_ids = 1;
+  }
+
+  message Album {
+    optional string album_id = 1;
+  }
+
+  message Artist {
+    optional string artist_id = 1;
+  }
+
+  message Playlist {
+    optional string playlist_id = 1;
+  }
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/retry_container"
+        android:tag="@string/bottom_player_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="?attr/textPrimary"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/edge_margin"
+                android:layout_marginBottom="@dimen/edge_margin"
+                android:maxWidth="288dp"
+                android:text="@string/error_unknown"
+                style="@style/Medium_16_20"/>
+            <Button
+                android:id="@+id/retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/edge_margin"
+                android:text="@string/retry"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ru.yandex.music.ui.view.YaRotatingProgress
+        android:layout_gravity="center"
+        android:id="@+id/progress"
+        android:layout_width="@dimen/yprogress_middle"
+        android:layout_height="@dimen/yprogress_middle"/>
+    <include layout="@layout/player_informer"/>
+    <include layout="@layout/player_bottom_sheet"/>
+    <include layout="@layout/bottom_tabs_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

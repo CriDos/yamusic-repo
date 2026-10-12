@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="artist_familiar_albums">
+        <item quantity="one">%s альбом</item>
+        <item quantity="two">%s альбома</item>
+        <item quantity="few">%s альбома</item>
+        <item quantity="many">%s альбомов</item>
+        <item quantity="other">%s альбомов</item>
+    </plurals>
+    <plurals name="artist_familiar_tracks">
+        <item quantity="one">%s трек</item>
+        <item quantity="two">%s трека</item>
+        <item quantity="few">%s трека</item>
+        <item quantity="many">%s треков</item>
+        <item quantity="other">%s треков</item>
+    </plurals>
+    <plurals name="collection_artist_liked_tracks">
+        <item quantity="zero">%s треков лайкнуто</item>
+        <item quantity="one">%s трек лайкнут</item>
+        <item quantity="two">%s трека лайкнуто</item>
+        <item quantity="few">%s трека лайкнуто</item>
+        <item quantity="many">%s треков лайкнуто</item>
+        <item quantity="other">%s треков лайкнуто</item>
+    </plurals>
+    <plurals name="contest_playlist_min_tracks_quantity">
+        <item quantity="one">%s трек</item>
+        <item quantity="two">%s трека</item>
+        <item quantity="few">%s трека</item>
+        <item quantity="many">%s треков</item>
+        <item quantity="other">%s треков</item>
+    </plurals>
+    <plurals name="delete_tracks_cache_num">
+        <item quantity="one">Удалить %d трек из памяти?</item>
+        <item quantity="two">Удалить %d трека из памяти?</item>
+        <item quantity="few">Удалить %d трека из памяти?</item>
+        <item quantity="many">Удалить %d треков из памяти?</item>
+        <item quantity="other">Удалить %d треков из памяти?</item>
+    </plurals>
+    <plurals name="download_complete_content">
+        <item quantity="one">Скачан %d трек</item>
+        <item quantity="two">Скачано %d трека</item>
+        <item quantity="few">Скачано %d трека</item>
+        <item quantity="many">Скачано %d треков</item>
+        <item quantity="other">Скачано %d треков</item>
+    </plurals>
+    <plurals name="download_progress_content">
+        <item quantity="one">Скачан %d из</item>
+        <item quantity="two">Скачано %d из</item>
+        <item quantity="few">Скачано %d из</item>
+        <item quantity="many">Скачано %d из</item>
+        <item quantity="other">Скачано %d из</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+        <item quantity="other">Перемотать на %d секунды назад</item>
+    </plurals>
+    <plurals name="likes_content_description">
+        <item quantity="zero">%d лайков</item>
+        <item quantity="one">%d лайк</item>
+        <item quantity="two">%d лайка</item>
+        <item quantity="few">%d лайка</item>
+        <item quantity="many">%d лайков</item>
+        <item quantity="other">%d лайков</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="non_music_screen_author">
+        <item quantity="zero">Издатели:</item>
+        <item quantity="one">Издатель:</item>
+        <item quantity="two">Издатели:</item>
+        <item quantity="few">Издатели:</item>
+        <item quantity="many">Издатели:</item>
+        <item quantity="other">Издатели:</item>
+    </plurals>
+    <plurals name="non_music_screen_speaker">
+        <item quantity="one">Чтец:</item>
+        <item quantity="two">Чтецы:</item>
+        <item quantity="few">Чтецы:</item>
+        <item quantity="many">Чтецы:</item>
+        <item quantity="other">Чтецы:</item>
+    </plurals>
+    <plurals name="number_of_hours">
+        <item quantity="one">час</item>
+        <item quantity="two">часа</item>
+        <item quantity="few">часа</item>
+        <item quantity="many">часов</item>
+        <item quantity="other">часов</item>
+    </plurals>
+    <plurals name="number_of_hours_rtl_support">
+        <item quantity="one">%s час</item>
+        <item quantity="two">%s часа</item>
+        <item quantity="few">%s часа</item>
+        <item quantity="many">%s часов</item>
+        <item quantity="other">%s часов</item>
+    </plurals>
+    <plurals name="number_of_listeners_per_month">
+        <item quantity="zero">%s слушателей за месяц</item>
+        <item quantity="one">%s слушатель за месяц</item>
+        <item quantity="two">%s слушателя за месяц</item>
+        <item quantity="few">%s слушателя за месяц</item>
+        <item quantity="many">%s слушателей за месяц</item>
+        <item quantity="other">%s слушателей за месяц</item>
+    </plurals>
+    <plurals name="number_of_minutes">
+        <item quantity="one">минута</item>
+        <item quantity="two">минуты</item>
+        <item quantity="few">минуты</item>
+        <item quantity="many">минут</item>
+        <item quantity="other">минут</item>
+    </plurals>
+    <plurals name="number_of_minutes_rtl_support">
+        <item quantity="one">%s минута</item>
+        <item quantity="two">%s минуты</item>
+        <item quantity="few">%s минуты</item>
+        <item quantity="many">%s минут</item>
+        <item quantity="other">%s минут</item>
+    </plurals>
+    <plurals name="number_of_seconds">
+        <item quantity="zero">секунд</item>
+        <item quantity="one">секунда</item>
+        <item quantity="two">секунды</item>
+        <item quantity="few">секунды</item>
+        <item quantity="many">секунд</item>
+        <item quantity="other">секунд</item>
+    </plurals>
+    <plurals name="number_of_seconds_rtl_support">
+        <item quantity="zero">%s секунд</item>
+        <item quantity="one">%s секунда</item>
+        <item quantity="two">%s секунды</item>
+        <item quantity="few">%s секунды</item>
+        <item quantity="many">%s секунд</item>
+        <item quantity="other">%s секунд</item>
+    </plurals>
+    <plurals name="passport_call_code_placeholder">
+        <item quantity="zero">Последние %1$d цифр</item>
+        <item quantity="one">Последнюю %1$d цифру</item>
+        <item quantity="few">Последние %1$d цифры</item>
+        <item quantity="many">Последние %1$d цифр</item>
+        <item quantity="other">Последние %1$d цифры</item>
+    </plurals>
+    <plurals name="passport_reg_call_message">
+        <item quantity="zero">"Сейчас вам поступит звонок с номера
+%1$s. Введите последние %2$d цифр номера"</item>
+        <item quantity="one">"Сейчас вам поступит звонок с номера
+%1$s. Введите последнюю %2$d цифру номера"</item>
+        <item quantity="few">"Сейчас вам поступит звонок с номера
+%1$s. Введите последние %2$d цифры номера"</item>
+        <item quantity="many">"Сейчас вам поступит звонок с номера
+%1$s. Введите последние %2$d цифр номера"</item>
+        <item quantity="other">"Сейчас вам поступит звонок с номера
+%1$s. Введите последние %2$d цифры номера"</item>
+    </plurals>
+    <plurals name="playlist_upload_cover_notification_title">
+        <item quantity="one">Загружается %d файл</item>
+        <item quantity="two">Загружается %d файла</item>
+        <item quantity="few">Загружается %d файла</item>
+        <item quantity="many">Загружается %d файлов</item>
+        <item quantity="other">Загружается %d файлов</item>
+    </plurals>
+    <plurals name="plural_n_books">
+        <item quantity="one">%d книга</item>
+        <item quantity="two">%d книги</item>
+        <item quantity="few">%d книги</item>
+        <item quantity="many">%d книг</item>
+        <item quantity="other">%d книг</item>
+    </plurals>
+    <plurals name="plural_n_podcast_tracks">
+        <item quantity="one">%d выпуск</item>
+        <item quantity="two">%d выпуска</item>
+        <item quantity="few">%d выпуска</item>
+        <item quantity="many">%d выпусков</item>
+        <item quantity="other">%d выпусков</item>
+    </plurals>
+    <plurals name="plural_n_podcasts">
+        <item quantity="one">%d подкаст</item>
+        <item quantity="two">%d подкаста</item>
+        <item quantity="few">%d подкаста</item>
+        <item quantity="many">%d подкастов</item>
+        <item quantity="other">%d подкастов</item>
+    </plurals>
+    <plurals name="plural_n_tracks_rtl_support">
+        <item quantity="one">%d трек</item>
+        <item quantity="two">%d трека</item>
+        <item quantity="few">%d трека</item>
+        <item quantity="many">%d треков</item>
+        <item quantity="other">%d треков</item>
+    </plurals>
+    <plurals name="podcast_episode_time_left">
+        <item quantity="one">Осталась %s</item>
+        <item quantity="two">Осталось %s</item>
+        <item quantity="few">Осталось %s</item>
+        <item quantity="many">Осталось %s</item>
+        <item quantity="other">Осталось %s</item>
+    </plurals>
+    <plurals name="share_playlist_more">
+        <item quantity="zero">И ещё %s треков</item>
+        <item quantity="one">И ещё %s трек</item>
+        <item quantity="two">И ещё %s трека</item>
+        <item quantity="few">И ещё %s трека</item>
+        <item quantity="many">И ещё %s треков</item>
+        <item quantity="other">И ещё %s треков</item>
+    </plurals>
+    <plurals name="total_downloaded_tracks">
+        <item quantity="zero">%s треков</item>
+        <item quantity="one">%s трек</item>
+        <item quantity="two">%s трека</item>
+        <item quantity="few">%s трека</item>
+        <item quantity="many">%s треков</item>
+        <item quantity="other">%s треков</item>
+    </plurals>
+</resources>

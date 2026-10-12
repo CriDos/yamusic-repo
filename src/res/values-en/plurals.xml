@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="core_days">
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="core_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="zero">%1$s days</item>
+        <item quantity="one">%1$s day</item>
+        <item quantity="two">%1$s days</item>
+        <item quantity="few">%1$s days</item>
+        <item quantity="many">%1$s days</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="days_available">
+        <item quantity="zero">@string/days_available_zero</item>
+        <item quantity="one">Available for %1$s day</item>
+        <item quantity="two">Available for %1$s days</item>
+        <item quantity="few">Available for %1$s days</item>
+        <item quantity="many">Available for %1$s days</item>
+        <item quantity="other">Available for %1$s days</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">%1$s hours</item>
+        <item quantity="one">%1$s hour</item>
+        <item quantity="two">%1$s hour</item>
+        <item quantity="few">%1$s hour</item>
+        <item quantity="many">%1$s hours</item>
+        <item quantity="other">%1$s hours</item>
+    </plurals>
+    <plurals name="hours_available">
+        <item quantity="zero">@string/hours_available_zero</item>
+        <item quantity="one">Available for %1$s hour</item>
+        <item quantity="two">Available for %1$s hours</item>
+        <item quantity="few">Available for %1$s hours</item>
+        <item quantity="many">Available for %1$s hours</item>
+        <item quantity="other">Available for %1$s hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="zero">%1$s minutes</item>
+        <item quantity="one">%1$s minute</item>
+        <item quantity="two">%1$s minutes</item>
+        <item quantity="few">%1$s minutes</item>
+        <item quantity="many">%1$s minutes</item>
+        <item quantity="other">%1$s minutes</item>
+    </plurals>
+    <plurals name="rent_shield_days">
+        <item quantity="zero">%1$s days</item>
+        <item quantity="one">%1$s day</item>
+        <item quantity="two">%1$s days</item>
+        <item quantity="few">%1$s days</item>
+        <item quantity="many">%1$s days</item>
+        <item quantity="other">%1$s days</item>
+    </plurals>
+    <plurals name="rent_shield_hours">
+        <item quantity="zero">%1$s hours</item>
+        <item quantity="one">%1$s hour</item>
+        <item quantity="two">%1$s hour</item>
+        <item quantity="few">%1$s hour</item>
+        <item quantity="many">%1$s hours</item>
+        <item quantity="other">%1$s hours</item>
+    </plurals>
+    <plurals name="series_films_count">
+        <item quantity="zero">%1$s episodes</item>
+        <item quantity="one">%1$s episode</item>
+        <item quantity="two">%1$s episodes</item>
+        <item quantity="few">%1$s episodes</item>
+        <item quantity="many">%1$s episodes</item>
+        <item quantity="other">%1$s episodes</item>
+    </plurals>
+</resources>

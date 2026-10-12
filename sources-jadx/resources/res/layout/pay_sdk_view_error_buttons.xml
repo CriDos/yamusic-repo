@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/pay_sdk_margin_small"
+    android:layout_marginBottom="@dimen/pay_sdk_margin_small"
+    android:layout_marginVertical="@dimen/pay_sdk_margin_small">
+    <Button
+        android:id="@+id/error_primary_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PaySDK.Button.Primary"/>
+    <Button
+        android:id="@+id/error_secondary_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pay_sdk_margin_small"
+        style="@style/PaySDK.Button.Ghost"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

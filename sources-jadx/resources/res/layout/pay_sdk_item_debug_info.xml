@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="?attr/pay_sdk_primaryTextColor"
+        android:id="@+id/debug_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="false"
+        style="@style/PaySDK.TextAppearance.Body2.Medium"/>
+    <TextView
+        android:textColor="?attr/pay_sdk_primaryTextColor"
+        android:id="@+id/debug_info_value"
+        android:background="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:layout_marginStart="@dimen/pay_sdk_margin_middle"
+        style="@style/PaySDK.TextAppearance.Body2"/>
+</LinearLayout>

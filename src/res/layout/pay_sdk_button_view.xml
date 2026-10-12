@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?pay_sdk_primaryBlockColor" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/pay_sdk_margin_large" android:layout_marginTop="@dimen/pay_sdk_margin_xsmall" android:layout_marginRight="@dimen/pay_sdk_margin_large" android:layout_marginBottom="@dimen/pay_sdk_margin_large" android:layout_marginHorizontal="@dimen/pay_sdk_margin_large" style="@style/PaySDK.Button.Ghost" />
+</FrameLayout>

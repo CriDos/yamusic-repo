@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_no_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="@dimen/error_view_max_width"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_no_result"
+            android:visibility="gone"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="@dimen/edge_and_a_half_margin"
+            android:alpha="0.4"
+            app:tint="?attr/iconPrimary"/>
+        <TextView
+            android:textColor="?android:attr/textColorPrimary"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_view_no_result_title"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_unit_margin"
+            style="@style/Bold_HL_22_24"/>
+        <TextView
+            android:textSize="@dimen/text_size_mid"
+            android:textColor="?android:attr/textColorSecondary"
+            android:gravity="center_horizontal"
+            android:id="@+id/text_view_no_result_subtitle"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/half_unit_margin"
+            style="@style/PhonotekaTitle"/>
+        <Button
+            android:id="@+id/button_retry"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/edge_and_a_half_margin"
+            android:text="@string/retry"
+            style="@style/ButtonStyle.Borderless"/>
+    </LinearLayout>
+</FrameLayout>

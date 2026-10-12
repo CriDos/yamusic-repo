@@ -1,0 +1,2 @@
+com.yandex.div.core.dagger.Div2ViewComponent	com.yandex.div.core.dagger.Div2ViewComponent	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\div\core\dagger\Div2ViewComponent.java
+com.yandex.div.core.dagger.DivKitComponent	com.yandex.div.core.dagger.DivKitComponent	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\div\core\dagger\DivKitComponent.java

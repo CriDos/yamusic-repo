@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#e3e5ed">
+    <item>
+        <selector>
+            <item
+                android:state_enabled="true"
+                android:state_pressed="true">
+                <layer-list>
+                    <item>
+                        <shape android:shape="oval">
+                            <solid android:color="#00000000"/>
+                        </shape>
+                    </item>
+                    <item
+                        android:left="1dp"
+                        android:top="1dp"
+                        android:right="1dp"
+                        android:bottom="1dp">
+                        <shape android:shape="oval">
+                            <solid android:color="@color/passport_white"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item
+                android:state_enabled="true"
+                android:state_hovered="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/passport_white"/>
+                </shape>
+            </item>
+            <item
+                android:state_focused="true"
+                android:state_enabled="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/passport_white"/>
+                </shape>
+            </item>
+            <item android:state_enabled="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/passport_white"/>
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape android:shape="oval">
+                    <solid android:color="#eceef2"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

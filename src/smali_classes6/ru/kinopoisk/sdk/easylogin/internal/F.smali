@@ -1,0 +1,3 @@
+.class public interface abstract Lru/kinopoisk/sdk/easylogin/internal/F;
+.super Ljava/lang/Object;
+.source "SourceFile"

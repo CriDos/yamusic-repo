@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/pay_sdk_primaryBlockColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.yandex.plus.pay.ui.core.mobile.view.toolbar.PlusPayToolbarView
+        android:id="@+id/payment_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pay_sdk_margin_large"
+        android:layout_marginTop="@dimen/pay_sdk_margin_large"
+        android:layout_marginRight="@dimen/pay_sdk_margin_large"
+        android:layout_marginBottom="@dimen/pay_sdk_margin_xsmall"
+        android:layout_marginHorizontal="@dimen/pay_sdk_margin_large"/>
+</FrameLayout>

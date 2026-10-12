@@ -1,0 +1,30 @@
+package defpackage;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final /* synthetic */ class s08 implements g4h {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ u90 b;
+    public final /* synthetic */ String c;
+
+    public /* synthetic */ s08(u90 u90Var, String str, int i) {
+        this.a = i;
+        this.b = u90Var;
+        this.c = str;
+    }
+
+    @Override // defpackage.g4h
+    public final void invoke(Object obj) {
+        int i = this.a;
+        String str = this.c;
+        u90 u90Var = this.b;
+        v90 v90Var = (v90) obj;
+        switch (i) {
+            case 0:
+                v90Var.G(u90Var, str);
+                break;
+            default:
+                v90Var.T(u90Var, str);
+                break;
+        }
+    }
+}

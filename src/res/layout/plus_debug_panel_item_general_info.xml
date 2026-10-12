@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/plus_sdk_general_info_value" android:paddingLeft="16.0dp" android:paddingTop="8.0dp" android:paddingRight="16.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="true" android:paddingHorizontal="16.0dp" android:paddingVertical="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

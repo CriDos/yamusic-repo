@@ -1,0 +1,6 @@
+com.yandex.music.screen.cards.data.ActionButtonCardDtoOld	com.yandex.music.screen.cards.data.ActionButtonCardDtoOld	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\screen\cards\data\ActionButtonCardDtoOld.java
+com.yandex.music.screen.cards.data.CardDtoOld	com.yandex.music.screen.cards.data.CardDtoOld	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\screen\cards\data\CardDtoOld.java
+com.yandex.music.screen.cards.data.CardsDtoOld	com.yandex.music.screen.cards.data.CardsDtoOld	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\screen\cards\data\CardsDtoOld.java
+com.yandex.music.screen.cards.data.CardsDtoOld	defpackage.xa4	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\defpackage\xa4.java
+com.yandex.music.screen.cards.data.CardsHttpApiOld	com.yandex.music.screen.cards.data.CardsHttpApiOld	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\screen\cards\data\CardsHttpApiOld.java
+com.yandex.music.screen.cards.data.VibeButtonCardDto	com.yandex.music.screen.cards.data.VibeButtonCardDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\screen\cards\data\VibeButtonCardDto.java

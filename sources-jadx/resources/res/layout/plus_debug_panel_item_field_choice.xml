@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="4dp">
+    <CheckBox
+        android:layout_gravity="center"
+        android:id="@+id/plus_debug_panel_dialog_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="1.25"
+        android:scaleY="1.25"/>
+    <TextView
+        android:textSize="@dimen/home_sdk_size_font_size_body_m"
+        android:layout_gravity="center"
+        android:id="@+id/plus_debug_panel_dialog_item_text"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="false"
+        android:paddingHorizontal="8dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

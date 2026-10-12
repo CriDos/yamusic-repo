@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_fixed_width_major">50%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">70%</dimen>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="pay_sdk_checkout_content_percent">0.625</dimen>
+    <dimen name="pay_sdk_closing_view_buttons_width_percent">0.4</dimen>
+</resources>

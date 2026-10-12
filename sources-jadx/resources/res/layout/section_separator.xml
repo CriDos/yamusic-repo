@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duplicateParentState="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:accessibilityHeading="true">
+    <TextView
+        android:id="@+id/section_separator"
+        android:textAlignment="viewStart"
+        style="?attr/headerPrimaryStyle"/>
+</FrameLayout>

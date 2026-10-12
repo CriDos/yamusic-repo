@@ -1,0 +1,3 @@
+ru.yandex.video.m3.player.tracking.FullscreenDataBundle	ru.yandex.video.m3.player.tracking.FullscreenDataBundle	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\tracking\FullscreenDataBundle.java
+ru.yandex.video.m3.player.tracking.FullscreenInfo	ru.yandex.video.m3.player.tracking.FullscreenInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\tracking\FullscreenInfo.java
+ru.yandex.video.m3.player.tracking.LoadCanceled	ru.yandex.video.m3.player.tracking.LoadCanceled	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\tracking\LoadCanceled.java

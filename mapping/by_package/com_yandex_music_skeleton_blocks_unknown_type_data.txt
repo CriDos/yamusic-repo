@@ -1,0 +1,2 @@
+com.yandex.music.skeleton.blocks.unknown_type.data.UnknownTypeBlockDto	com.yandex.music.skeleton.blocks.unknown_type.data.UnknownTypeBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\unknown_type\data\UnknownTypeBlockDto.java
+com.yandex.music.skeleton.blocks.unknown_type.data.UnknownTypeDataDto	com.yandex.music.skeleton.blocks.unknown_type.data.UnknownTypeDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\unknown_type\data\UnknownTypeDataDto.java

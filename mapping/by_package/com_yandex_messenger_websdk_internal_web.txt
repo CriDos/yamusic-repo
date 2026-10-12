@@ -1,0 +1,1 @@
+com.yandex.messenger.websdk.internal.web.HttpErrorException	com.yandex.messenger.websdk.internal.web.HttpErrorException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\messenger\websdk\internal\web\HttpErrorException.java

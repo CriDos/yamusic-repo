@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/content_container"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.yandex.plus.acquisition.sdk.button.section.ui.impl.views.button.PurchaseButtonView
+            android:id="@+id/purchase_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/acquisition_sdk_purchase_subscription_button_height"
+            android:layout_marginTop="@dimen/acquisition_sdk_dimension_size_150"/>
+        <TextView
+            android:id="@+id/legals_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/acquisition_sdk_dimension_size_100"
+            style="@style/AcquisitionSdk.Widget.Text.Legals"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</merge>

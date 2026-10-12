@@ -1,0 +1,97 @@
+.class public final Lz9n;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ly9n;
+
+
+# instance fields
+.field public final a:Lvdt;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 3
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    const-class v0, Landroid/content/Context;
+
+    .line 5
+    .line 6
+    invoke-static {v0}, Lp85;->V(Ljava/lang/Class;)Leyu;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    sget-object v1, Lnk8;->b:Lnk8;
+
+    .line 11
+    .line 12
+    const/4 v2, 0x1
+
+    .line 13
+    invoke-virtual {v1, v0, v2}, Lpk8;->b(Leyu;Z)Lvdt;
+
+    .line 14
+    .line 15
+    .line 16
+    const-class v0, Lgan;
+
+    .line 17
+    .line 18
+    invoke-static {v0}, Lp85;->V(Ljava/lang/Class;)Leyu;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    invoke-virtual {v1, v0, v2}, Lpk8;->b(Leyu;Z)Lvdt;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    iput-object v0, p0, Lz9n;->a:Lvdt;
+
+    .line 27
+    .line 28
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lgan;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lz9n;->a:Lvdt;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Lvdt;->getValue()Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    check-cast p0, Lgan;
+
+    .line 8
+    .line 9
+    return-object p0
+.end method

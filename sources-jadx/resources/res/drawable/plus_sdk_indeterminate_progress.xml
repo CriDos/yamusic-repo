@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/plus_sdk_progress_circle">
+    <target
+        android:name="progress_circle"
+        android:animation="@animator/plus_sdk_infinite_rotation"/>
+</animated-vector>

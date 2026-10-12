@@ -1,0 +1,1 @@
+com.yandex.music.universal.entities.data.network.dto.UniversalScreenEntitiesPageDto	com.yandex.music.universal.entities.data.network.dto.UniversalScreenEntitiesPageDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\universal\entities\data\network\dto\UniversalScreenEntitiesPageDto.java

@@ -1,0 +1,16 @@
+.class public final Lsu1;
+.super Ll4o;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final a()Lq4c;
+    .locals 0
+
+    .line 1
+    sget-object p0, Lq4c;->c:Lq4c;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method

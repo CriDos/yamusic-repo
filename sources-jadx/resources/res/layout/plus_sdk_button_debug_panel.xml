@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="end|bottom"
+    android:id="@+id/plus_sdk_layout_btn_debug_panel"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/plus_sdk_mu_1">
+    <ImageButton
+        android:layout_gravity="end|bottom"
+        android:id="@+id/plus_sdk_btn_debug_panel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/plus_sdk_ic_debug_panel"
+        android:scaleType="fitCenter"
+        android:importantForAccessibility="no"
+        android:backgroundTint="@color/plus_sdk_white"/>
+</FrameLayout>

@@ -1,0 +1,2 @@
+com.yandex.music.databases.user.UserDatabase	com.yandex.music.databases.user.UserDatabase	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\databases\user\UserDatabase.java
+com.yandex.music.databases.user.UserDatabase_Impl	com.yandex.music.databases.user.UserDatabase_Impl	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\databases\user\UserDatabase_Impl.java

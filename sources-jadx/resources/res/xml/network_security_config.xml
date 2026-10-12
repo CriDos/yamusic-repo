@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config>
+        <domain includeSubdomains="true">music.yandex.net
+        </domain>
+        <domain includeSubdomains="true">strm.yandex.net
+        </domain>
+        <domain includeSubdomains="true">ynison.music.yandex.tld
+        </domain>
+        <domain includeSubdomains="true">mds.yandex.net
+        </domain>
+        <domain includeSubdomains="true">s3.yandex.net
+        </domain>
+        <domain includeSubdomains="true">strm.yandex.ru
+        </domain>
+        <domain includeSubdomains="false">api.profile.lumen.yandex.ru
+        </domain>
+        <domain includeSubdomains="false">widget.tickets.yandex.ru
+        </domain>
+        <domain includeSubdomains="false">avatars.yandex.net
+        </domain>
+        <domain includeSubdomains="false">favicon.yandex.net
+        </domain>
+        <trust-anchors>
+            <certificates src="system"/>
+            <certificates src="@raw/yandex_internal_root_ca"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

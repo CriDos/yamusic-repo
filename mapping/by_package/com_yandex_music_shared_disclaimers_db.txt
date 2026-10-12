@@ -1,0 +1,2 @@
+com.yandex.music.shared.disclaimers.db.DisclaimerDatabase	com.yandex.music.shared.disclaimers.db.DisclaimerDatabase	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\disclaimers\db\DisclaimerDatabase.java
+com.yandex.music.shared.disclaimers.db.DisclaimerDatabase_Impl	com.yandex.music.shared.disclaimers.db.DisclaimerDatabase_Impl	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\disclaimers\db\DisclaimerDatabase_Impl.java

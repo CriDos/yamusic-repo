@@ -1,0 +1,41 @@
+package defpackage;
+
+import java.util.Map;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class eof implements e6i {
+    public final /* synthetic */ int a;
+    public final /* synthetic */ int b;
+    public final /* synthetic */ Map c;
+
+    public eof(Map map, int i, int i2) {
+        this.a = i;
+        this.b = i2;
+        this.c = map;
+    }
+
+    @Override // defpackage.e6i
+    public final int a() {
+        return this.b;
+    }
+
+    @Override // defpackage.e6i
+    public final Map b() {
+        return this.c;
+    }
+
+    @Override // defpackage.e6i
+    public final int d() {
+        return this.a;
+    }
+
+    @Override // defpackage.e6i
+    public final Function1 e() {
+        return null;
+    }
+
+    @Override // defpackage.e6i
+    public final void c() {
+    }
+}

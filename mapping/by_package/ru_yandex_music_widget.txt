@@ -1,0 +1,1 @@
+ru.yandex.music.widget.VivoWidgetUpdateWorker	ru.yandex.music.widget.VivoWidgetUpdateWorker	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\widget\VivoWidgetUpdateWorker.java

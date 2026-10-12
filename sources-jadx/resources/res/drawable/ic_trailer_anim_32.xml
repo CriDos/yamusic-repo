@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_ic_trailer_anim_32__0_res_0x7f08003a">
+    <target
+        android:name="path_1"
+        android:animation="@drawable/_ic_trailer_anim_32__1_res_0x7f08003b"/>
+</animated-vector>

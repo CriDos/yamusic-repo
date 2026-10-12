@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/sync_dialog_root" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ru.yandex.music.ui.view.MaxSizeLinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/edge_margin" android:paddingTop="@dimen/edge_margin" android:paddingRight="@dimen/edge_margin" android:paddingBottom="@dimen/edge_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" app:maxWidth="320.0dp">
+            <androidx.compose.ui.platform.ComposeView android:layout_gravity="center_horizontal" android:id="@id/sync_dialog_avatar_icon_view" android:padding="1.5dp" android:layout_width="118.0dp" android:layout_height="118.0dp" />
+            <TextView android:textColor="?textPrimary" android:gravity="center" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/login_sync_title" style="@style/Bold_HL_22_24" />
+            <TextView android:textColor="?textPrimary" android:gravity="center" android:id="@id/subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" android:text="@string/login_sync_subtitle" style="@style/Medium_16_20" />
+        </ru.yandex.music.ui.view.MaxSizeLinearLayout>
+        <SeekBar android:layout_gravity="center|bottom" android:id="@id/progress" android:layout_width="240.0dp" android:layout_marginBottom="@dimen/double_edge_margin" android:maxHeight="6.0dp" android:minHeight="6.0dp" android:thumb="@android:color/transparent" style="@style/SeekBar" />
+    </FrameLayout>
+</ScrollView>

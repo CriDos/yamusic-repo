@@ -1,0 +1,1 @@
+ru.kinopoisk.tvauth.internal.presentation.installtvapp.InstallTvAppScreen	ru.kinopoisk.tvauth.internal.presentation.installtvapp.InstallTvAppScreen	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\tvauth\internal\presentation\installtvapp\InstallTvAppScreen.java

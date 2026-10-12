@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinator_layout"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/support_chat_spy_log_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/content_frame"
+        android:tag="@string/bottom_player_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/player_informer"/>
+    <include layout="@layout/player_bottom_sheet"/>
+    <include layout="@layout/bottom_tabs_layout"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

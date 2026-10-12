@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/AppTheme.Light.Base">
+        <item name="android:colorBackground">@color/yandex_auto_background_light</item>
+        <item name="android:textColorPrimary">@color/yandex_auto_grey_text</item>
+        <item name="colorAccent">@color/icon_logo_day</item>
+    </style>
+    <style name="AppTheme.Dark" parent="@style/AppTheme.Dark.Base">
+        <item name="android:colorBackground">@color/yandex_auto_background_dark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorAccent">@color/icon_logo_night</item>
+    </style>
+</resources>

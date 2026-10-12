@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/AcquisitionSdk.Widget.Text.Check.S.Title" />
+    <TextView android:id="@id/subtitle_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/acquisition_sdk_dimension_size_25" android:includeFontPadding="false" style="@style/AcquisitionSdk.Widget.Text.Check.S.Subtitle" />
+</merge>

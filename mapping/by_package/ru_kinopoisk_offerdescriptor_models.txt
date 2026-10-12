@@ -1,0 +1,2 @@
+ru.kinopoisk.offerdescriptor.models.OfferDescriptorFilter	ru.kinopoisk.offerdescriptor.models.OfferDescriptorFilter	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\offerdescriptor\models\OfferDescriptorFilter.java
+ru.kinopoisk.offerdescriptor.models.OfferType	ru.kinopoisk.offerdescriptor.models.OfferType	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\offerdescriptor\models\OfferType.java

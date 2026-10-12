@@ -1,0 +1,2 @@
+ru.yandex.video.m3.player.report.DebugReportImpl	ru.yandex.video.m3.player.report.DebugReportImpl	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\report\DebugReportImpl.java
+ru.yandex.video.m3.player.report.DebugReportReason	ru.yandex.video.m3.player.report.DebugReportReason	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\player\report\DebugReportReason.java

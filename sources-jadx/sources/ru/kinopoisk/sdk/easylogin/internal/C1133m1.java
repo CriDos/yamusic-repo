@@ -1,0 +1,44 @@
+package ru.kinopoisk.sdk.easylogin.internal;
+
+import defpackage.b56;
+import defpackage.i9g;
+import defpackage.o15;
+import defpackage.skd;
+import defpackage.v46;
+import defpackage.v76;
+import kotlin.Unit;
+import org.jetbrains.annotations.NotNull;
+import ru.kinopoisk.sdk.easylogin.R;
+
+/* JADX INFO: renamed from: ru.kinopoisk.sdk.easylogin.internal.m1, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes6.dex */
+public final class C1133m1 {
+
+    @NotNull
+    public static final v46 a = new b56(a.a, false, -1700125108);
+
+    /* JADX INFO: renamed from: ru.kinopoisk.sdk.easylogin.internal.m1$a */
+    public static final class a extends i9g implements skd {
+        public static final a a = new a();
+
+        public a() {
+            super(3);
+        }
+
+        public static void a(InterfaceC1057g9 interfaceC1057g9, v76 v76Var, int i) {
+            interfaceC1057g9.getClass();
+            interfaceC1057g9.a(o15.c0(R.string.button_waiting_for_install_text, v76Var), v76Var, (i << 3) & 112);
+        }
+
+        @Override // defpackage.skd
+        public final /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2, Object obj3) {
+            a((InterfaceC1057g9) obj, (v76) obj2, ((Number) obj3).intValue());
+            return Unit.a;
+        }
+    }
+
+    @NotNull
+    public static v46 a() {
+        return a;
+    }
+}

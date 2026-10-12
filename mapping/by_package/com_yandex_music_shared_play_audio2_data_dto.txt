@@ -1,0 +1,1 @@
+com.yandex.music.shared.play.audio2.data.dto.BulkPlaybacksRequestDto	com.yandex.music.shared.play.audio2.data.dto.BulkPlaybacksRequestDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\play\audio2\data\dto\BulkPlaybacksRequestDto.java

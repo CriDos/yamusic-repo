@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/onsale_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="?attr/pay_sdk_primaryTextColor"
+        android:id="@+id/onsale_headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="false"
+        style="@style/PaySDK.TextAppearance.Body1"/>
+    <com.yandex.plus.pay.ui.core.internal.tarifficator.ui.checkout.product.ProductView
+        android:id="@+id/onsale_product_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pay_sdk_margin_large"/>
+</LinearLayout>

@@ -1,0 +1,1 @@
+io.appmetrica.analytics.coreutils.internal.network.UserAgent	io.appmetrica.analytics.coreutils.internal.network.UserAgent	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreutils\internal\network\UserAgent.java

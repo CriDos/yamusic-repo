@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/disclaimer_dialog_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/disclaimer_dialog_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="42.0dp" android:paddingBottom="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24.0dp" android:paddingEnd="24.0dp">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/disclaimer_icon" android:layout_width="88.0dp" android:layout_height="88.0dp" android:layout_marginBottom="16.0dp" android:src="@drawable/ic_unavailable_24" android:importantForAccessibility="no" app:tint="?iconSecondary" />
+            <TextView android:textColor="?textPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/disclaimer_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" style="@style/Bold_HL_22_24" />
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/disclaimer_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" style="@style/Medium_16_20" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/disclaimer_details" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" android:layout_marginBottom="8.0dp" style="@style/ButtonStyle.Borderless" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/disclaimer_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" style="@style/ButtonStyle" />
+            <Button android:textColor="?textPrimary" android:layout_gravity="center_horizontal" android:id="@id/disclaimer_continue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" style="@style/ButtonStyle.Borderless" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout android:id="@id/bottom_dialog_loading_placeholder" android:background="?bgPrimary" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/juicy_bottom_sheet_peekheight" android:elevation="4.0dp" android:outlineProvider="none">
+        <ru.yandex.music.ui.view.YaRotatingProgress android:layout_gravity="center" android:id="@id/bottom_dialog_loading_progress" android:layout_width="@dimen/yprogress_middle" android:layout_height="@dimen/yprogress_middle" />
+    </FrameLayout>
+</FrameLayout>

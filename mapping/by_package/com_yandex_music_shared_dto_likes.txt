@@ -1,0 +1,4 @@
+com.yandex.music.shared.dto.likes.LikedAlbumDto	com.yandex.music.shared.dto.likes.LikedAlbumDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\likes\LikedAlbumDto.java
+com.yandex.music.shared.dto.likes.LikedArtistDto	com.yandex.music.shared.dto.likes.LikedArtistDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\likes\LikedArtistDto.java
+com.yandex.music.shared.dto.likes.LikedPlaylistDto	com.yandex.music.shared.dto.likes.LikedPlaylistDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\likes\LikedPlaylistDto.java
+com.yandex.music.shared.dto.likes.UserLibraryModifyDto	com.yandex.music.shared.dto.likes.UserLibraryModifyDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\likes\UserLibraryModifyDto.java

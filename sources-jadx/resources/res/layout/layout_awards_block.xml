@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ru.kinopoisk.presentation.widget.HeaderCellView
+        android:id="@+id/header_cell_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:accessibilityHeading="true"
+        app:actionTextAppearance="@style/Widget.UIKit.TextView.TextM.Semibold"
+        app:titleTextAppearance="@style/Widget.UIKit.TextView.TextL.Semibold"/>
+    <ru.kinopoisk.presentation.widget.AwardView
+        android:id="@+id/award_view"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_marginStart="@dimen/space_medium_2"
+        android:layout_marginEnd="@dimen/space_medium_2"
+        app:layout_constraintTop_toBottomOf="@+id/header_cell_view"/>
+</merge>

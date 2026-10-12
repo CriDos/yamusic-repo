@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/Home.NativeWidget.Daily.Preview.Description"
+    android:minWidth="@dimen/plus_sdk_daily_widget_min_size"
+    android:minHeight="@dimen/plus_sdk_daily_widget_min_size"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/plus_sdk_daily_widget_initial_layout"
+    android:previewImage="0x7f080718"
+    android:resizeMode="none"/>

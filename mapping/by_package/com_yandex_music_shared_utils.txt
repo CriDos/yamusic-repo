@@ -1,0 +1,2 @@
+com.yandex.music.shared.utils.ReduplicationException	com.yandex.music.shared.utils.ReduplicationException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\utils\ReduplicationException.java
+com.yandex.music.shared.utils.TimeoutException	com.yandex.music.shared.utils.TimeoutException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\utils\TimeoutException.java

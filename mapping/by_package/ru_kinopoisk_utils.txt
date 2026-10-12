@@ -1,0 +1,1 @@
+ru.kinopoisk.utils.PowerStatus	ru.kinopoisk.utils.PowerStatus	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\kinopoisk\utils\PowerStatus.java

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Dark.Base" parent="@style/AppDesign.Dark">
+        <item name="android:colorBackground">@color/bg_primary_night</item>
+        <item name="android:textColorPrimary">@color/white_yandex</item>
+        <item name="android:textColorSecondary">@color/white_50_alpha</item>
+        <item name="android:windowBackground">@color/bg_primary_night</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorHint">?android:textColorSecondary</item>
+        <item name="android:textColorLink">@color/text_accent_night</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:listSelector">?android:selectableItemBackground</item>
+        <item name="android:listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:activatedBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme.Dark</item>
+        <item name="android:textColorLinkInverse">@color/text_accent_day</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:popupTheme">@style/AppTheme.Dark</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme.Dark</item>
+        <item name="appDialogTheme">@style/AppTheme.ContextDialog.Dark</item>
+        <item name="badgeYandexPlus">@drawable/ic_badge_yandex_plus_rainbow</item>
+        <item name="bgPlaceholderOval">@drawable/bg_placeholder_oval</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.BottomSheetDialog.Dark</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="colorAccent">@color/text_accent_night</item>
+        <item name="colorButtonNormal">?buttonPrimary</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">?bgPlaceholder</item>
+        <item name="colorControlNormal">@color/icon_primary_night</item>
+        <item name="colorPrimary">@color/black_night</item>
+        <item name="colorPrimaryDark">@color/bg_primary_night</item>
+        <item name="coverDefaultAlbum">@drawable/placeholder_album</item>
+        <item name="coverDefaultArtist">@drawable/placeholder_artist</item>
+        <item name="coverDefaultConcert">@drawable/placeholder_concert</item>
+        <item name="coverDefaultPlaylist">@drawable/placeholder_playlist</item>
+        <item name="coverDefaultPodcast">@drawable/placeholder_nonmusic</item>
+        <item name="coverDefaultRadio">@drawable/placeholder_radio</item>
+        <item name="coverDefaultTrack">@drawable/ic_placeholder_track_dark</item>
+        <item name="flatButtonColor">@color/white_5_alpha</item>
+        <item name="fullScreenDialogTheme">@style/AppTheme.FullScreenDialog.Dark</item>
+        <item name="greyEditTextStyle">@style/GreyEditTextControls.Dark</item>
+        <item name="isLightTheme">false</item>
+        <item name="listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="loadingPlaceholderShimmerAlpha">0.85</item>
+        <item name="navigationContentDescription">@string/go_back</item>
+        <item name="navigationIcon">@drawable/ic_arrow_android_back_24</item>
+        <item name="popupTheme">@style/AppTheme.Dark</item>
+        <item name="radioSmartBlockMessageTextColor">@color/white_90_alpha</item>
+        <item name="radioSmartBlockPlaceholderButtonColor">@color/white_10_alpha</item>
+        <item name="radioSmartBlockPlaceholderColor">@color/white_5_alpha</item>
+        <item name="radioSmartBlockPlaceholderProgressColor">@color/white_50_alpha</item>
+        <item name="searchBarColor">@color/bg_placeholder_night</item>
+        <item name="seekBarProgressDrawable">@drawable/progress_bar_night</item>
+        <item name="textButtonColor">@color/link_selector</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="warningBottomSheetStyle">@style/JuicyWarningBottomSheet.Dark</item>
+    </style>
+    <style name="AppTheme.Dark.EdgeToEdge" parent="@style/AppTheme.Dark">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.BottomSheetDialog.Dark.EdgeToEdge</item>
+        <item name="fullScreenDialogTheme">@style/AppTheme.FullScreenDialog.Dark.EdgeToEdge</item>
+    </style>
+    <style name="AppTheme.Dark.EdgeToEdge.TransparentStatusBar.SystemNavigationBar" parent="@style/AppTheme.Dark.EdgeToEdge.TransparentStatusBar">
+        <item name="android:enforceNavigationBarContrast">true</item>
+    </style>
+    <style name="AppTheme.EdgeToEdge.TransparentStatusBar.SystemNavigationBar" parent="@style/AppTheme.EdgeToEdge.TransparentStatusBar">
+        <item name="android:enforceNavigationBarContrast">true</item>
+    </style>
+    <style name="AppTheme.Light.Base" parent="@style/AppDesign.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black_50_alpha</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorHint">?android:textColorSecondary</item>
+        <item name="android:textColorLink">@color/text_accent_day</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:listSelector">?android:selectableItemBackground</item>
+        <item name="android:listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:activatedBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogTheme.Light</item>
+        <item name="android:textColorLinkInverse">@color/text_accent_night</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:popupTheme">@style/PopupTheme</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme.Light</item>
+        <item name="appDialogTheme">@style/AppTheme.ContextDialog</item>
+        <item name="badgeYandexPlus">@drawable/ic_badge_yandex_plus_rainbow</item>
+        <item name="bgPlaceholderOval">@drawable/bg_placeholder_oval</item>
+        <item name="bottomSheetDialogTheme">@style/AppTheme.BottomSheetDialog</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="colorButtonNormal">?buttonPrimary</item>
+        <item name="colorControlHighlight">?bgPlaceholder</item>
+        <item name="colorControlNormal">@color/icon_primary_day</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="coverDefaultAlbum">@drawable/placeholder_album</item>
+        <item name="coverDefaultArtist">@drawable/placeholder_artist</item>
+        <item name="coverDefaultConcert">@drawable/placeholder_concert</item>
+        <item name="coverDefaultPlaylist">@drawable/placeholder_playlist</item>
+        <item name="coverDefaultPodcast">@drawable/placeholder_nonmusic</item>
+        <item name="coverDefaultRadio">@drawable/placeholder_radio</item>
+        <item name="coverDefaultTrack">@drawable/ic_placeholder_track_light</item>
+        <item name="flatButtonColor">@color/white_yandex</item>
+        <item name="fullScreenDialogTheme">@style/AppTheme.FullScreenDialog</item>
+        <item name="greyEditTextStyle">@style/GreyEditTextControls</item>
+        <item name="isLightTheme">true</item>
+        <item name="listChoiceBackgroundIndicator">?android:selectableItemBackground</item>
+        <item name="loadingPlaceholderShimmerAlpha">0.2</item>
+        <item name="navigationContentDescription">@string/go_back</item>
+        <item name="navigationIcon">@drawable/ic_arrow_android_back_24</item>
+        <item name="popupTheme">@style/PopupTheme</item>
+        <item name="radioSmartBlockMessageTextColor">@color/black_90_alpha</item>
+        <item name="radioSmartBlockPlaceholderButtonColor">@color/black_10_alpha</item>
+        <item name="radioSmartBlockPlaceholderColor">@color/black_5_alpha</item>
+        <item name="radioSmartBlockPlaceholderProgressColor">@color/black_20_alpha</item>
+        <item name="searchBarColor">@android:color/transparent</item>
+        <item name="seekBarProgressDrawable">@drawable/progress_bar_day</item>
+        <item name="textButtonColor">@color/link_selector</item>
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+        <item name="toolbarStyle">@style/ToolbarStyle</item>
+        <item name="warningBottomSheetStyle">@style/JuicyWarningBottomSheet</item>
+    </style>
+    <style name="AppTheme.Slides.Dark.EdgeToEdge" parent="@style/AppTheme.Dark">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="AppTheme.Transparent.Dark.EdgeToEdge" parent="@style/AppTheme.Transparent.Dark">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="AppTheme.Transparent.EdgeToEdge" parent="@style/AppTheme.Transparent">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="Base.Theme.SplashScreen" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+        <item name="isLightTheme">?android:isLightTheme</item>
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.Theme.SplashScreen" />
+    <style name="Glance.AppWidget.TextAppearance.DeviceDefaultFontFamily" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">@null</item>
+        <item name="android:typeface">@null</item>
+        <item name="android:textColor">@null</item>
+        <item name="android:textColorLink">@null</item>
+        <item name="android:shadowColor">@null</item>
+        <item name="android:shadowDx">@null</item>
+        <item name="android:shadowDy">@null</item>
+        <item name="android:shadowRadius">@null</item>
+        <item name="android:elegantTextHeight">@null</item>
+        <item name="android:letterSpacing">@null</item>
+        <item name="android:fontFeatureSettings">@null</item>
+        <item name="android:fontVariationSettings">@null</item>
+    </style>
+    <style name="Glance.AppWidget.TextAppearance.Medium" parent="@style/Glance.AppWidget.TextAppearance.DeviceDefaultFontFamily">
+        <item name="android:textFontWeight">500</item>
+    </style>
+    <style name="Glance.AppWidget.Theme" parent="@android:style/Theme.DeviceDefault.DayNight" />
+    <style name="PassportNext.Compose" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="PassportNext.Theme.BottomSheet.Dark" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="PassportNext.Theme.BottomSheet.Light" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="PassportNext.Theme.Custom.Transparent.Paranja" parent="@style/PassportNext.Theme.Custom.Transparent">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="PlusSDK.Theme.Base.Home" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:progressBarStyle">@style/PlusSDK.Widget.ProgressBar</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="plus_sdk_shimmerWidth">@dimen/plus_sdk_mu_20</item>
+        <item name="progressBarStyle">@style/PlusSDK.Widget.ProgressBar</item>
+    </style>
+    <style name="PlusSDK.Theme.Bdui.Base" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:progressBarStyle">@style/PlusSDK.Bdui.Widget.ProgressBar</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="progressBarStyle">@style/PlusSDK.Bdui.Widget.ProgressBar</item>
+    </style>
+    <style name="UiKitTheme.Mobile.Platform" parent="@style/UiKitTheme.Mobile.V29" />
+    <style name="UiKitTheme.Mobile.V29" parent="@style/UiKitTheme.Mobile.V27">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:isLightTheme">?isLightTheme</item>
+    </style>
+</resources>

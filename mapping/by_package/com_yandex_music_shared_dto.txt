@@ -1,0 +1,9 @@
+com.yandex.music.shared.dto.ActionButtonDto	com.yandex.music.shared.dto.ActionButtonDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\ActionButtonDto.java
+com.yandex.music.shared.dto.CoverPathDto	com.yandex.music.shared.dto.CoverPathDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\CoverPathDto.java
+com.yandex.music.shared.dto.CredentialInfoDto	com.yandex.music.shared.dto.CredentialInfoDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\CredentialInfoDto.java
+com.yandex.music.shared.dto.ExtraActionDto	com.yandex.music.shared.dto.ExtraActionDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\ExtraActionDto.java
+com.yandex.music.shared.dto.PagerDto	com.yandex.music.shared.dto.PagerDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\PagerDto.java
+com.yandex.music.shared.dto.PromotionDto	com.yandex.music.shared.dto.PromotionDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\PromotionDto.java
+com.yandex.music.shared.dto.TagDto	com.yandex.music.shared.dto.TagDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\TagDto.java
+com.yandex.music.shared.dto.UserDto	com.yandex.music.shared.dto.UserDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\UserDto.java
+com.yandex.music.shared.dto.VibeButtonDto	com.yandex.music.shared.dto.VibeButtonDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\dto\VibeButtonDto.java

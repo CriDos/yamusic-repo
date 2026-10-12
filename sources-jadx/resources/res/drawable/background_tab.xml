@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="?attr/colorSecondaryBase"/>
+            <item
+                android:drawable="?android:attr/windowBackground"
+                android:top="2dp"/>
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:drawable="?attr/colorSecondaryBase"/>
+            <item
+                android:drawable="?android:attr/windowBackground"
+                android:top="2dp"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="?attr/separatorColor"/>
+            <item
+                android:drawable="?android:attr/windowBackground"
+                android:top="1dp"/>
+            <item
+                android:drawable="?attr/selectableItemBackground"
+                android:top="1dp"/>
+        </layer-list>
+    </item>
+</selector>

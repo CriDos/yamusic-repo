@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/acquisition_sdk_semantic_bg_primary_block"/>
+    <padding
+        android:left="@dimen/acquisition_sdk_product_icon_padding"
+        android:top="@dimen/acquisition_sdk_product_icon_padding"
+        android:right="@dimen/acquisition_sdk_product_icon_padding"
+        android:bottom="@dimen/acquisition_sdk_product_icon_padding"/>
+</shape>

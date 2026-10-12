@@ -1,0 +1,1 @@
+ru.yandex.music.data.audio.Album$AlbumType	ru.yandex.music.data.audio.Album$AlbumType	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\data\audio\Album$AlbumType.java

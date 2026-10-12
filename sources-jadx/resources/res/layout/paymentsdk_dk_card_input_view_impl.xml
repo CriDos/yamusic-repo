@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:importantForAccessibility="no">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/paymentsdk_prebuilt_card_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/paymentsdk_prebuilt_card_binding_layout"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:importantForAccessibility="no"
+            android:layoutDirection="ltr">
+            <com.yandex.payment.divkit.bind.view.DKCardNumberInput
+                android:id="@+id/paymentsdk_prebuilt_card_number_input"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <Space
+                android:id="@+id/paymentsdk_prebuilt_card_number_to_expiration_date_space"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <com.yandex.payment.divkit.bind.view.DKExpirationDateInput
+                android:id="@+id/paymentsdk_prebuilt_expiration_date_input"
+                android:visibility="gone"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+            <Space
+                android:id="@+id/paymentsdk_prebuilt_expiration_date_to_cvn_space"
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <com.yandex.payment.divkit.bind.view.DKCvnInput
+                android:id="@+id/paymentsdk_prebuilt_cvn_input"
+                android:visibility="gone"
+                android:layout_width="77dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

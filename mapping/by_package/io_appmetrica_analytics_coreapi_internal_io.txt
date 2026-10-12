@@ -1,0 +1,1 @@
+io.appmetrica.analytics.coreapi.internal.io.SslSocketFactoryProvider	io.appmetrica.analytics.coreapi.internal.io.SslSocketFactoryProvider	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\io\SslSocketFactoryProvider.java

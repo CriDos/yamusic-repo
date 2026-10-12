@@ -1,0 +1,3 @@
+io.appmetrica.analytics.coreapi.internal.model.AppVersionInfo	io.appmetrica.analytics.coreapi.internal.model.AppVersionInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\model\AppVersionInfo.java
+io.appmetrica.analytics.coreapi.internal.model.ScreenInfo	io.appmetrica.analytics.coreapi.internal.model.ScreenInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\model\ScreenInfo.java
+io.appmetrica.analytics.coreapi.internal.model.SdkInfo	io.appmetrica.analytics.coreapi.internal.model.SdkInfo	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\coreapi\internal\model\SdkInfo.java

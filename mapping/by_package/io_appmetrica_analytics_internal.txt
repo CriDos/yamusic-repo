@@ -1,0 +1,3 @@
+io.appmetrica.analytics.internal.AppMetricaMainProcessService	io.appmetrica.analytics.internal.AppMetricaMainProcessService	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\internal\AppMetricaMainProcessService.java
+io.appmetrica.analytics.internal.AppMetricaService	io.appmetrica.analytics.internal.AppMetricaService	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\internal\AppMetricaService.java
+io.appmetrica.analytics.internal.CounterConfigurationReporterType	io.appmetrica.analytics.internal.CounterConfigurationReporterType	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\internal\CounterConfigurationReporterType.java

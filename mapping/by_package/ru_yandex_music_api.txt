@@ -1,0 +1,2 @@
+ru.yandex.music.api.AlbumApi	ru.yandex.music.api.AlbumApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\api\AlbumApi.java
+ru.yandex.music.api.PlaylistApi	ru.yandex.music.api.PlaylistApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\music\api\PlaylistApi.java

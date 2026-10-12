@@ -1,0 +1,18 @@
+# gradle caches
+.gradle/
+
+# build output (repo root only; src\build is apktool's own cache, also generated)
+/build/
+/src/build/
+
+# signing material
+debug.keystore
+*.idsig
+*.jks
+
+# jadx class files with Windows-reserved DOS names (aux/con/nul/prn) - git cannot
+# index them on Windows; the smali tree carries the same classes
+sources-jadx/sources/defpackage/aux.java
+sources-jadx/sources/defpackage/con.java
+sources-jadx/sources/defpackage/nul.java
+sources-jadx/sources/defpackage/prn.java

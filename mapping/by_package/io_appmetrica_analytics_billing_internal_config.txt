@@ -1,0 +1,2 @@
+io.appmetrica.analytics.billing.internal.config.BillingConfig	io.appmetrica.analytics.billing.internal.config.BillingConfig	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\billing\internal\config\BillingConfig.java
+io.appmetrica.analytics.billing.internal.config.RemoteBillingConfig	io.appmetrica.analytics.billing.internal.config.RemoteBillingConfig	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\billing\internal\config\RemoteBillingConfig.java

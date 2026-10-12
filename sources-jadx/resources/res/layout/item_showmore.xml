@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/space_medium_2"
+    android:paddingRight="@dimen/space_medium_2"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:minWidth="@dimen/movie_show_more_min_width"
+    android:paddingHorizontal="@dimen/space_medium_2">
+    <ImageView
+        android:id="@+id/action_button"
+        android:background="@drawable/carousel_show_more_button_background"
+        android:layout_width="@dimen/carousel_show_more_button_size"
+        android:layout_height="@dimen/carousel_show_more_button_size"
+        android:src="@drawable/ui_kit_ic_arrow_forward_24"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/carousel_show_more_button_tint_default"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_medium_1"
+        android:text="@string/movie_details_show_more"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_button"
+        style="@style/Widget.UIKit.TextView.TextS.Semibold.Loose"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

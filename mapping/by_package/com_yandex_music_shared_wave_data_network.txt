@@ -1,0 +1,1 @@
+com.yandex.music.shared.wave.data.network.TrackRotorApi	com.yandex.music.shared.wave.data.network.TrackRotorApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\wave\data\network\TrackRotorApi.java

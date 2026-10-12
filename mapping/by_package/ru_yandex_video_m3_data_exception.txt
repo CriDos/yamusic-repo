@@ -1,0 +1,2 @@
+ru.yandex.video.m3.data.exception.ManifestLoadingException$ForbiddenByModeration	ru.yandex.video.m3.data.exception.ManifestLoadingException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\exception\ManifestLoadingException.java
+ru.yandex.video.m3.data.exception.ServiceDisabledException	ru.yandex.video.m3.data.exception.ServiceDisabledException	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\exception\ServiceDisabledException.java

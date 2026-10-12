@@ -1,0 +1,1 @@
+io.appmetrica.analytics.billingv8.internal.BillingLibraryMonitor	io.appmetrica.analytics.billingv8.internal.BillingLibraryMonitor	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\billingv8\internal\BillingLibraryMonitor.java

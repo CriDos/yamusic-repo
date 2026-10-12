@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially">
+    <objectAnimator
+        android:duration="1000"
+        android:valueFrom="M10.5928,6.373C10.5928,7.2716 9.8643,8 8.9657,8V8C8.0671,8 7.3387,7.2715 7.3387,6.373L7.3387,2.627C7.3387,1.7284 8.0671,1 8.9657,1V1C9.8643,1 10.5928,1.7285 10.5928,2.627L10.5928,6.373Z"
+        android:valueTo="M10.5928,6.373C10.5928,7.2716 9.8643,8 8.9657,8V8C8.0671,8 7.3387,7.2715 7.3387,6.373L7.3387,1.6271C7.3387,0.7285 8.0671,-0 8.9657,-0V-0C9.8643,-0 10.5928,0.7285 10.5928,1.6271L10.5928,6.373Z"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+    <objectAnimator
+        android:duration="1000"
+        android:valueFrom="M10.5928,6.373C10.5928,7.2716 9.8643,8 8.9657,8V8C8.0671,8 7.3387,7.2715 7.3387,6.373L7.3387,1.6271C7.3387,0.7285 8.0671,-0 8.9657,-0V-0C9.8643,-0 10.5928,0.7285 10.5928,1.6271L10.5928,6.373Z"
+        android:valueTo="M10.5928,6.373C10.5928,7.2716 9.8643,8 8.9657,8V8C8.0671,8 7.3387,7.2715 7.3387,6.373L7.3387,2.627C7.3387,1.7284 8.0671,1 8.9657,1V1C9.8643,1 10.5928,1.7285 10.5928,2.627L10.5928,6.373Z"
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+</set>

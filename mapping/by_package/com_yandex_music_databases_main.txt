@@ -1,0 +1,2 @@
+com.yandex.music.databases.main.MainDatabase	com.yandex.music.databases.main.MainDatabase	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\databases\main\MainDatabase.java
+com.yandex.music.databases.main.MainDatabase_Impl	com.yandex.music.databases.main.MainDatabase_Impl	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\databases\main\MainDatabase_Impl.java

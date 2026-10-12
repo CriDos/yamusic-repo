@@ -1,0 +1,137 @@
+syntax = "proto3";
+
+package relay;
+
+option java_package = "com.yandex.music.shared.relay.common.proto";
+option java_multiple_files = true;
+
+// Queue state
+message RelayQueueStateProto {
+
+  // Forward-compatibility - if SDK does not find any queue state it can recognize, it should fallback to this field
+  FallbackPlayableProto fallback_playable = 1;
+
+  // Wave queue state
+  optional WaveQueueStateProto wave_queue_state = 2;
+}
+
+message FallbackPlayableProto {
+  // Title of currently playing track
+  optional string title = 1;
+
+  // Optional cover url
+  optional string cover_url = 2;
+}
+
+message WaveQueueStateProto {
+
+  optional RepeatModeProto repeat_mode = 1;
+
+  // Current playable index in the queue
+  optional int32 current_playable_index = 3;
+
+  // Index of the last played track in wave queue
+  optional int32 live_playable_index = 4;
+
+  // List of playables in the queue
+  repeated RelayPlayableProto fixed_playable_list = 5;
+
+  // List of recommended playables
+  repeated RelayPlayableProto recommended_playable_list = 6;
+
+  optional ShuffleProto shuffle = 7;
+
+  map<int32, SourceProto> sources = 2;
+
+  message SourceProto {
+    oneof source {
+      Wave wave = 1;
+      Album album = 2;
+      Artist artist = 3;
+      Playlist playlist = 4;
+      Various various = 5;
+    }
+    message Wave {
+      repeated string seeds = 1;
+      optional string description = 2;
+    }
+    message Album {
+      optional string id = 1;
+      optional string description = 2;
+    }
+    message Artist {
+      optional string id = 1;
+      optional string description = 2;
+    }
+    message Playlist {
+      optional string id = 1;
+      optional string description = 2;
+    }
+    message Various {
+      repeated string ids = 1;
+    }
+  }
+}
+
+// Describes state of shuffle
+message ShuffleProto {
+  repeated uint32 shuffle_indices = 1;
+}
+
+// Relay playable representation
+message RelayPlayableProto {
+  // Track ID
+  optional string track_id = 1;
+
+  // Track title
+  optional string title = 2;
+
+  // Track duration in milliseconds
+  optional int64 duration = 3;
+
+  // Track's own cover url
+  optional string cover_url = 4;
+
+  // Unique id in current queue
+  optional string playable_id = 5;
+
+  // Track type
+  optional string track_type = 6;
+
+  // Album ID
+  optional string album_id = 7;
+
+  // Album title
+  optional string album_title = 8;
+
+  // Album type
+  optional string album_type = 9;
+
+  // List of artists
+  repeated ArtistProto artists = 10;
+
+  // Key in WaveQueueState.sources map
+  optional int32 source_key = 11;
+
+  message ArtistProto {
+    // Artist ID
+    optional string id = 1;
+
+    // Artist name
+    optional string name = 2;
+  }
+}
+
+enum RepeatModeProto {
+  // Unspecified repeat mode
+  UNSPECIFIED = 0;
+
+  // No repeat
+  NONE = 1;
+
+  // Repeat one track
+  ONE = 2;
+
+  // Repeat all tracks
+  ALL = 3;
+}

@@ -1,0 +1,2 @@
+ru.yandex.video.m3.data.dto.ExternalStalled	ru.yandex.video.m3.data.dto.ExternalStalled	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\dto\ExternalStalled.java
+ru.yandex.video.m3.data.dto.VideoData	ru.yandex.video.m3.data.dto.VideoData	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\ru\yandex\video\m3\data\dto\VideoData.java

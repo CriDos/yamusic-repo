@@ -1,0 +1,1 @@
+io.appmetrica.analytics.adrevenue.applovin.v12.internal.AppLovinClientModuleEntryPoint	io.appmetrica.analytics.adrevenue.applovin.v12.internal.AppLovinClientModuleEntryPoint	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\io\appmetrica\analytics\adrevenue\applovin\v12\internal\AppLovinClientModuleEntryPoint.java

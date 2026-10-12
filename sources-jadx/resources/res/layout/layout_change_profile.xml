@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.kinopoisk.presentation.widget.ProgressView
+        android:id="@+id/change_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:size="normal"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_small_3"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/change_profile"
+        app:layout_constraintTop_toTopOf="@+id/change_profile"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Widget.UIKit.TextView.Title4"/>
+    <TextView
+        android:id="@+id/action_title"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_small_3"
+        app:layout_constraintBottom_toBottomOf="@+id/change_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/change_profile"
+        app:layout_constraintTop_toTopOf="@+id/change_profile"
+        style="@style/Widget.UIKit.TextView.Title4"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_small_3"
+        app:layout_constraintBottom_toBottomOf="@+id/change_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/change_profile"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        style="@style/Widget.UIKit.TextView.Caption"/>
+</merge>

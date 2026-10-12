@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.yandex.plus.acquisition.sdk.button.section.ui.impl.views.product.texts.ProductTextsView android:id="@id/product_texts_view" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/acquisition_sdk_dimension_size_125" app:layout_constraintEnd_toStartOf="@id/badges_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginEnd="@dimen/acquisition_sdk_dimension_size_0" />
+    <com.yandex.plus.acquisition.sdk.button.section.ui.impl.views.badges.BadgesView android:orientation="vertical" android:id="@id/badges_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/image_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="0x7f0804c7"
+        android:scaleType="centerCrop"/>
+    <FrameLayout
+        android:id="@+id/avatar_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/edge_margin">
+        <androidx.compose.ui.platform.ComposeView
+            android:id="@+id/avatar_icon"
+            android:padding="5dp"
+            android:layout_width="74dp"
+            android:layout_height="74dp"/>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/unit_and_half_margin"
+        android:layout_marginEnd="@dimen/edge_margin"
+        android:layout_toEndOf="@+id/avatar_container">
+        <TextView
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            style="@style/Bold_20_24"/>
+        <TextView
+            android:textColor="@color/white"
+            android:ellipsize="end"
+            android:id="@+id/text_view_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            style="@style/Medium_14_16"/>
+    </LinearLayout>
+</merge>

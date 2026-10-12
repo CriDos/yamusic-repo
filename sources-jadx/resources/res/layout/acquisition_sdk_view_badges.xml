@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/discount_badge_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/acquisition_sdk_badge_height"
+        android:layout_marginEnd="@dimen/acquisition_sdk_dimension_size_50"
+        style="@style/AcquisitionSdk.Widget.Text.DiscountBadge"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/plus_points_badge_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/acquisition_sdk_badge_height"
+        android:paddingStart="@dimen/acquisition_sdk_dimension_size_75"
+        android:paddingEnd="@dimen/acquisition_sdk_dimension_size_25">
+        <TextView
+            android:id="@+id/plus_points_badge_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/acquisition_sdk_dimension_size_25"
+            style="@style/AcquisitionSdk.Widget.Text.PlusPointsBadge"/>
+        <ImageView
+            android:layout_width="@dimen/acquisition_sdk_plus_icon_size"
+            android:layout_height="@dimen/acquisition_sdk_plus_icon_size"
+            android:src="@drawable/acquisition_sdk_ic_plus"/>
+    </LinearLayout>
+</merge>

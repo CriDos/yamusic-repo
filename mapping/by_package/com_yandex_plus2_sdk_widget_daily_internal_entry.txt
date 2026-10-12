@@ -1,0 +1,1 @@
+com.yandex.plus2.sdk.widget.daily.internal.entry.DailyWidgetWorker	com.yandex.plus2.sdk.widget.daily.internal.entry.DailyWidgetWorker	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\plus2\sdk\widget\daily\internal\entry\DailyWidgetWorker.java

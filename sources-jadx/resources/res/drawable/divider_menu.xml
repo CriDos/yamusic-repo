@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" android:insetLeft="@dimen/space_medium_2">
+    <shape android:shape="rectangle">
+        <size android:height="@dimen/separator_height_small"/>
+        <solid android:color="?attr/separatorColor"/>
+    </shape>
+</inset>

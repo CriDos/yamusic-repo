@@ -1,0 +1,126 @@
+import groovy.json.JsonOutput
+import java.security.MessageDigest
+
+// Gradle build system for the apktool source tree:
+//   gradlew assembleApk              -> build\<name>-signed.apk (+ build-info.json)
+//   gradlew installApk [-Pdevice=s]  -> assemble + adb install/launch
+//   gradlew clean                    -> delete build\
+// Tools come from the RE-Kit kit (located by walking up for re-kit.ps1).
+
+def findKitRoot() {
+    def d = projectDir
+    for (int i = 0; i < 8; i++) {
+        if (new File(d, 're-kit.ps1').exists()) return d
+        d = d.parentFile
+        if (d == null) break
+    }
+    throw new GradleException('re-kit.ps1 not found: run this repo inside the RE-Kit tree')
+}
+
+// captured by task action closures below
+def kitRoot       = findKitRoot()
+def jdkDir        = new File(kitRoot, 'runtime/jdk')
+def apktoolCmd    = new File(kitRoot, 'apps/android/apktool/apktool.cmd')
+def buildToolsDir = new File(kitRoot, 'apps/android/build-tools')
+def adbExe        = new File(kitRoot, 'apps/android/adb/adb.exe')
+
+def yml = file('src/apktool.yml').text
+def apkPkg        = ((yml =~ /apkFileName:\s*(\S+)/)[0][1]).replaceAll(/\.apk$/, '')
+def apkVersionCode = ((yml =~ /versionCode:\s*(\S+)/)[0][1])
+def apkBaseName   = "${apkPkg}-${apkVersionCode}"
+def appId         = ((file('src/AndroidManifest.xml').text =~ /<manifest[^>]*\spackage="([^"]+)"/)[0][1])
+def keystoreFile  = file('debug.keystore')
+def keystorePass  = 'rekit123'
+def keystoreAlias = 'rekit'
+
+// run an exe/.cmd with kit JAVA_HOME (bat-tools resolve java through it);
+// inherit the full parent environment (TEMP etc. required by apktool)
+def execKit = { List<String> cmd ->
+    def p = cmd[0].toLowerCase()
+    List<String> full = ((p.endsWith('.cmd') || p.endsWith('.bat')) ? ['cmd', '/c'] + cmd : cmd).collect { it.toString() }
+    def pb = new ProcessBuilder(full)
+    pb.directory(projectDir)
+    pb.environment().put('JAVA_HOME', jdkDir.absolutePath)
+    pb.environment().put('PATH', new File(jdkDir, 'bin').absolutePath + ';' + (System.getenv('PATH') ?: ''))
+    def proc = pb.start()
+    def out = new StringBuilder(); def err = new StringBuilder()
+    proc.waitForProcessOutput(out, err)
+    if (out) print out
+    if (err) System.err.print(err)
+    if (proc.exitValue() != 0) {
+        throw new GradleException("command failed (${proc.exitValue()}): ${cmd.join(' ')}")
+    }
+}
+
+def sha256 = { File f ->
+    MessageDigest.getInstance('SHA-256').digest(f.bytes).collect { String.format('%02x', it) }.join()
+}
+
+tasks.register('clean', Delete) {
+    group = 'build'
+    description = 'Delete the build output directory'
+    delete layout.buildDirectory
+}
+
+tasks.register('assembleApk') {
+    group = 'build'
+    description = 'apktool b -> zipalign -> apksigner -> build/<name>-signed.apk'
+    inputs.dir('src')
+    outputs.file(layout.buildDirectory.file("${apkBaseName}-signed.apk"))
+    doLast {
+        def buildDir = layout.buildDirectory.get().asFile
+        buildDir.mkdirs()
+        def unsigned = new File(buildDir, "${apkBaseName}-unsigned.apk")
+        def aligned  = new File(buildDir, "${apkBaseName}-aligned.apk")
+        def signed   = new File(buildDir, "${apkBaseName}-signed.apk")
+
+        println '=== apktool b ==='
+        execKit([apktoolCmd.absolutePath, 'b', file('src').absolutePath, '-o', unsigned.absolutePath])
+
+        if (!keystoreFile.exists()) {
+            println '=== generating debug.keystore ==='
+            execKit([new File(jdkDir, 'bin/keytool.exe').absolutePath, '-genkeypair',
+                     '-keystore', keystoreFile.absolutePath,
+                     '-storepass', keystorePass, '-keypass', keystorePass,
+                     '-alias', keystoreAlias, '-keyalg', 'RSA', '-keysize', '2048',
+                     '-validity', '10000', '-dname', 'CN=rekit'])
+        }
+
+        println '=== zipalign ==='
+        execKit([new File(buildToolsDir, 'zipalign.exe').absolutePath,
+                 '-f', '-p', '4', unsigned.absolutePath, aligned.absolutePath])
+
+        println '=== apksigner ==='
+        execKit([new File(buildToolsDir, 'apksigner.bat').absolutePath, 'sign',
+                 '--ks', keystoreFile.absolutePath,
+                 '--ks-pass', "pass:${keystorePass}", '--key-pass', "pass:${keystorePass}",
+                 '--out', signed.absolutePath, aligned.absolutePath])
+        execKit([new File(buildToolsDir, 'apksigner.bat').absolutePath, 'verify', signed.absolutePath])
+        [unsigned, aligned]*.delete()
+
+        def info = [built_at    : new Date().toString(),
+                    final_apk   : signed.name,
+                    sha256      : sha256(signed),
+                    keystore_sha: sha256(keystoreFile)]
+        new File(buildDir, 'build-info.json').text = JsonOutput.prettyPrint(JsonOutput.toJson(info))
+
+        println ''
+        println "OK: ${signed.absolutePath}"
+        println "sha256: ${info.sha256}"
+    }
+}
+
+tasks.register('installApk') {
+    group = 'build'
+    description = 'assembleApk + adb install/launch (-Pdevice=host:port, default 127.0.0.1:5555)'
+    dependsOn 'assembleApk'
+    doLast {
+        def serial = project.hasProperty('device') ? project.property('device') : '127.0.0.1:5555'
+        def signed = layout.buildDirectory.file("${apkBaseName}-signed.apk").get().asFile
+        execKit([adbExe.absolutePath, 'connect', serial])
+        execKit([adbExe.absolutePath, '-s', serial, 'install', '-r', signed.absolutePath])
+        execKit([adbExe.absolutePath, '-s', serial, 'shell', 'monkey',
+                 '-p', appId, '-c', 'android.intent.category.LAUNCHER', '1'])
+        println "installed and launched on ${serial}"
+    }
+}

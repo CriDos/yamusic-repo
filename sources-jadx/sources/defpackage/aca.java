@@ -1,0 +1,216 @@
+package defpackage;
+
+import com.connectsdk.device.ConnectableDevice;
+import com.connectsdk.service.webos.lgcast.remotecamera.service.CameraProperty;
+import io.appmetrica.analytics.impl.C0480n3;
+import io.appmetrica.analytics.rtm.internal.Constants;
+import org.json.JSONObject;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class aca implements nuq, frt {
+    public final qxf a;
+
+    public aca(qxf qxfVar) {
+        this.a = qxfVar;
+    }
+
+    @Override // defpackage.frt, defpackage.rh8
+    public final /* bridge */ /* synthetic */ cyf a(n9l n9lVar, JSONObject jSONObject) {
+        return c(n9lVar, null, jSONObject);
+    }
+
+    public final dea c(n9l n9lVar, dea deaVar, JSONObject jSONObject) {
+        boolean zD = n9lVar.d();
+        p0l p0lVarI = yee.I(n9lVar);
+        kvc kvcVar = deaVar != null ? deaVar.a : null;
+        qxf qxfVar = this.a;
+        kvc kvcVarN = bjc.N(p0lVarI, jSONObject, "accessibility", zD, kvcVar, qxfVar.I);
+        kvc kvcVarN2 = bjc.N(p0lVarI, jSONObject, Constants.KEY_ACTION, zD, deaVar != null ? deaVar.b : null, qxfVar.u1);
+        kvc kvcVarN3 = bjc.N(p0lVarI, jSONObject, "action_animation", zD, deaVar != null ? deaVar.c : null, qxfVar.A1);
+        kvc kvcVarR = bjc.R(p0lVarI, jSONObject, "actions", zD, deaVar != null ? deaVar.d : null, qxfVar.u1);
+        wxu wxuVar = cca.r;
+        kvc kvcVar2 = deaVar != null ? deaVar.e : null;
+        f39 f39Var = f39.z;
+        qca qcaVar = p9e.k;
+        kvc kvcVarP = bjc.P(p0lVarI, jSONObject, "alignment_horizontal", wxuVar, zD, kvcVar2, f39Var, qcaVar);
+        wxu wxuVar2 = cca.s;
+        kvc kvcVar3 = deaVar != null ? deaVar.f : null;
+        f39 f39Var2 = f39.B;
+        kvc kvcVarP2 = bjc.P(p0lVarI, jSONObject, "alignment_vertical", wxuVar2, zD, kvcVar3, f39Var2, qcaVar);
+        mh9 mh9Var = yxu.d;
+        kvc kvcVar4 = deaVar != null ? deaVar.g : null;
+        x6j x6jVar = x6j.L;
+        kvc kvcVarP3 = bjc.P(p0lVarI, jSONObject, "alpha", mh9Var, zD, kvcVar4, x6jVar, cca.B);
+        kvc kvcVarR2 = bjc.R(p0lVarI, jSONObject, "animators", zD, deaVar != null ? deaVar.h : null, qxfVar.D1);
+        mh9 mh9Var2 = yxu.a;
+        kvc kvcVar5 = deaVar != null ? deaVar.i : null;
+        x6j x6jVar2 = x6j.I;
+        kvc kvcVarP4 = bjc.P(p0lVarI, jSONObject, "auto_ellipsize", mh9Var2, zD, kvcVar5, x6jVar2, qcaVar);
+        kvc kvcVarR3 = bjc.R(p0lVarI, jSONObject, C0480n3.g, zD, deaVar != null ? deaVar.j : null, qxfVar.P1);
+        kvc kvcVarN4 = bjc.N(p0lVarI, jSONObject, "border", zD, deaVar != null ? deaVar.k : null, qxfVar.V1);
+        kvc kvcVarP5 = bjc.P(p0lVarI, jSONObject, "capture_focus_on_action", mh9Var2, zD, deaVar != null ? deaVar.l : null, x6jVar2, qcaVar);
+        mh9 mh9Var3 = yxu.b;
+        kvc kvcVar6 = deaVar != null ? deaVar.m : null;
+        x6j x6jVar3 = x6j.X;
+        kvc kvcVarP6 = bjc.P(p0lVarI, jSONObject, "column_span", mh9Var3, zD, kvcVar6, x6jVar3, cca.C);
+        kvc kvcVarR4 = bjc.R(p0lVarI, jSONObject, "disappear_actions", zD, deaVar != null ? deaVar.n : null, qxfVar.Z2);
+        kvc kvcVarR5 = bjc.R(p0lVarI, jSONObject, "doubletap_actions", zD, deaVar != null ? deaVar.o : null, qxfVar.u1);
+        kvc kvcVarN5 = bjc.N(p0lVarI, jSONObject, "ellipsis", zD, deaVar != null ? deaVar.p : null, qxfVar.Z8);
+        kvc kvcVarR6 = bjc.R(p0lVarI, jSONObject, "extensions", zD, deaVar != null ? deaVar.q : null, qxfVar.l3);
+        kvc kvcVarN6 = bjc.N(p0lVarI, jSONObject, "focus", zD, deaVar != null ? deaVar.r : null, qxfVar.M3);
+        mh9 mh9Var4 = yxu.f;
+        kvc kvcVar7 = deaVar != null ? deaVar.s : null;
+        x6j x6jVar4 = x6j.Y;
+        kvc kvcVarP7 = bjc.P(p0lVarI, jSONObject, "focused_text_color", mh9Var4, zD, kvcVar7, x6jVar4, qcaVar);
+        mh9 mh9Var5 = yxu.c;
+        kvc kvcVar8 = deaVar != null ? deaVar.t : null;
+        i5f i5fVar = p9e.l;
+        kvc kvcVarP8 = bjc.P(p0lVarI, jSONObject, "font_family", mh9Var5, zD, kvcVar8, i5fVar, qcaVar);
+        kvc kvcVarP9 = bjc.P(p0lVarI, jSONObject, "font_feature_settings", mh9Var5, zD, deaVar != null ? deaVar.u : null, i5fVar, qcaVar);
+        kvc kvcVarP10 = bjc.P(p0lVarI, jSONObject, "font_size", mh9Var3, zD, deaVar != null ? deaVar.v : null, x6jVar3, cca.D);
+        kvc kvcVarP11 = bjc.P(p0lVarI, jSONObject, "font_size_unit", cca.t, zD, deaVar != null ? deaVar.w : null, s2a.y, qcaVar);
+        kvc kvcVarP12 = bjc.P(p0lVarI, jSONObject, "font_variation_settings", yxu.h, zD, deaVar != null ? deaVar.x : null, i5fVar, qcaVar);
+        kvc kvcVarP13 = bjc.P(p0lVarI, jSONObject, "font_weight", cca.u, zD, deaVar != null ? deaVar.y : null, od9.Y, qcaVar);
+        kvc kvcVarP14 = bjc.P(p0lVarI, jSONObject, "font_weight_value", mh9Var3, zD, deaVar != null ? deaVar.z : null, x6jVar3, cca.E);
+        kvc kvcVarR7 = bjc.R(p0lVarI, jSONObject, "functions", zD, deaVar != null ? deaVar.A : null, qxfVar.V3);
+        kvc kvcVarN7 = bjc.N(p0lVarI, jSONObject, CameraProperty.HEIGHT, zD, deaVar != null ? deaVar.B : null, qxfVar.r7);
+        kvc kvcVarR8 = bjc.R(p0lVarI, jSONObject, "hover_end_actions", zD, deaVar != null ? deaVar.C : null, qxfVar.u1);
+        kvc kvcVarR9 = bjc.R(p0lVarI, jSONObject, "hover_start_actions", zD, deaVar != null ? deaVar.D : null, qxfVar.u1);
+        kvc kvcVarO = bjc.O(p0lVarI, jSONObject, ConnectableDevice.KEY_ID, zD, deaVar != null ? deaVar.E : null, i5fVar);
+        kvc kvcVarR10 = bjc.R(p0lVarI, jSONObject, "images", zD, deaVar != null ? deaVar.F : null, qxfVar.T8);
+        kvc kvcVarN8 = bjc.N(p0lVarI, jSONObject, "layout_provider", zD, deaVar != null ? deaVar.G : null, qxfVar.Z4);
+        kvc kvcVarP15 = bjc.P(p0lVarI, jSONObject, "letter_spacing", mh9Var, zD, deaVar != null ? deaVar.H : null, x6jVar, qcaVar);
+        kvc kvcVarP16 = bjc.P(p0lVarI, jSONObject, "line_height", mh9Var3, zD, deaVar != null ? deaVar.I : null, x6jVar3, cca.F);
+        kvc kvcVarR11 = bjc.R(p0lVarI, jSONObject, "longtap_actions", zD, deaVar != null ? deaVar.J : null, qxfVar.u1);
+        kvc kvcVarN9 = bjc.N(p0lVarI, jSONObject, "margins", zD, deaVar != null ? deaVar.K : null, qxfVar.i3);
+        kvc kvcVarP17 = bjc.P(p0lVarI, jSONObject, "max_lines", mh9Var3, zD, deaVar != null ? deaVar.L : null, x6jVar3, cca.G);
+        kvc kvcVarP18 = bjc.P(p0lVarI, jSONObject, "min_hidden_lines", mh9Var3, zD, deaVar != null ? deaVar.M : null, x6jVar3, cca.H);
+        kvc kvcVarN10 = bjc.N(p0lVarI, jSONObject, "paddings", zD, deaVar != null ? deaVar.N : null, qxfVar.i3);
+        kvc kvcVarR12 = bjc.R(p0lVarI, jSONObject, "press_end_actions", zD, deaVar != null ? deaVar.O : null, qxfVar.u1);
+        kvc kvcVarR13 = bjc.R(p0lVarI, jSONObject, "press_start_actions", zD, deaVar != null ? deaVar.P : null, qxfVar.u1);
+        kvc kvcVarR14 = bjc.R(p0lVarI, jSONObject, "ranges", zD, deaVar != null ? deaVar.Q : null, qxfVar.Q8);
+        kvc kvcVarP19 = bjc.P(p0lVarI, jSONObject, "reuse_id", mh9Var5, zD, deaVar != null ? deaVar.R : null, i5fVar, qcaVar);
+        kvc kvcVarP20 = bjc.P(p0lVarI, jSONObject, "row_span", mh9Var3, zD, deaVar != null ? deaVar.S : null, x6jVar3, cca.I);
+        kvc kvcVarP21 = bjc.P(p0lVarI, jSONObject, "selectable", mh9Var2, zD, deaVar != null ? deaVar.T : null, x6jVar2, qcaVar);
+        kvc kvcVarR15 = bjc.R(p0lVarI, jSONObject, "selected_actions", zD, deaVar != null ? deaVar.U : null, qxfVar.u1);
+        wxu wxuVar3 = cca.v;
+        kvc kvcVar9 = deaVar != null ? deaVar.V : null;
+        fn9 fn9Var = fn9.y0;
+        kvc kvcVarP22 = bjc.P(p0lVarI, jSONObject, "strike", wxuVar3, zD, kvcVar9, fn9Var, qcaVar);
+        kvc kvcVarJ = bjc.J(p0lVarI, jSONObject, "text", mh9Var5, zD, deaVar != null ? deaVar.W : null);
+        kvc kvcVarP23 = bjc.P(p0lVarI, jSONObject, "text_alignment_horizontal", cca.w, zD, deaVar != null ? deaVar.X : null, f39Var, qcaVar);
+        kvc kvcVarP24 = bjc.P(p0lVarI, jSONObject, "text_alignment_vertical", cca.x, zD, deaVar != null ? deaVar.Y : null, f39Var2, qcaVar);
+        kvc kvcVarP25 = bjc.P(p0lVarI, jSONObject, "text_color", mh9Var4, zD, deaVar != null ? deaVar.Z : null, x6jVar4, qcaVar);
+        kvc kvcVarN11 = bjc.N(p0lVarI, jSONObject, "text_gradient", zD, deaVar != null ? deaVar.a0 : null, qxfVar.t8);
+        kvc kvcVarN12 = bjc.N(p0lVarI, jSONObject, "text_shadow", zD, deaVar != null ? deaVar.b0 : null, qxfVar.f7);
+        kvc kvcVarP26 = bjc.P(p0lVarI, jSONObject, "tighten_width", mh9Var2, zD, deaVar != null ? deaVar.c0 : null, x6jVar2, qcaVar);
+        kvc kvcVarR16 = bjc.R(p0lVarI, jSONObject, "tooltips", zD, deaVar != null ? deaVar.d0 : null, qxfVar.o9);
+        kvc kvcVarN13 = bjc.N(p0lVarI, jSONObject, "transform", zD, deaVar != null ? deaVar.e0 : null, qxfVar.r9);
+        kvc kvcVarR17 = bjc.R(p0lVarI, jSONObject, "transformations", zD, deaVar != null ? deaVar.f0 : null, qxfVar.u9);
+        kvc kvcVarN14 = bjc.N(p0lVarI, jSONObject, "transition_change", zD, deaVar != null ? deaVar.g0 : null, qxfVar.e2);
+        kvc kvcVarN15 = bjc.N(p0lVarI, jSONObject, "transition_in", zD, deaVar != null ? deaVar.h0 : null, qxfVar.J1);
+        kvc kvcVarN16 = bjc.N(p0lVarI, jSONObject, "transition_out", zD, deaVar != null ? deaVar.i0 : null, qxfVar.J1);
+        kvc kvcVar10 = deaVar != null ? deaVar.j0 : null;
+        cx9 cx9Var = cca.J;
+        cx9Var.getClass();
+        return new dea(kvcVarN, kvcVarN2, kvcVarN3, kvcVarR, kvcVarP, kvcVarP2, kvcVarP3, kvcVarR2, kvcVarP4, kvcVarR3, kvcVarN4, kvcVarP5, kvcVarP6, kvcVarR4, kvcVarR5, kvcVarN5, kvcVarR6, kvcVarN6, kvcVarP7, kvcVarP8, kvcVarP9, kvcVarP10, kvcVarP11, kvcVarP12, kvcVarP13, kvcVarP14, kvcVarR7, kvcVarN7, kvcVarR8, kvcVarR9, kvcVarO, kvcVarR10, kvcVarN8, kvcVarP15, kvcVarP16, kvcVarR11, kvcVarN9, kvcVarP17, kvcVarP18, kvcVarN10, kvcVarR12, kvcVarR13, kvcVarR14, kvcVarP19, kvcVarP20, kvcVarP21, kvcVarR15, kvcVarP22, kvcVarJ, kvcVarP23, kvcVarP24, kvcVarP25, kvcVarN11, kvcVarN12, kvcVarP26, kvcVarR16, kvcVarN13, kvcVarR17, kvcVarN14, kvcVarN15, kvcVarN16, bjc.S(p0lVarI, jSONObject, zD, kvcVar10, cx9Var), bjc.P(p0lVarI, jSONObject, "truncate", cca.y, zD, deaVar != null ? deaVar.k0 : null, k9a.D, qcaVar), bjc.P(p0lVarI, jSONObject, "underline", cca.z, zD, deaVar != null ? deaVar.l0 : null, fn9Var, qcaVar), bjc.R(p0lVarI, jSONObject, "variable_triggers", zD, deaVar != null ? deaVar.m0 : null, qxfVar.D9), bjc.R(p0lVarI, jSONObject, "variables", zD, deaVar != null ? deaVar.n0 : null, qxfVar.J9), bjc.P(p0lVarI, jSONObject, "visibility", cca.A, zD, deaVar != null ? deaVar.o0 : null, rca.L, qcaVar), bjc.N(p0lVarI, jSONObject, "visibility_action", zD, deaVar != null ? deaVar.p0 : null, qxfVar.V9), bjc.R(p0lVarI, jSONObject, "visibility_actions", zD, deaVar != null ? deaVar.q0 : null, qxfVar.V9), bjc.N(p0lVarI, jSONObject, CameraProperty.WIDTH, zD, deaVar != null ? deaVar.r0 : null, qxfVar.r7));
+    }
+
+    @Override // defpackage.nuq
+    /* JADX INFO: renamed from: d, reason: merged with bridge method [inline-methods] */
+    public final JSONObject b(n9l n9lVar, dea deaVar) {
+        JSONObject jSONObject = new JSONObject();
+        kvc kvcVar = deaVar.a;
+        qxf qxfVar = this.a;
+        bjc.j0(n9lVar, jSONObject, "accessibility", kvcVar, qxfVar.I);
+        kvc kvcVar2 = deaVar.b;
+        vdt vdtVar = qxfVar.u1;
+        bjc.j0(n9lVar, jSONObject, Constants.KEY_ACTION, kvcVar2, vdtVar);
+        bjc.j0(n9lVar, jSONObject, "action_animation", deaVar.c, qxfVar.A1);
+        bjc.l0(n9lVar, jSONObject, "actions", deaVar.d, vdtVar);
+        kvc kvcVar3 = deaVar.e;
+        f39 f39Var = f39.A;
+        bjc.f0(kvcVar3, n9lVar, "alignment_horizontal", f39Var, jSONObject);
+        kvc kvcVar4 = deaVar.f;
+        f39 f39Var2 = f39.C;
+        bjc.f0(kvcVar4, n9lVar, "alignment_vertical", f39Var2, jSONObject);
+        bjc.g0(n9lVar, jSONObject, "alpha", deaVar.g);
+        bjc.l0(n9lVar, jSONObject, "animators", deaVar.h, qxfVar.D1);
+        bjc.g0(n9lVar, jSONObject, "auto_ellipsize", deaVar.i);
+        bjc.l0(n9lVar, jSONObject, C0480n3.g, deaVar.j, qxfVar.P1);
+        bjc.j0(n9lVar, jSONObject, "border", deaVar.k, qxfVar.V1);
+        bjc.g0(n9lVar, jSONObject, "capture_focus_on_action", deaVar.l);
+        bjc.g0(n9lVar, jSONObject, "column_span", deaVar.m);
+        bjc.l0(n9lVar, jSONObject, "disappear_actions", deaVar.n, qxfVar.Z2);
+        bjc.l0(n9lVar, jSONObject, "doubletap_actions", deaVar.o, vdtVar);
+        bjc.j0(n9lVar, jSONObject, "ellipsis", deaVar.p, qxfVar.Z8);
+        bjc.l0(n9lVar, jSONObject, "extensions", deaVar.q, qxfVar.l3);
+        bjc.j0(n9lVar, jSONObject, "focus", deaVar.r, qxfVar.M3);
+        kvc kvcVar5 = deaVar.s;
+        x6j x6jVar = x6j.K;
+        bjc.f0(kvcVar5, n9lVar, "focused_text_color", x6jVar, jSONObject);
+        bjc.g0(n9lVar, jSONObject, "font_family", deaVar.t);
+        bjc.g0(n9lVar, jSONObject, "font_feature_settings", deaVar.u);
+        bjc.g0(n9lVar, jSONObject, "font_size", deaVar.v);
+        bjc.f0(deaVar.w, n9lVar, "font_size_unit", s2a.z, jSONObject);
+        bjc.g0(n9lVar, jSONObject, "font_variation_settings", deaVar.x);
+        bjc.f0(deaVar.y, n9lVar, "font_weight", od9.Z, jSONObject);
+        bjc.g0(n9lVar, jSONObject, "font_weight_value", deaVar.z);
+        bjc.l0(n9lVar, jSONObject, "functions", deaVar.A, qxfVar.V3);
+        kvc kvcVar6 = deaVar.B;
+        vdt vdtVar2 = qxfVar.r7;
+        bjc.j0(n9lVar, jSONObject, CameraProperty.HEIGHT, kvcVar6, vdtVar2);
+        bjc.l0(n9lVar, jSONObject, "hover_end_actions", deaVar.C, vdtVar);
+        bjc.l0(n9lVar, jSONObject, "hover_start_actions", deaVar.D, vdtVar);
+        bjc.i0(n9lVar, jSONObject, ConnectableDevice.KEY_ID, deaVar.E);
+        bjc.l0(n9lVar, jSONObject, "images", deaVar.F, qxfVar.T8);
+        bjc.j0(n9lVar, jSONObject, "layout_provider", deaVar.G, qxfVar.Z4);
+        bjc.g0(n9lVar, jSONObject, "letter_spacing", deaVar.H);
+        bjc.g0(n9lVar, jSONObject, "line_height", deaVar.I);
+        bjc.l0(n9lVar, jSONObject, "longtap_actions", deaVar.J, vdtVar);
+        kvc kvcVar7 = deaVar.K;
+        vdt vdtVar3 = qxfVar.i3;
+        bjc.j0(n9lVar, jSONObject, "margins", kvcVar7, vdtVar3);
+        bjc.g0(n9lVar, jSONObject, "max_lines", deaVar.L);
+        bjc.g0(n9lVar, jSONObject, "min_hidden_lines", deaVar.M);
+        bjc.j0(n9lVar, jSONObject, "paddings", deaVar.N, vdtVar3);
+        bjc.l0(n9lVar, jSONObject, "press_end_actions", deaVar.O, vdtVar);
+        bjc.l0(n9lVar, jSONObject, "press_start_actions", deaVar.P, vdtVar);
+        bjc.l0(n9lVar, jSONObject, "ranges", deaVar.Q, qxfVar.Q8);
+        bjc.g0(n9lVar, jSONObject, "reuse_id", deaVar.R);
+        bjc.g0(n9lVar, jSONObject, "row_span", deaVar.S);
+        bjc.g0(n9lVar, jSONObject, "selectable", deaVar.T);
+        bjc.l0(n9lVar, jSONObject, "selected_actions", deaVar.U, vdtVar);
+        kvc kvcVar8 = deaVar.V;
+        fn9 fn9Var = fn9.z0;
+        bjc.f0(kvcVar8, n9lVar, "strike", fn9Var, jSONObject);
+        bjc.g0(n9lVar, jSONObject, "text", deaVar.W);
+        bjc.f0(deaVar.X, n9lVar, "text_alignment_horizontal", f39Var, jSONObject);
+        bjc.f0(deaVar.Y, n9lVar, "text_alignment_vertical", f39Var2, jSONObject);
+        bjc.f0(deaVar.Z, n9lVar, "text_color", x6jVar, jSONObject);
+        bjc.j0(n9lVar, jSONObject, "text_gradient", deaVar.a0, qxfVar.t8);
+        bjc.j0(n9lVar, jSONObject, "text_shadow", deaVar.b0, qxfVar.f7);
+        bjc.g0(n9lVar, jSONObject, "tighten_width", deaVar.c0);
+        bjc.l0(n9lVar, jSONObject, "tooltips", deaVar.d0, qxfVar.o9);
+        bjc.j0(n9lVar, jSONObject, "transform", deaVar.e0, qxfVar.r9);
+        bjc.l0(n9lVar, jSONObject, "transformations", deaVar.f0, qxfVar.u9);
+        bjc.j0(n9lVar, jSONObject, "transition_change", deaVar.g0, qxfVar.e2);
+        kvc kvcVar9 = deaVar.h0;
+        vdt vdtVar4 = qxfVar.J1;
+        bjc.j0(n9lVar, jSONObject, "transition_in", kvcVar9, vdtVar4);
+        bjc.j0(n9lVar, jSONObject, "transition_out", deaVar.i0, vdtVar4);
+        bjc.k0(n9lVar, jSONObject, deaVar.j0);
+        bjc.f0(deaVar.k0, n9lVar, "truncate", k9a.E, jSONObject);
+        t3e.i0(n9lVar, jSONObject, "type", "text");
+        bjc.f0(deaVar.l0, n9lVar, "underline", fn9Var, jSONObject);
+        bjc.l0(n9lVar, jSONObject, "variable_triggers", deaVar.m0, qxfVar.D9);
+        bjc.l0(n9lVar, jSONObject, "variables", deaVar.n0, qxfVar.J9);
+        bjc.f0(deaVar.o0, n9lVar, "visibility", rca.X, jSONObject);
+        kvc kvcVar10 = deaVar.p0;
+        vdt vdtVar5 = qxfVar.V9;
+        bjc.j0(n9lVar, jSONObject, "visibility_action", kvcVar10, vdtVar5);
+        bjc.l0(n9lVar, jSONObject, "visibility_actions", deaVar.q0, vdtVar5);
+        bjc.j0(n9lVar, jSONObject, CameraProperty.WIDTH, deaVar.r0, vdtVar2);
+        return jSONObject;
+    }
+}

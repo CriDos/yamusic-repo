@@ -1,0 +1,1 @@
+com.yandex.passport.internal.startup.HostProcessInitializer	com.yandex.passport.internal.startup.HostProcessInitializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\passport\internal\startup\HostProcessInitializer.java

@@ -1,0 +1,1 @@
+com.yandex.plus.webview.internal.contract.impl.close.CloseCurrentWebViewMessageDeserializer	com.yandex.plus.webview.internal.contract.impl.close.CloseCurrentWebViewMessageDeserializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\plus\webview\internal\contract\impl\close\CloseCurrentWebViewMessageDeserializer.java

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="exo_controls_repeat_all">?unknown_ref: 7f0801d7</drawable>
+    <drawable name="exo_controls_repeat_off">?unknown_ref: 7f0801d8</drawable>
+    <drawable name="exo_controls_repeat_one">?unknown_ref: 7f0801d9</drawable>
+    <drawable name="exo_controls_shuffle_off">?unknown_ref: 7f0801db</drawable>
+    <drawable name="exo_controls_shuffle_on">?unknown_ref: 7f0801dc</drawable>
+    <drawable name="exo_styled_controls_audiotrack">?unknown_ref: 7f0801be</drawable>
+    <drawable name="exo_styled_controls_check">?unknown_ref: 7f0801bf</drawable>
+    <drawable name="exo_styled_controls_fastforward">?unknown_ref: 7f0801c3</drawable>
+    <drawable name="exo_styled_controls_fullscreen_enter">?unknown_ref: 7f0801c4</drawable>
+    <drawable name="exo_styled_controls_fullscreen_exit">?unknown_ref: 7f0801c5</drawable>
+    <drawable name="exo_styled_controls_next">?unknown_ref: 7f0801ca</drawable>
+    <drawable name="exo_styled_controls_overflow_hide">?unknown_ref: 7f0801c0</drawable>
+    <drawable name="exo_styled_controls_overflow_show">?unknown_ref: 7f0801c1</drawable>
+    <drawable name="exo_styled_controls_pause">?unknown_ref: 7f0801c6</drawable>
+    <drawable name="exo_styled_controls_play">?unknown_ref: 7f0801c7</drawable>
+    <drawable name="exo_styled_controls_previous">?unknown_ref: 7f0801cb</drawable>
+    <drawable name="exo_styled_controls_repeat_all">?unknown_ref: 7f0801d7</drawable>
+    <drawable name="exo_styled_controls_repeat_off">?unknown_ref: 7f0801d8</drawable>
+    <drawable name="exo_styled_controls_repeat_one">?unknown_ref: 7f0801d9</drawable>
+    <drawable name="exo_styled_controls_rewind">?unknown_ref: 7f0801c8</drawable>
+    <drawable name="exo_styled_controls_settings">?unknown_ref: 7f0801c9</drawable>
+    <drawable name="exo_styled_controls_shuffle_off">?unknown_ref: 7f0801db</drawable>
+    <drawable name="exo_styled_controls_shuffle_on">?unknown_ref: 7f0801dc</drawable>
+    <drawable name="exo_styled_controls_simple_fastforward">?unknown_ref: 7f0801d0</drawable>
+    <drawable name="exo_styled_controls_simple_rewind">?unknown_ref: 7f0801da</drawable>
+    <drawable name="exo_styled_controls_speed">?unknown_ref: 7f0801cc</drawable>
+    <drawable name="exo_styled_controls_subtitle_off">?unknown_ref: 7f0801cd</drawable>
+    <drawable name="exo_styled_controls_subtitle_on">?unknown_ref: 7f0801ce</drawable>
+    <drawable name="exo_styled_controls_vr">?unknown_ref: 7f0801de</drawable>
+    <drawable name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</drawable>
+    <drawable name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</drawable>
+    <drawable name="media3_notification_small_icon">@drawable/media3_icon_circular_play</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="passport_ic_yandex_auth_dark">?unknown_ref: 7f0805f1</drawable>
+    <drawable name="passport_ic_yandex_auth_light">?unknown_ref: 7f0805f1</drawable>
+    <drawable name="passport_yandex_logo">@drawable/passport_en_yandex_logo</drawable>
+    <drawable name="plus_sdk_indeterminate_progress_dark">@drawable/plus_sdk_indeterminate_progress</drawable>
+    <drawable name="plus_sdk_indeterminate_progress_light">@drawable/plus_sdk_indeterminate_progress</drawable>
+</resources>

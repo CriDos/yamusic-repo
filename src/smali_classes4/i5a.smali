@@ -1,0 +1,174 @@
+.class public final Li5a;
+.super Li9g;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic r:I
+
+.field public final synthetic s:Lm5a;
+
+.field public final synthetic t:Lz5a;
+
+.field public final synthetic u:Lylc;
+
+.field public final synthetic v:Lbh9;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lm5a;Lz5a;Lylc;Lbh9;I)V
+    .locals 0
+
+    .line 1
+    iput p5, p0, Li5a;->r:I
+
+    iput-object p1, p0, Li5a;->s:Lm5a;
+
+    iput-object p2, p0, Li5a;->t:Lz5a;
+
+    iput-object p3, p0, Li5a;->u:Lylc;
+
+    iput-object p4, p0, Li5a;->v:Lbh9;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Li9g;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    .line 1
+    iget p1, p0, Li5a;->r:I
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    iget-object v1, p0, Li5a;->v:Lbh9;
+
+    .line 5
+    .line 6
+    iget-object v2, p0, Li5a;->u:Lylc;
+
+    .line 7
+    .line 8
+    iget-object v3, p0, Li5a;->t:Lz5a;
+
+    .line 9
+    .line 10
+    iget-object p0, p0, Li5a;->s:Lm5a;
+
+    .line 11
+    .line 12
+    packed-switch p1, :pswitch_data_0
+
+    .line 13
+    .line 14
+    .line 15
+    if-eqz v1, :cond_0
+
+    .line 16
+    .line 17
+    invoke-virtual {v3}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p1
+
+    .line 21
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object p1
+
+    .line 25
+    invoke-static {v1, p1, v2}, Lz24;->f0(Lbh9;Landroid/util/DisplayMetrics;Lylc;)Landroid/graphics/drawable/Drawable;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v0
+
+    .line 29
+    :cond_0
+    invoke-virtual {v3, v0}, Lk7s;->setInactiveTickMarkDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    .line 30
+    .line 31
+    .line 32
+    invoke-virtual {p0, v3}, Lm5a;->B(Lz5a;)V
+
+    .line 33
+    .line 34
+    .line 35
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 36
+    .line 37
+    return-object p0
+
+    .line 38
+    :pswitch_0
+    if-eqz v1, :cond_1
+
+    .line 39
+    .line 40
+    invoke-virtual {v3}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    .line 41
+    .line 42
+    .line 43
+    move-result-object p1
+
+    .line 44
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+
+    .line 45
+    .line 46
+    .line 47
+    move-result-object p1
+
+    .line 48
+    invoke-static {v1, p1, v2}, Lz24;->f0(Lbh9;Landroid/util/DisplayMetrics;Lylc;)Landroid/graphics/drawable/Drawable;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v0
+
+    .line 52
+    :cond_1
+    invoke-virtual {v3, v0}, Lk7s;->setActiveTickMarkDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    .line 53
+    .line 54
+    .line 55
+    invoke-virtual {p0, v3}, Lm5a;->B(Lz5a;)V
+
+    .line 56
+    .line 57
+    .line 58
+    sget-object p0, Lkotlin/Unit;->a:Lkotlin/Unit;
+
+    .line 59
+    .line 60
+    return-object p0
+
+    .line 61
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

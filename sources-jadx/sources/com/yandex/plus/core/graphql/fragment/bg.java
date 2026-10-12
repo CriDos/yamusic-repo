@@ -1,0 +1,43 @@
+package com.yandex.plus.core.graphql.fragment;
+
+import defpackage.ee7;
+import defpackage.qyf;
+import defpackage.tm5;
+import defpackage.xs3;
+import defpackage.zxf;
+import java.util.List;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class bg implements defpackage.kk {
+    public static final bg a = new bg();
+    public static final List b = tm5.c("__typename");
+
+    @Override // defpackage.kk
+    public final void a(qyf qyfVar, ee7 ee7Var, Object obj) {
+        uc ucVar = (uc) obj;
+        qyfVar.getClass();
+        ee7Var.getClass();
+        ucVar.getClass();
+        qyfVar.Y("__typename");
+        defpackage.pk.a.a(qyfVar, ee7Var, ucVar.a);
+        List list = of.a;
+        of.d(qyfVar, ee7Var, ucVar.b);
+    }
+
+    @Override // defpackage.kk
+    public final Object b(zxf zxfVar, ee7 ee7Var) {
+        zxfVar.getClass();
+        ee7Var.getClass();
+        String str = null;
+        while (zxfVar.A0(b) == 0) {
+            str = (String) defpackage.pk.a.b(zxfVar, ee7Var);
+        }
+        zxfVar.j();
+        kf kfVarC = of.c(zxfVar, ee7Var);
+        if (str != null) {
+            return new uc(str, kfVarC);
+        }
+        xs3.z(zxfVar, "__typename");
+        throw null;
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:paddingTop="4.0dp" android:paddingBottom="4.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center" android:id="@id/plus_debug_panel_dialog_item_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="1.25" android:scaleY="1.25" />
+    <TextView android:textSize="@dimen/home_sdk_size_font_size_body_m" android:layout_gravity="center" android:id="@id/plus_debug_panel_dialog_item_text" android:paddingLeft="8.0dp" android:paddingRight="8.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:paddingHorizontal="8.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="com.yandex.android.appmetrica.is_offline">false</bool>
+    <bool name="com.yandex.android.appmetrica.ndk.enable">false</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+    <bool name="io.appmetrica.analytics.is_offline">false</bool>
+    <bool name="io.appmetrica.analytics.ndk.enable">false</bool>
+    <bool name="isSmallScreen">true</bool>
+    <bool name="isTablet">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="passport_accounts_remove_allowed">false</bool>
+    <bool name="passport_is_vk_popular">false</bool>
+    <bool name="pay_sdk_isTabletMode">false</bool>
+    <bool name="plus_sdk_is_tablet">false</bool>
+    <bool name="videoPlayer_isTablet">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

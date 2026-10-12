@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title" android:padding="@dimen/space_medium_2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.UIKit.TextView.Title5" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabGravity="start" app:tabIndicatorColor="?colorPrimary" app:tabMinWidth="40.0dp" app:tabMode="scrollable" app:tabRippleColor="@color/transparent" app:tabSelectedTextColor="?colorPrimary" app:tabTextAppearance="@style/TextAppearance.UIKit.Body" style="@style/Widget.Design.TabLayout" />
+</merge>

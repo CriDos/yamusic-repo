@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="18dp"
+    android:width="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="18">
+    <group>
+        <clip-path android:pathData="M0,0h36v18h-36z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0,0h36v18h-36z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M0,0h18v18h-18z"/>
+        <path
+            android:fillColor="@drawable/_ic_match_premier__0_res_0x7f08001f"
+            android:pathData="M0,0h18v18h-18z"/>
+        <path
+            android:fillColor="@drawable/_ic_match_premier__1_res_0x7f080020"
+            android:pathData="M0,0h18v18h-18z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M9.482,12.603L10.652,9.003H15.002C15.002,10.594 14.37,12.12 13.245,13.246C12.12,14.371 10.594,15.003 9.002,15.003C7.411,15.003 5.885,14.371 4.76,13.246C3.635,12.12 3.002,10.594 3.002,9.003C3.002,7.412 3.635,5.886 4.76,4.76C5.885,3.635 7.411,3.003 9.002,3.003C9.632,3.003 10.258,3.102 10.856,3.296L9.489,7.503H5.496L5.008,9.003H9.002L7.832,12.603H9.482ZM11.139,7.503L12.285,3.981C13.537,4.799 14.438,6.055 14.814,7.503H11.139Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="#222222"
+            android:pathData="M18,0h18v18h-18z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M32.627,8.448L30.262,9.86V5.21H32.627V8.448Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M32.845,11.598C32.888,10.99 32.367,10.229 31.456,10.207C30.675,10.186 30.024,10.816 30.024,11.554C30.024,12.38 30.675,12.988 31.413,12.988C32.237,13.01 32.845,12.358 32.845,11.598Z"/>
+        <path
+            android:fillColor="#ffffff"
+            android:pathData="M29.262,5.188V12.901H26.875V8.773L25.205,10.924L23.534,8.773V12.901H21.147V5.188H23.556L25.205,7.361L26.854,5.188H29.262Z"/>
+    </group>
+</vector>

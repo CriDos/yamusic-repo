@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/paymentsdk_result_dialog_min_height">
+    <com.yandex.payment.sdk.ui.view.ProgressResultView
+        android:id="@+id/progress_result_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:gravity="center"
+        android:id="@+id/login_button_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/paymentsdk_login_hint"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <com.yandex.payment.sdk.ui.view.payment.PaymentButtonView
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+</LinearLayout>

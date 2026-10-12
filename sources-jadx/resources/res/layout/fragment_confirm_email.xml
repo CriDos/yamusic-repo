@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimary"
+    android:paddingLeft="@dimen/edge_margin"
+    android:paddingTop="@dimen/edge_and_a_half_margin"
+    android:paddingRight="@dimen/edge_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_feedback"
+        style="@style/PhonotekaSubtitleAlpha"/>
+    <EditText
+        android:theme="?attr/greyEditTextStyle"
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/unit_margin"
+        android:hint="@string/email_hint_text"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:theme="@style/ControlsYellow"
+        android:gravity="left"
+        android:id="@+id/switcher_need_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edge_margin"
+        android:text="@string/feedback_need_answer"
+        style="@style/PhonotekaTitle"/>
+</LinearLayout>

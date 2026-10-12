@@ -1,0 +1,2 @@
+com.yandex.music.shared.network.retrofit.NewBackendFormatError	com.yandex.music.shared.network.retrofit.NewBackendFormatError	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\retrofit\NewBackendFormatError.java
+com.yandex.music.shared.network.retrofit.NewBackendFormatErrorDeserializer	com.yandex.music.shared.network.retrofit.NewBackendFormatErrorDeserializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\retrofit\NewBackendFormatErrorDeserializer.java

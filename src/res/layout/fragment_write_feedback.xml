@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bgPrimary" android:padding="@dimen/edge_margin" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text_view_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/half_unit_margin" android:layout_marginRight="@dimen/half_unit_margin" android:layout_marginBottom="@dimen/unit_margin" style="@style/PhonotekaSubtitleAlpha" />
+    <EditText android:theme="?greyEditTextStyle" android:gravity="left" android:id="@id/input_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/feedback_message_input_hint" android:lineSpacingMultiplier="1.5" android:inputType="textCapSentences|textMultiLine" style="@style/PhonotekaTitle" />
+</LinearLayout>

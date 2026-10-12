@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="92dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="92">
+    <path
+        android:fillColor="@drawable/_ic_award__0_res_0x7f08000e"
+        android:pathData="M41,68H8V88C8,90.2091 15.3873,92 24.5,92C33.6127,92 41,90.2091 41,88V68Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_award__1_res_0x7f08000f"
+        android:pathData="M41,68H8V88C8,90.2091 15.3873,92 24.5,92C33.6127,92 41,90.2091 41,88V68Z"
+        android:fillAlpha="0.3"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_award__2_res_0x7f080010"
+        android:pathData="M47,58H2V67C2,69.7614 12.0736,72 24.5,72C36.9264,72 47,69.7614 47,67V58Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_award__3_res_0x7f080011"
+        android:pathData="M47,58H2V67C2,69.7614 12.0736,72 24.5,72C36.9264,72 47,69.7614 47,67V58Z"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_award__4_res_0x7f080012"
+        android:pathData="M2,58a22.5,5 0,1 0,45 0a22.5,5 0,1 0,-45 0z"/>
+    <path
+        android:fillColor="@drawable/_ic_award__5_res_0x7f080013"
+        android:pathData="M32.1767,44H16.7256L9,56.3609H9.1668C9.0569,56.5471 9,56.7376 9,56.9314C9,59.0715 15.9396,60.8064 24.5,60.8064C33.0604,60.8064 40,59.0715 40,56.9314C40,56.7376 39.9431,56.5471 39.8332,56.3609H39.9022L32.1767,44Z"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="@drawable/_ic_award__6_res_0x7f080014"
+        android:pathData="M24,25m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"/>
+    <path
+        android:fillColor="@drawable/_ic_award__7_res_0x7f080015"
+        android:pathData="M7,32.3359C10.2974,34.2568 14.1614,35.5688 18.278,35.5688C30.4565,35.5688 40.198,25.5608 40.198,13.6488C40.198,10.0032 39.2001,6.5766 37.5676,3.5656C35.814,1.812 31.3836,0.1145 31.3836,0.1145C31.3836,0.1145 30.9544,1.3737 29.238,1.3737C38.258,15.9261 23.9684,36.5697 7,32.3359Z"
+        android:strokeAlpha="0.8"
+        android:fillAlpha="0.8"/>
+    <path
+        android:fillColor="@drawable/_ic_award__8_res_0x7f080016"
+        android:pathData="M34.4479,11.3192C34.4479,23.3935 24.6597,33.1816 12.5855,33.1816C10.7143,33.1816 8.8981,32.9465 7.1647,32.5043C10.434,34.4515 14.2543,35.57 18.3359,35.57C30.4101,35.57 40.1982,25.7819 40.1982,13.7076C40.1982,10.0115 39.2811,6.5297 37.6619,3.4773C35.7637,1.9904 33.6165,0.807 31.2932,0C33.2953,3.3018 34.4479,7.1759 34.4479,11.3192Z"
+        android:strokeAlpha="0.8"
+        android:fillAlpha="0.8"
+        android:fillType="evenOdd"/>
+</vector>

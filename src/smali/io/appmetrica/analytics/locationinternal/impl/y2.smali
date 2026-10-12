@@ -1,0 +1,53 @@
+.class public final Lio/appmetrica/analytics/locationinternal/impl/y2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/appmetrica/analytics/locationinternal/impl/k0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lio/appmetrica/analytics/locationinternal/impl/w2;)Lio/appmetrica/analytics/locationinternal/impl/j0;
+    .locals 0
+
+    .line 9
+    new-instance p0, Lio/appmetrica/analytics/locationinternal/impl/x2;
+
+    invoke-direct {p0, p1}, Lio/appmetrica/analytics/locationinternal/impl/x2;-><init>(Lio/appmetrica/analytics/locationinternal/impl/w2;)V
+
+    return-object p0
+.end method
+
+.method public final a(Ljava/lang/Object;)Lio/appmetrica/analytics/locationinternal/impl/j0;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lio/appmetrica/analytics/locationinternal/impl/w2;
+
+    .line 2
+    .line 3
+    new-instance p0, Lio/appmetrica/analytics/locationinternal/impl/x2;
+
+    .line 4
+    .line 5
+    invoke-direct {p0, p1}, Lio/appmetrica/analytics/locationinternal/impl/x2;-><init>(Lio/appmetrica/analytics/locationinternal/impl/w2;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-object p0
+.end method

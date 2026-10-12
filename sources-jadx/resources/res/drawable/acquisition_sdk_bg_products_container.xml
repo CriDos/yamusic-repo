@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/acquisition_sdk_semantic_control_input_bg"/>
+    <corners android:radius="@dimen/acquisition_sdk_products_container_corner_radius"/>
+</shape>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ru.yandex.music.ui.view.SwipeRefreshPaddedViewCompat
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:background="?android:attr/colorBackground"
+            android:paddingTop="@dimen/unit_margin"
+            android:paddingBottom="@dimen/unit_margin"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/VerticalScrollBar"/>
+    </ru.yandex.music.ui.view.SwipeRefreshPaddedViewCompat>
+    <FrameLayout
+        android:id="@+id/empty_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"/>
+    <ru.yandex.music.ui.view.YaRotatingProgress
+        android:layout_gravity="center"
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:layout_width="@dimen/yprogress_middle"
+        android:layout_height="@dimen/yprogress_middle"
+        android:layout_marginTop="?attr/actionBarSize"/>
+    <include layout="@layout/toolbar"/>
+</FrameLayout>

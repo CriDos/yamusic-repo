@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package relay;
+
+import "relay/relay_queue.proto";
+
+option java_package = "com.yandex.music.shared.relay.common.proto";
+option java_multiple_files = true;
+
+// Message sent to stream of StreamStateUpdates() method
+message RelayStateUpdateProto {
+
+  // Whether the playback is ready or not. If not, `queue_update` and `player_update` will not be present
+  bool playback_ready = 1;
+
+  // Updated queue state. Can be null if state didn't change
+  optional RelayQueueStateProto queue_update = 2;
+
+  // Updated player state. Can be null if state didn't change. Cannot be null if `queue_update` is not null
+  optional RelayPlayerStateProto player_update = 3;
+}
+
+// Player state
+message RelayPlayerStateProto {
+  // Current playback position in milliseconds
+  int64 current_position = 1;
+
+  // Current playback duration in milliseconds
+  int64 current_duration = 2;
+
+  // Whether the player is currently playing, suspended, or not playing
+  PlayingState playing_state = 4;
+
+  enum PlayingState {
+    UNSPECIFIED = 0;
+    NOT_PLAYING = 1;
+    PLAY_WHEN_READY = 2;
+    SUSPENDED = 3;
+  }
+}

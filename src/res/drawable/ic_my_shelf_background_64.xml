@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="64.0dp" android:width="64.0dp" android:viewportWidth="1000.0" android:viewportHeight="1000.0"
+  xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ic_my_shelf_background_64__0" android:pathData="M1000,500H500V0H1000V500Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_my_shelf_background_64__1" android:pathData="M1000,1000H500V500H1000V1000Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_my_shelf_background_64__2" android:pathData="M500,1000H0V500H500V1000Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_my_shelf_background_64__3" android:pathData="M500,500H0V0H500V500Z" android:fillType="evenOdd" />
+</vector>

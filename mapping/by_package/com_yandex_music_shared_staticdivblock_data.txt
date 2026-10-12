@@ -1,0 +1,3 @@
+com.yandex.music.shared.staticdivblock.data.ConditionDto	com.yandex.music.shared.staticdivblock.data.ConditionDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\staticdivblock\data\ConditionDto.java
+com.yandex.music.shared.staticdivblock.data.StaticDivBlockDto	com.yandex.music.shared.staticdivblock.data.StaticDivBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\staticdivblock\data\StaticDivBlockDto.java
+com.yandex.music.shared.staticdivblock.data.StaticDivDataDto	com.yandex.music.shared.staticdivblock.data.StaticDivDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\staticdivblock\data\StaticDivDataDto.java

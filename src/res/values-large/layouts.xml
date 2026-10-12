@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <layout name="pay_sdk_item_payment_promo">@layout/pay_sdk_item_payment_promo_tablet</layout>
+    <layout name="pay_sdk_view_payment_methods">@layout/pay_sdk_view_payment_methods_tablet</layout>
+    <layout name="pay_sdk_view_tarifficator_checkout_content">@layout/pay_sdk_view_tarifficator_checkout_content_tablet</layout>
+    <layout name="pay_sdk_view_tarifficator_error_content">@layout/pay_sdk_view_tarifficator_error_content_tablet</layout>
+    <layout name="pay_sdk_view_tarifficator_success_native_content">@layout/pay_sdk_view_tarifficator_success_native_content_tablet</layout>
+    <layout name="pay_sdk_view_tarifficator_upsale_content">@layout/pay_sdk_view_tarifficator_upsale_content_tablet</layout>
+</resources>

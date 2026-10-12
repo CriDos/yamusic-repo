@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yandex.plus.pay.ui.core.internal.tarifficator.ui.presale.PresaleContentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/presale_content_view"
+    android:background="?attr/pay_sdk_primaryPageColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="880.0px" android:layout_height="1320.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/album_tracks" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/background2" android:layout_width="820.0px" android:layout_height="1260.0px" android:layout_marginLeft="60.0px" android:layout_marginTop="60.0px">
+            <ImageView android:id="@id/cover2" android:layout_width="820.0px" android:layout_height="820.0px" />
+            <View android:background="@drawable/share_white_rectangle_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/background1" android:layout_width="820.0px" android:layout_height="1260.0px" android:layout_marginLeft="30.0px" android:layout_marginTop="30.0px" android:layout_marginRight="30.0px" android:layout_marginBottom="30.0px">
+            <ImageView android:id="@id/cover1" android:layout_width="820.0px" android:layout_height="820.0px" />
+            <View android:background="@drawable/share_white_rectangle_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/background" android:layout_width="820.0px" android:layout_height="1260.0px" android:layout_marginRight="60.0px" android:layout_marginBottom="60.0px">
+        <ImageView android:id="@id/cover" android:layout_width="820.0px" android:layout_height="820.0px" />
+        <TextView android:textSize="45.0px" android:textStyle="bold" android:textColor="@color/text_primary_night" android:ellipsize="end" android:id="@id/album_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" android:layout_marginTop="40.0px" android:layout_marginRight="40.0px" android:maxLines="2" android:layout_below="@id/cover" android:lineSpacingExtra="2.0px" android:fontFamily="@font/ya_medium" />
+        <TextView android:textSize="45.0px" android:textColor="@color/text_primary_night" android:ellipsize="end" android:id="@id/album_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" android:layout_marginRight="40.0px" android:maxLines="2" android:layout_below="@id/album_title" android:lineSpacingExtra="2.0px" android:fontFamily="@font/ya_medium" />
+        <TextView android:textSize="32.0px" android:textColor="@color/text_primary_night" android:ellipsize="end" android:id="@id/album_year" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0px" android:layout_marginTop="5.0px" android:layout_marginRight="40.0px" android:maxLines="1" android:layout_below="@id/album_subtitle" android:lineSpacingExtra="13.0px" android:fontFamily="@font/ya_medium" />
+        <TextView android:textSize="25.0px" android:textStyle="bold" android:textColor="@color/text_primary_night" android:gravity="center" android:id="@id/album_type" android:background="@drawable/share_subtitle_background" android:paddingLeft="23.0px" android:paddingRight="23.0px" android:layout_width="wrap_content" android:layout_height="55.0px" android:layout_marginLeft="40.0px" android:layout_marginBottom="40.0px" android:lines="1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:textAllCaps="true" android:fontFamily="@font/ya_medium" />
+        <TextView android:textSize="46.0px" android:textColor="@color/text_primary_night" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="40.0px" android:layout_marginBottom="40.0px" android:text="@string/service_yandex_music" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:fontFamily="@font/ya_logotype" />
+        <View android:background="@drawable/share_white_rectangle_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,4 @@
+com.yandex.browser.ssl.CompositeExtendedTrustManager	com.yandex.browser.ssl.CompositeExtendedTrustManager	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\browser\ssl\CompositeExtendedTrustManager.java
+com.yandex.browser.ssl.CompositeTrustManager	com.yandex.browser.ssl.CompositeTrustManager	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\browser\ssl\CompositeTrustManager.java
+com.yandex.browser.ssl.YandexExtendedTrustManager	com.yandex.browser.ssl.YandexExtendedTrustManager	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\browser\ssl\YandexExtendedTrustManager.java
+com.yandex.browser.ssl.YandexTrustManagerImpl	com.yandex.browser.ssl.YandexTrustManagerImpl	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\browser\ssl\YandexTrustManagerImpl.java

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/subject_avatar_image_view"
+        android:layout_width="@dimen/subject_circle_image_size"
+        android:layout_height="@dimen/subject_circle_image_size"
+        android:layout_marginTop="@dimen/space_small_3"
+        android:layout_marginBottom="@dimen/space_small_3"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="@dimen/space_medium_2"
+        android:layout_marginVertical="@dimen/space_small_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/subject_title_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_marginStart="@dimen/space_medium_1"
+        android:layout_marginEnd="@dimen/space_medium_2"
+        app:layout_constraintBottom_toTopOf="@+id/subject_subtitle_text_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/subject_avatar_image_view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Widget.UIKit.TextView.TextM.Medium"/>
+    <TextView
+        android:textColor="?attr/fillFiveColor"
+        android:ellipsize="end"
+        android:id="@+id/subject_subtitle_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_small_1"
+        android:lines="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/subject_title_text_view"
+        app:layout_constraintStart_toStartOf="@+id/subject_title_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/subject_title_text_view"
+        style="@style/Widget.UIKit.TextView.TextS.Regular.Loose"/>
+</merge>

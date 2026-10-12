@@ -1,0 +1,1 @@
+com.yandex.passport.internal.badges.MaxLinesChipGroup	com.yandex.passport.internal.badges.MaxLinesChipGroup	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\passport\internal\badges\MaxLinesChipGroup.java

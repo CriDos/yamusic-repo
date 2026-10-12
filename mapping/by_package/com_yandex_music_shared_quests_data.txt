@@ -1,0 +1,2 @@
+com.yandex.music.shared.quests.data.QuestRewardDto	com.yandex.music.shared.quests.data.QuestRewardDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\quests\data\QuestRewardDto.java
+com.yandex.music.shared.quests.data.QuestStepDto	com.yandex.music.shared.quests.data.QuestStepDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\quests\data\QuestStepDto.java

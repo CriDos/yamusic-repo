@@ -1,0 +1,2 @@
+com.yandex.music.skeleton.blocks.promo.data.PromoBlockDto	com.yandex.music.skeleton.blocks.promo.data.PromoBlockDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\promo\data\PromoBlockDto.java
+com.yandex.music.skeleton.blocks.promo.data.PromoDataDto	com.yandex.music.skeleton.blocks.promo.data.PromoDataDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\skeleton\blocks\promo\data\PromoDataDto.java

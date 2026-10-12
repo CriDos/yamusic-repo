@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="media3_icon_next">@drawable/ic_forward_big_24</drawable>
+    <drawable name="media3_icon_pause">@drawable/ic_pause_32</drawable>
+    <drawable name="media3_icon_play">@drawable/ic_play_32</drawable>
+    <drawable name="media3_icon_previous">@drawable/ic_backward_big_24</drawable>
+</resources>

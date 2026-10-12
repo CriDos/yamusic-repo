@@ -1,0 +1,1 @@
+com.yandex.music.shared.slides.ui.music.logic.impl.selection.model.CardSelectionStorageAdapter	com.yandex.music.shared.slides.ui.music.logic.impl.selection.model.CardSelectionStorageAdapter	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\slides\ui\music\logic\impl\selection\model\CardSelectionStorageAdapter.java

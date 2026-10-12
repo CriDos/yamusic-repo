@@ -1,0 +1,3 @@
+com.yandex.music.shared.lyrics.FilesApi	com.yandex.music.shared.lyrics.FilesApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\lyrics\FilesApi.java
+com.yandex.music.shared.lyrics.LyricsHttpApi	com.yandex.music.shared.lyrics.LyricsHttpApi	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\lyrics\LyricsHttpApi.java
+com.yandex.music.shared.lyrics.LyricsHttpApi	defpackage.dmu	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\defpackage\dmu.java

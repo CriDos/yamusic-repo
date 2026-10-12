@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="32dp"
+    android:width="32dp"
+    android:viewportWidth="32"
+    android:viewportHeight="32">
+    <group
+        android:name="progress_circle"
+        android:pivotX="16"
+        android:pivotY="16"
+        android:rotation="0">
+        <clip-path android:pathData="M6.504,2.6604l21.8615,-9.9033l13.5797,29.9772l-21.8615,9.9033z"/>
+        <path
+            android:pathData="M16,16m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0"
+            android:strokeColor="#9e9b98"
+            android:strokeWidth="2"/>
+    </group>
+</vector>

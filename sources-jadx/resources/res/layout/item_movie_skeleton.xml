@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/poster_skeleton"
+        android:background="@drawable/skeleton_background_rounded_large"
+        android:layout_width="@dimen/movie_view_holder_poster_width"
+        android:layout_height="@dimen/movie_view_holder_poster_height"
+        android:layout_marginTop="@dimen/space_medium_2"
+        android:layout_marginBottom="@dimen/space_medium_2"
+        android:layout_marginStart="@dimen/space_medium_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/title_skeleton"
+        android:background="@drawable/skeleton_background_rounded_large"
+        android:layout_width="128dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="@dimen/space_medium_2"
+        app:layout_constraintStart_toEndOf="@+id/poster_skeleton"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/subtitle_skeleton"
+        android:background="@drawable/skeleton_background_rounded_large"
+        android:layout_width="180dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/title_skeleton"
+        app:layout_constraintTop_toBottomOf="@+id/title_skeleton"/>
+    <View
+        android:background="@drawable/skeleton_background_rounded_large"
+        android:layout_width="128dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="@+id/subtitle_skeleton"
+        app:layout_constraintTop_toBottomOf="@+id/subtitle_skeleton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

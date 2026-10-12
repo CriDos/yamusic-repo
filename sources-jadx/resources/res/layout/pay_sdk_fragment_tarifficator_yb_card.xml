@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yb_card_root"
+    android:background="?attr/pay_sdk_primaryBlockColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+    <com.yandex.plus.pay.ui.common.api.ui.view.ProgressView
+        android:layout_gravity="center"
+        android:id="@+id/yb_card_progress_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <com.yandex.plus.webview.api.WebViewContainer
+        android:id="@+id/yb_card_webview_container"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

@@ -1,0 +1,2 @@
+com.yandex.music.shared.network.parser.IgnoreFailureTypeAdapterFactory	com.yandex.music.shared.network.parser.IgnoreFailureTypeAdapterFactory	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\parser\IgnoreFailureTypeAdapterFactory.java
+com.yandex.music.shared.network.parser.UnitDeserializer	com.yandex.music.shared.network.parser.UnitDeserializer	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\network\parser\UnitDeserializer.java

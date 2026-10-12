@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_send"
+        android:visible="false"
+        android:title="@null"
+        app:actionLayout="@layout/view_toolbar_action_text"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_next_step"
+        android:visible="false"
+        android:title="@null"
+        app:actionLayout="@layout/view_toolbar_action_text"
+        app:showAsAction="always"/>
+</menu>

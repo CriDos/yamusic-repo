@@ -1,0 +1,2 @@
+com.yandex.music.shared.trailers.api.model.SmartPreviewParamsDto	com.yandex.music.shared.trailers.api.model.SmartPreviewParamsDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\trailers\api\model\SmartPreviewParamsDto.java
+com.yandex.music.shared.trailers.api.model.TrackWithSmartPreviewDto	com.yandex.music.shared.trailers.api.model.TrackWithSmartPreviewDto	F:\Dev\RE\RE-Kit\work\yandex-music\decompiled\ru.yandex.music\sources\com\yandex\music\shared\trailers\api\model\TrackWithSmartPreviewDto.java
