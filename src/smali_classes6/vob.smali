@@ -1385,7 +1385,7 @@
 
     .line 645
     .line 646
-    const-string v0, "24026501"
+    const-string v0, "24030000"
 
     .line 647
     .line 648

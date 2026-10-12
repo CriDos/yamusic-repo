@@ -78,7 +78,7 @@
     .locals 0
 
     .line 1
-    const-string p0, "HostInfo(versionCode=24026501, applicationName=ru.yandex.music, strmTrackingHost=null)"
+    const-string p0, "HostInfo(versionCode=24030000, applicationName=ru.yandex.music, strmTrackingHost=null)"
 
     .line 2
     .line 3

@@ -522,7 +522,7 @@
     .line 120
     .line 121
     .line 122
-    const-string v15, ": 2026.09.5 #167gpr\nVersion Code: 24026501\nOS: Android "
+    const-string v15, ": 2026.10.1 #000spoof\nVersion Code: 24030000\nOS: Android "
 
     .line 123
     .line 124

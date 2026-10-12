@@ -184,7 +184,7 @@
 
     .line 2
     .line 3
-    const-string v1, ", appVersionCode=24026501)"
+    const-string v1, ", appVersionCode=24030000)"
 
     .line 4
     .line 5

@@ -117,7 +117,7 @@
 
     .line 46
     .line 47
-    const-string v0, "2026.09.5 #167gpr"
+    const-string v0, "2026.10.1 #000spoof"
 
     .line 48
     .line 49

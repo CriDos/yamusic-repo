@@ -159,7 +159,7 @@
 
     .line 4
     .line 5
-    const-string v2, "YnisonAppConfig(appName=Yandex Music, versionName=2026.09.5 #167gpr, deviceId="
+    const-string v2, "YnisonAppConfig(appName=Yandex Music, versionName=2026.10.1 #000spoof, deviceId="
 
     .line 6
     .line 7

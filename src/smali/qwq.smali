@@ -988,7 +988,7 @@
 
     .line 23
     .line 24
-    const-string v4, "YandexMusicAndroid/24026501"
+    const-string v4, "YandexMusicAndroid/24030000"
 
     .line 25
     .line 26

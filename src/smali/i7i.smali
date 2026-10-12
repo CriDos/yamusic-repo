@@ -1975,7 +1975,7 @@
 
     .line 36
     .line 37
-    const-string v5, "2026.09.5 #167gpr"
+    const-string v5, "2026.10.1 #000spoof"
 
     .line 38
     .line 39
@@ -1992,7 +1992,7 @@
 
     .line 45
     .line 46
-    const-string v6, "24026501"
+    const-string v6, "24030000"
 
     .line 47
     .line 48
