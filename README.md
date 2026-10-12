@@ -59,6 +59,24 @@ crashing e.g. the passport Bouncer/login screen). The correct order:
 Verified on TECNO LI6 (Android 15, arm64): install, launch, onboarding wizard,
 Yandex ID login screen (Bouncer) all render; no crashes in these flows.
 
+## Patches (branch `patch`)
+
+`main` carries the clean fork. Branch `patch` adds two client-side patches on top:
+
+- **Premium unlock** - `src\smali_classes3\b9r.smali` (the `AccountAboutDto` ->
+  user model mapper): `const/4 v13, 0x1` after the `:goto_6` merge label and
+  `const/4 v14, 0x1` after `move v14, v3`. v13 is the `hasPlus` boolean (DTO
+  `e()`), v14 is `hasMusicSubscription` (DTO `d()`); both feed the user model
+  constructor `Lsd;-><init>`, the single source for every client-side premium
+  gate. Client-side only: server-decided things (stream quality, offline
+  downloads, per-track rights) stay untouched.
+- **Forced-update disable** - R8 inlines BuildConfig, so the client version
+  lives as literals: versionName `2026.09.5 #167gpr` -> `2026.10.1 #000spoof`
+  (8 smali + `apktool.yml`), versionCode `24026501` -> `24030000` (10 smali +
+  `apktool.yml`). The backend gates old clients by UA `YandexMusicAndroid/<code>`
+  and `app_version` params; the spoof keeps the client "current". The built APK
+  is named after the spoofed code: `build\ru.yandex.music.fork-24030000-signed.apk`.
+
 ## Notes
 
 - Package renamed `ru.yandex.music` -> `ru.yandex.music.fork` (side-by-side
