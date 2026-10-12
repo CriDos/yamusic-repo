@@ -1439,7 +1439,7 @@ multi-subscription"</string>
     <string name="passport_account_suggest_one_reg_button">Not my account</string>
     <string name="passport_account_suggest_one_text">An account with the same name and phone number already exists in Yandex:</string>
     <string name="passport_account_suggest_title">Выберите аккаунт для входа</string>
-    <string name="passport_account_type">com.yandex.passport</string>
+    <string name="passport_account_type">com.yandex.passport.musicfork</string>
     <string name="passport_account_type_passport">Yandex.Passport</string>
     <string name="passport_accounts">Accounts</string>
     <string name="passport_accounts_auth_button">Add account</string>

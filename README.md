@@ -78,6 +78,15 @@ Yandex ID login screen (Bouncer) all render; no crashes in these flows.
   lookups (e.g. AppMetrica/Firebase push activation).
 - `android:debuggable="true"` is required: Passport SDK releaseRuntimeChecks exits
   the process on non-production signatures otherwise.
+- `passport_account_type` (res\values\strings.xml) is rewritten to
+  `com.yandex.passport.musicfork`: the authenticator + sync adapter
+  (res\xml\authenticator.xml, res\xml\passport_sync_adapter.xml) both reference
+  this string, so the fork registers its own unique AccountManager account type.
+  With the shared stock type, `addAccountExplicitly` is denied
+  ("Error(authorizeByCookie, ... cannot explicitly add accounts of type:
+  com.yandex.passport)") whenever another Yandex app owns that authenticator on
+  the device, and the login cannot persist. Side effect: cross-app SSO with
+  other Yandex apps is dropped by design.
 - Smali classes are the only representation that rebuilds; jadx Java is for study.
 - ~26% of classes kept real names (com.yandex.music/passport/plus, ru.yandex.*);
   the rest is R8-obfuscated (defpackage) - see mapping\ for recovered FQNs.
