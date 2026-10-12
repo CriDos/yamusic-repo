@@ -34832,6 +34832,8 @@
 
     .line 187
     :goto_6
+    const/4 v13, 0x1
+
     invoke-virtual {v0}, Lcom/yandex/music/shared/dto/account/AccountAboutDto;->d()Ljava/lang/Boolean;
 
     .line 188
@@ -34854,6 +34856,8 @@
     .line 197
     :cond_d
     move v14, v3
+
+    const/4 v14, 0x1
 
     .line 198
     invoke-virtual {v0}, Lcom/yandex/music/shared/dto/account/AccountAboutDto;->g()Ljava/util/List;
