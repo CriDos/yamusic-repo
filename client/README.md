@@ -12,13 +12,16 @@ section references come from [`../docs/API.md`](../docs/API.md).
 | `android-demo` | On-device test app (requires local.properties; not included by default) |
 
 ## Quick start (desktop)
+First run — login like in any app (M0.5, opens the Yandex login page in your
+browser; the password is entered on Yandex's own page):
 ```
 cd client
-set YM_API_TOKEN=<your OAuth token>
-gradlew :desktop-demo:run
+gradlew :desktop-demo:run --args=--login
 ```
-The token is a long-lived OAuth token from a logged-in account (minting is out
-of MVP scope, see PLAN.md §3.3).
+Alternatively paste a ready token: `set YM_API_TOKEN=<token>`.
+
+The token + device identity are stored in `%USERPROFILE%\.yamusic-client\config.json`
+and reused on every later run (zero actions needed after the first login).
 
 ## Build core + tests
 ```
