@@ -21,11 +21,12 @@ object StreamCipher {
     private const val FNV_OFFSET = 0xcbf29ce484222325UL
     private const val FNV_PRIME = 0x100000001b3UL
 
-    fun decrypt(data: ByteArray, keyHex: String, nonce: String, position: Long = 0L): ByteArray {
+    /** FNV over the nonce string; null nonce (no DataSpec key) → 0 (docs §5.6). */
+    fun decrypt(data: ByteArray, keyHex: String, nonce: String?, position: Long = 0L): ByteArray {
         require(keyHex.length == 32) { "file-info key must be 32 hex chars" }
         val key = keyHex.hexToBytes()
         val iv = ByteArray(16)
-        fnv1a64(nonce.toByteArray(Charsets.UTF_8)).toBigEndianBytes().copyInto(iv)
+        if (nonce != null) fnv1a64(nonce.toByteArray(Charsets.UTF_8)).toBigEndianBytes().copyInto(iv)
         counterBytes(position / 16).copyInto(iv, 8)
 
         val cipher = javax.crypto.Cipher.getInstance("AES/CTR/NoPadding")

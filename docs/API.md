@@ -187,12 +187,12 @@ The stream from `urls[]` is encrypted with **AES-128-CTR (NoPadding)**. The impl
 | Algorithm | `AES/CTR/NoPadding` | `src/smali_classes3/ap.smali:201` |
 | Key | `key` from file-info: 32 hex → 16 bytes (`SecretKeySpec(bytes,"AES")`) | `ap.smali:258-305` |
 | IV (16 bytes) | `[FNV-1-64(nonce)](8 bytes BE) + [counter](8 bytes BE)`, counter = `byte position / 16` | `ap.smali:246-322`, `kb.b(JJ)` |
-| nonce | DataSpec key string (`rs7.h`); if null → FNV = 0 | `ap.smali:64, 86-93` |
+| nonce | **none (null)** — the app passes no DataSpec key for these streams → FNV = 0, IV = `[00]*8 + [counter]`. Empirically verified 2026-10-14: decrypting with zero nonce yields valid mp3 frame sync (`FF FB`); key/URL/trackId as nonce produce garbage | `ap.smali:64, 86-93` |
 | FNV-1-64 | `hash = (hash ^ char) * 0x100000001b3` (shift-add per ap.smali:97-190: xor char, then `h += (h<<1)+(h<<4)+(h<<5)+(h<<7)+(h<<8)+(h<<40)`, then `h += h`; the sum equals multiply by the prime — note the `<<8` term) | `ap.smali:97-190` |
 | Wrapper | DataSource: `zfc.a(upstream, key)` → if `key.length==32` → `yfc` → `ap` | `zfc.smali:173-208`, `zkv.smali:8386,8993` |
 | Flushing | cipher reset on block boundary (skip `position % 16` bytes) | `ap.smali:332-341` |
 
-For a third-party player: download `urls[0]` and decrypt with AES-CTR as described. Undetermined: the exact `nonce` value (DataSpec key string) — verify empirically (URL / encryptionKey / playId): decrypt the first bytes and check the container signature (ID3/mp3 sync/`ftyp`). When `nonce=null` the high half of the IV is zero.
+For a third-party player: download `urls[0]` and decrypt with AES-CTR as described (nonce = null). ~~Undetermined: the exact `nonce` value (DataSpec key string)~~ — resolved empirically: the DataSpec key is null for audio streams, so the IV is `[00]*8 + counter`.
 
 ---
 

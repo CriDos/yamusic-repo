@@ -11,12 +11,16 @@ java {
 dependencies {
     implementation(project(":core"))
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    // M1 audio output candidates: com.googlecode.soundlibs:jlayer (mp3) or vlcj
+    implementation("com.googlecode.soundlibs:jlayer:1.0.1.4")
 }
 
 application {
     mainClass.set("ru.yamusic.desktop.MainKt")
-    applicationDefaultJvmArgs = listOf("-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8")
+    applicationDefaultJvmArgs = listOf(
+        "-Dstdout.encoding=UTF-8",
+        "-Dstderr.encoding=UTF-8",
+        "-Djava.net.preferIPv4Stack=true",
+    )
 }
 
 kotlin {

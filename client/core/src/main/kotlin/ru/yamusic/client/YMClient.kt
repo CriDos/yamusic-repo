@@ -2,6 +2,7 @@ package ru.yamusic.client
 
 import okhttp3.OkHttpClient
 import ru.yamusic.client.api.AccountApi
+import ru.yamusic.client.api.LibraryApi
 import ru.yamusic.client.api.PlayApi
 import ru.yamusic.client.api.PlaylistApi
 import ru.yamusic.client.api.RotorApi
@@ -23,6 +24,7 @@ class YMClient(val config: YMConfig) {
     val baseUrl: String = "https://api.music.yandex.net"
 
     val account by lazy { AccountApi(this) }
+    val library by lazy { LibraryApi(this) }
     val rotor by lazy { RotorApi(this) }
     val playlists by lazy { PlaylistApi(this) }
     val tracks by lazy { TracksApi(this) }

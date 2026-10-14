@@ -168,9 +168,10 @@ is required for a usable player; wave feedback (`RotorApi`) is what makes
 - Caching, offline, library sync, UI polish.
 
 ## 6. Risks and open questions
-1. **encraw IV nonce source (§5.6)** — unverified. Fallback: legacy path (M1)
-   keeps the player usable while M3/M5 verify it empirically (capture DataSpec
-   key on device or diff decrypt outputs).
+1. ~~**encraw IV nonce source (§5.6)**~~ — **RESOLVED empirically (M3): the
+   nonce is null (DataSpec key absent) → FNV = 0, IV = `[00]*8 + [counter]`;
+   verified against a live stream (valid mp3 frame sync). `docs/API.md` §5.6
+   updated.**
 2. **OAuth implicit flow deprecation** — Yandex may deprecate `response_type=token`
    or add third-party warnings; mitigations already built-in: paste-token
    fallback, and the web player's own redirect URI is not under our control but

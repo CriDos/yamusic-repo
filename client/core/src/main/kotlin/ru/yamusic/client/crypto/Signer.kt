@@ -7,10 +7,10 @@ import javax.crypto.spec.SecretKeySpec
 /**
  * `sign` for `GET resources/v2/file-info` — docs/API.md §5.3 (uig.java:211-224).
  *
- * sign = base64nopad( HmacSHA256( ts + trackId + quality + join(codecs) + "encraw", secret ) )
+ * sign = base64nopad( HmacSHA256( ts + trackId + quality + codecs.join("") + "encraw", secret ) )
  *
  * - `ts` — Unix epoch seconds as a decimal string
- * - `codecs` — comma-joined codec list (e.g. "he-aac,mp3,aac,flac")
+ * - `codecs` — concatenated WITHOUT separator (uig.H: `codecs.join("")`)
  * - trailing "encraw" is the transport
  * - base64 without `=` padding
  */
@@ -22,7 +22,7 @@ object Signer {
         base64NoPad(raw(ts, trackId, quality, codecs))
 
     fun raw(ts: String, trackId: String, quality: String, codecs: List<String>): ByteArray {
-        val data = (ts + trackId + quality + codecs.joinToString(",") + TRANSPORT).toByteArray(Charsets.UTF_8)
+        val data = (ts + trackId + quality + codecs.joinToString("") + TRANSPORT).toByteArray(Charsets.UTF_8)
         val mac = Mac.getInstance("HmacSHA256")
         mac.init(SecretKeySpec(SECRET.toByteArray(Charsets.UTF_8), "HmacSHA256"))
         return mac.doFinal(data)

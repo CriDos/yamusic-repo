@@ -27,7 +27,7 @@ class SignerTest {
 
     /** Independent reference implementation for cross-checking the port. */
     private fun golden(ts: String, trackId: String, quality: String, codecs: List<String>): String {
-        val data = (ts + trackId + quality + codecs.joinToString(",") + "encraw").toByteArray()
+        val data = (ts + trackId + quality + codecs.joinToString("") + "encraw").toByteArray()
         val mac = Mac.getInstance("HmacSHA256")
         mac.init(SecretKeySpec("p93jhgh689SBReK6ghtw62".toByteArray(), "HmacSHA256"))
         return Base64.getEncoder().withoutPadding().encodeToString(mac.doFinal(data))

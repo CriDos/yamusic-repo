@@ -38,12 +38,12 @@ data class Playlist(
 )
 
 @Serializable
-data class PlaylistTrack(val id: String? = null, val albumId: String? = null)
+data class PlaylistTrack(val id: Long? = null, val albumId: Long? = null)
 
 /** docs/API.md §13: TrackDto subset (player-relevant fields only). */
 @Serializable
 data class Track(
-    val id: String? = null,
+    val id: Long? = null,
     val title: String? = null,
     val durationMs: Long? = null,
     val artists: List<ArtistRef>? = null,
@@ -51,27 +51,28 @@ data class Track(
 )
 
 @Serializable
-data class ArtistRef(val id: String? = null, val name: String? = null)
+data class ArtistRef(val id: Long? = null, val name: String? = null)
 
 @Serializable
-data class AlbumRef(val id: String? = null, val title: String? = null)
+data class AlbumRef(val id: Long? = null, val title: String? = null)
 
-/** docs/API.md §5.1/§13: FileInfoDto subset — one entry per codec. */
+/** docs/API.md §5.1/§13: FileInfoDto subset — response of resources/v2/file-info. */
 @Serializable
 data class FileInfo(
+    val quality: String? = null,
     val codec: String? = null,
-    val bitrateKbps: Int? = null,
-    val transport: String? = null,
-    val src: String? = null,
+    val bitrate: Int? = null,
     val key: String? = null,
+    val urls: List<String> = emptyList(),
 )
 
-/** docs/API.md §13: StationResultDto subset (wave tracks page). */
+/** docs/API.md §7.1: SessionNewResponseDto / SessionTracksResponseDto subset. */
 @Serializable
-data class StationTracks(
-    val id: String? = null,
+data class SessionNew(
     val batchId: String? = null,
-    val sequence: List<TrackSequence>? = null,
+    val radioSessionId: String? = null,
+    val sequence: List<TrackSequence> = emptyList(),
+    val terminated: Boolean = false,
 )
 
 @Serializable
