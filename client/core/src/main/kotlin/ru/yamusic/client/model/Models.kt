@@ -10,17 +10,23 @@ object Json {
     }
 }
 
-/** docs/API.md §13: AccountStatusDto (subset used by the player). */
+/** docs/API.md §1/§7: every response is wrapped in `MusicBackendResponse<T>` — `{result, error, invocationInfo}`. */
 @Serializable
-data class AccountStatus(
-    val uid: Long? = null,
-    val login: String? = null,
-    val accountStatus: String? = null,
-    val plus: Plus? = null,
-)
+data class BackendResponse<T>(val result: T? = null, val error: BackendError? = null)
 
 @Serializable
-data class Plus(val hasPlus: Boolean = false)
+data class BackendError(val error: String? = null, val description: String? = null)
+
+/** docs/API.md §13: AccountAboutDto subset (player-relevant fields). */
+@Serializable
+data class AccountAbout(
+    val uid: Long? = null,
+    val login: String? = null,
+    val publicName: String? = null,
+    val hasPlus: Boolean = false,
+    val hasMusicSubscription: Boolean = false,
+    val serviceAvailable: Boolean = true,
+)
 
 /** docs/API.md §13: PlaylistHeaderDto / PlaylistDto subset. */
 @Serializable

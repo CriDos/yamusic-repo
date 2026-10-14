@@ -86,28 +86,30 @@ deviceId: a random UUID persisted to config works for a fresh identity.
 ### 3.3 Authentication
 Two tiers:
 
-**(a) End-user login (M0.5) — Yandex ID OAuth implicit web flow.** The user
-never gives credentials to us; the password is entered on Yandex's own page:
-1. No token in `~/.yamusic-client/config.json` → client prints a notice and
-   opens the browser at
-   `https://oauth.yandex.ru/authorize?response_type=token&client_id=<MUSIC_WEB_CLIENT_ID>&redirect_uri=https://music.yandex.ru`.
-   Login/password/QR/2FA are handled entirely by Yandex.
-2. After login Yandex redirects to `music.yandex.ru/#access_token=…`; the user
-   pastes that final URL back (primary UX). Optional faster path when
-   permitted: a localhost redirect listener catches the token automatically.
-3. `ClientStore` persists `{token, device identity}` to
-   `~/.yamusic-client/config.json` (user-only permissions). Every later run
-   reuses the same `device_id`/`uuid`, so the backend sees one persistent
-   device — history, wave state and progress survive restarts.
+**(a) End-user login (M0.5) — OAuth Device Flow, Yandex handles the password.**
+The user never gives credentials to us:
+1. `OAuthFlow.deviceAuth()` POSTs `https://oauth.yandex.ru/device/code`
+   (`client_id=23cabbbdc6cd418abb4b39c32c41195d` — the official Yandex Music
+   OAuth client, a public constant; the same id serves the web player implicit
+   flow) with a random `device_id`/`device_name`.
+2. The user opens `verification_url` and confirms `user_code` —
+   login/password/QR/2FA happen entirely on Yandex's page. The demo opens the
+   browser automatically when possible.
+3. We poll `POST /token` (`grant_type=device_code`, `authorization_pending`
+   → keep waiting) until we get `access_token` (+ `refresh_token`,
+   `expires_in`).
+4. `ClientStore` persists `{token, device identity}` to
+   `~/.yamusic-client/config.json` (atomic write). Every later run reuses the
+   same `device_id`/`uuid`, so the backend sees one persistent device —
+   history, wave state and progress survive restarts.
 
-`MUSIC_WEB_CLIENT_ID` is not hardcoded in the APK (§3 of docs/API.md); it is a
-public constant of the Yandex Music web player (the same one every third-party
-player uses). Pin it after a one-time capture from the web player's login
-redirect — verified value only, never from memory. Fallback for all cases:
-`--token <value>` / `YM_API_TOKEN` paste.
+Fallback: implicit flow — `OAuthFlow.implicitAuthorizeUrl()`; the user pastes
+the final `music.yandex.ru/#access_token=…` URL and
+`OAuthFlow.extractTokenFromUrl()` parses it. Developer-only alternatives:
+`--token <value>` / `YM_API_TOKEN`, and fork token export (below).
 
 **(b) Developer diagnostics:** the fork (branch `patch`) can export its current
-token + device id; `YMConfig.fromExport()` imports it for testing. Not part of
+token + device id; `ClientStore`/`YMConfig` accept it for testing. Not part of
 the end-user path.
 
 **Explicitly out of scope: programmatic login+password** — the app's Passport
@@ -150,7 +152,7 @@ is required for a usable player; wave feedback (`RotorApi`) is what makes
 | # | Scope | Done when |
 |---|---|---|
 | **M0** | Skeleton: Gradle multi-module, `YMConfig`, interceptors, `YMClient` facade | `core` builds; desktop-demo prints account status with a real token |
-| **M0.5** | End-user auth: `OAuthFlow` (browser login + paste/redirect capture), `ClientStore` persistence, `--login` in desktop-demo | any user without dev tools can log in from a fresh machine in under a minute |
+| **M0.5** | End-user auth: `OAuthFlow` (Device Flow + implicit paste fallback), `ClientStore` persistence, `--login` in desktop-demo | any user without dev tools can log in from a fresh machine in under a minute |
 | **M1** | Legacy audio path: `get-file-info`/`download-info`, simple search, playlists | desktop-demo finds a track, downloads plain mp3, plays it (JLayer), reports play2s |
 | **M2** | Modern path: `Signer` (golden-vector tested) + `resources/v2/file-info` | unit tests green; file-info call succeeds and returns encraw src |
 | **M3** | `StreamCipher` + nonce verification on device; byte-range decrypt | encrypted stream decrypts to identical bytes as legacy path for the same track/quality |
